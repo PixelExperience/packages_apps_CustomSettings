@@ -29,6 +29,7 @@ import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.ListPreference;
 import android.support.v14.preference.SwitchPreference;
 import android.provider.Settings;
+import android.os.PowerManager;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
@@ -51,12 +52,14 @@ public class ButtonSettings extends ActionFragment implements
 
     private static final String POWER_CATEGORY = "power_category";
     private static final String TORCH_POWER_BUTTON_GESTURE = "torch_power_button_gesture";
-    //Keys
-    private static final String KEY_BUTTON_BRIGHTNESS = "button_brightness";
-    private static final String KEY_BACKLIGHT_TIMEOUT = "backlight_timeout";
-    private static final String KEY_BUTTON_BRIGHTNESS_SW = "button_brightness_sw";
-    private static final String KEY_BUTTON_BACKLIGHT_ON_TOUCH = "button_backlight_on_touch_only";
+
+    // Keys
     private static final String HWKEY_ENABLE = "hardware_keys_enable";
+
+    // Brightness
+    private static final String KEY_BUTTON_MANUAL_BRIGHTNESS_NEW = "button_manual_brightness_new";
+    private static final String KEY_BUTTON_TIMEOUT = "button_timeout";
+    private static final String KEY_BUTON_BACKLIGHT_OPTIONS = "button_backlight_options_category";
 
     // category keys
     private static final String CATEGORY_HWKEY = "hardware_keys";
@@ -80,11 +83,12 @@ public class ButtonSettings extends ActionFragment implements
     private ContentResolver resolver;
 
     private ListPreference mTorchPowerButton;
-    private ListPreference mBacklightTimeout;
-    private CustomSeekBarPreference mButtonBrightness;
-    private SwitchPreference mButtonBrightness_sw;
-    private SwitchPreference mButtonBacklightOnTouch;
+
     private SwitchPreference mHwKeyEnable;
+
+    private CustomSeekBarPreference mButtonTimoutBar;
+    private CustomSeekBarPreference mManualButtonBrightness;
+    private PreferenceCategory mButtonBackLightCategory;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -95,6 +99,7 @@ public class ButtonSettings extends ActionFragment implements
         resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
 
+        // Flashlight on power button
         if (!CustomUtils.deviceHasFlashlight(getContext())) {
             Preference toRemove = prefScreen.findPreference(POWER_CATEGORY);
             if (toRemove != null) {
@@ -109,60 +114,46 @@ public class ButtonSettings extends ActionFragment implements
             mTorchPowerButton.setOnPreferenceChangeListener(this);
         }
 
-        final boolean variableBrightness = getResources().getBoolean(
-                com.android.internal.R.bool.config_deviceHasVariableButtonBrightness);
-        final boolean hasButtonBacklight = getResources().getBoolean(
-                com.android.internal.R.bool.config_deviceHasButtonBacklight);
-
+        // HW Keys
         final PreferenceCategory hwkeyCat = (PreferenceCategory) prefScreen.findPreference(CATEGORY_HWKEY);
         final boolean needsNavbar = ActionUtils.hasNavbarByDefault(getActivity());
-        mBacklightTimeout = (ListPreference) findPreference(KEY_BACKLIGHT_TIMEOUT);
-        mButtonBrightness = (CustomSeekBarPreference) findPreference(KEY_BUTTON_BRIGHTNESS);
-        mButtonBrightness_sw = (SwitchPreference) findPreference(KEY_BUTTON_BRIGHTNESS_SW);
-        mButtonBacklightOnTouch = (SwitchPreference) findPreference(KEY_BUTTON_BACKLIGHT_ON_TOUCH);
         mHwKeyEnable = (SwitchPreference) findPreference(HWKEY_ENABLE);
-
-        int keysDisabled = 0;
+        boolean hwKeysEnabled = Settings.Secure.getIntForUser(getContentResolver(),
+                    Settings.Secure.HARDWARE_KEYS_DISABLE, 0,
+                    UserHandle.USER_CURRENT) == 0;
 
         if (needsNavbar){
             prefScreen.removePreference(hwkeyCat);
         }else{
-            keysDisabled = Settings.Secure.getIntForUser(getContentResolver(),
-                    Settings.Secure.HARDWARE_KEYS_DISABLE, 0,
-                    UserHandle.USER_CURRENT);
-            mHwKeyEnable.setChecked(keysDisabled == 0);
+            mHwKeyEnable.setChecked(hwKeysEnabled);
             mHwKeyEnable.setOnPreferenceChangeListener(this);
-            if (hasButtonBacklight) {
-                if (mBacklightTimeout != null){
-                    mBacklightTimeout.setOnPreferenceChangeListener(this);
-                    int BacklightTimeout = Settings.System.getInt(getContentResolver(),
-                            Settings.System.BUTTON_BACKLIGHT_TIMEOUT, 5000);
-                    mBacklightTimeout.setValue(Integer.toString(BacklightTimeout));
-                    mBacklightTimeout.setSummary(mBacklightTimeout.getEntry());
-                }
+        }
 
-                if (variableBrightness){
-                    hwkeyCat.removePreference(mButtonBrightness_sw);
-                    if (mButtonBrightness != null) {
-                        int ButtonBrightness = Settings.System.getInt(getContentResolver(),
-                                Settings.System.BUTTON_BRIGHTNESS, 255);
-                        mButtonBrightness.setValue(ButtonBrightness / 1);
-                        mButtonBrightness.setOnPreferenceChangeListener(this);
-                    }
-                }else{
-                    hwkeyCat.removePreference(mButtonBrightness);
-                    if (mButtonBrightness_sw != null) {
-                        mButtonBrightness_sw.setChecked((Settings.System.getInt(getContentResolver(),
-                                Settings.System.BUTTON_BRIGHTNESS, 1) == 1));
-                        mButtonBrightness_sw.setOnPreferenceChangeListener(this);
-                    }
-                }
-            }else{
-                hwkeyCat.removePreference(mBacklightTimeout);
-                hwkeyCat.removePreference(mButtonBrightness);
-                hwkeyCat.removePreference(mButtonBrightness_sw);
-                hwkeyCat.removePreference(mButtonBacklightOnTouch);
-            }
+        // Brightness
+        mManualButtonBrightness = (CustomSeekBarPreference) findPreference(
+                KEY_BUTTON_MANUAL_BRIGHTNESS_NEW);
+        final int customButtonBrightness = getResources().getInteger(
+                com.android.internal.R.integer.config_button_brightness_default);
+        final int currentBrightness = Settings.System.getInt(resolver,
+                Settings.System.CUSTOM_BUTTON_BRIGHTNESS, customButtonBrightness);
+        PowerManager pm = (PowerManager)getActivity().getSystemService(Context.POWER_SERVICE);
+        mManualButtonBrightness.setMax(pm.getMaximumScreenBrightnessSetting());
+        mManualButtonBrightness.setValue(currentBrightness);
+        mManualButtonBrightness.setOnPreferenceChangeListener(this);
+
+        mButtonTimoutBar = (CustomSeekBarPreference) findPreference(KEY_BUTTON_TIMEOUT);
+        int currentTimeout = Settings.System.getInt(resolver,
+                Settings.System.BUTTON_BACKLIGHT_TIMEOUT, 0);
+        mButtonTimoutBar.setValue(currentTimeout);
+        mButtonTimoutBar.setOnPreferenceChangeListener(this);
+
+        final boolean enableBacklightOptions = getResources().getBoolean(
+                com.android.internal.R.bool.config_button_brightness_support);
+
+        mButtonBackLightCategory = (PreferenceCategory) findPreference(KEY_BUTON_BACKLIGHT_OPTIONS);
+
+        if (needsNavbar || !enableBacklightOptions) {
+            prefScreen.removePreference(mButtonBackLightCategory);
         }
 
         // bits for hardware keys present on device
@@ -230,7 +221,7 @@ public class ButtonSettings extends ActionFragment implements
         onPreferenceScreenLoaded(ActionConstants.getDefaults(ActionConstants.HWKEYS));
 
         // load preferences first
-        setActionPreferencesEnabled(keysDisabled == 0);
+        setActionPreferencesEnabled(hwKeysEnabled);
     }
 
     @Override
@@ -253,39 +244,24 @@ public class ButtonSettings extends ActionFragment implements
                         1);
             }
             return true;
-        } else if (preference == mBacklightTimeout) {
-            String BacklightTimeout = (String) newValue;
-            int BacklightTimeoutValue = Integer.parseInt(BacklightTimeout);
-            Settings.System.putInt(getActivity().getContentResolver(),
-                    Settings.System.BUTTON_BACKLIGHT_TIMEOUT, BacklightTimeoutValue);
-            int BacklightTimeoutIndex = mBacklightTimeout
-                    .findIndexOfValue(BacklightTimeout);
-            mBacklightTimeout
-                    .setSummary(mBacklightTimeout.getEntries()[BacklightTimeoutIndex]);
-            return true;
-        } else if (preference == mButtonBrightness) {
-            int value = (Integer) newValue;
-            Settings.System.putInt(getActivity().getContentResolver(),
-                    Settings.System.BUTTON_BRIGHTNESS, value * 1);
-            return true;
-        } else if (preference == mButtonBrightness_sw) {
-            boolean value = (Boolean) newValue;
-            Settings.System.putInt(getActivity().getContentResolver(),
-                    Settings.System.BUTTON_BRIGHTNESS, value ? 1 : 0);
-            return true;
-        }else if (preference == mButtonBrightness_sw) {
-            boolean value = (Boolean) newValue;
-            Settings.System.putInt(getActivity().getContentResolver(),
-                    Settings.System.BUTTON_BRIGHTNESS, value ? 1 : 0);
-            return true;
         } else if (preference == mHwKeyEnable) {
             boolean value = (Boolean) newValue;
             Settings.Secure.putInt(getContentResolver(), Settings.Secure.HARDWARE_KEYS_DISABLE,
                     value ? 0 : 1);
             setActionPreferencesEnabled(value);
             return true;
+        } else if (preference == mButtonTimoutBar) {
+            int buttonTimeout = (Integer) newValue;
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.BUTTON_BACKLIGHT_TIMEOUT, buttonTimeout);
+            return true;
+        } else if (preference == mManualButtonBrightness) {
+            int buttonBrightness = (Integer) newValue;
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.CUSTOM_BUTTON_BRIGHTNESS, buttonBrightness);
+            return true;
         }
-        return false;
+        return true;
     }
 
     @Override

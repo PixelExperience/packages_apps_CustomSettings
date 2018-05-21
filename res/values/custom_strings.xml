@@ -155,9 +155,6 @@
     <string name="powermenu_advanced_reboot_summary">Enables the advanced reboot menu for options to reboot to recovery, bootloader, restart systemui or trigger a hot reboot</string>
     <string name="powermenu_screenshot_title">Screenshot</string>
     <string name="powermenu_airplane_title">Airplane mode</string>
-    <string name="powermenu_category_other">Other</string>
-    <string name="powermenu_lockscreen_title">Lockscreen visibility</string>
-    <string name="powermenu_lockscreen_summary">Enable the ability to show and use the power menu dialog while on the lockscreen</string>
 
     <!-- HW Keys customization -->
     <string name="action_value_default_action" translatable="false">default</string>
@@ -196,15 +193,4 @@
     <string name="hardware_keys_utouch_right_swipe">Right swipe</string>
     <string name="hardware_keys_utouch_single_tap">Tap</string>
     <string name="hardware_keys_utouch_long_tap">Long tap</string>
-
-    <!-- Ambient music -->
-    <string name="force_ambient_for_media_pref_title">Now playing</string>
-    <string name="force_ambient_for_media_pref_summary">Show current music track information</string>
-    <string name="ambient_ticker_footer">This feature allows for the ability to show the current music track info on the lockscreen with or without Ambient display enabled.\n\nYou can select from two layouts, normal and minimal. While this feature takes advantage of ambient display, it does not depend on it. It can be triggered without having ambient display enabled by using the (forced) options.\n\nNormal view includes the lockscreen clock, date and music information.\n\nMinimal view includes just the music information at the center of the screen.</string>
-    <string name="force_ambient_for_media_title">Select layout</string>
-    <string name="force_ambient_for_media_off">Disabled</string>
-    <string name="force_ambient_for_media_on">Normal</string>
-    <string name="force_ambient_for_media_on_forced">Normal (forced)</string>
-    <string name="force_ambient_for_media_on_forced_clean">Minimal (forced)</string>
-
 </resources>

@@ -47,6 +47,7 @@
 
         <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="button_backlight_enable"
+            android:dependency="hardware_keys_enable"
             android:title="@string/button_backlight_enable_title"
             android:defaultValue="true"/>
 
@@ -89,6 +90,7 @@
 
         <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="back_wake_screen"
+            android:dependency="hardware_keys_enable"
             android:title="@string/hardware_keys_wake_title"
             android:defaultValue="false" />
 
@@ -117,6 +119,7 @@
 
         <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="home_wake_screen"
+            android:dependency="hardware_keys_enable"
             android:title="@string/hardware_keys_wake_title"
             android:defaultValue="false" />
 
@@ -146,6 +149,7 @@
 
         <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="app_switch_wake_screen"
+            android:dependency="hardware_keys_enable"
             android:title="@string/hardware_keys_wake_title"
             android:defaultValue="false" />   
 
@@ -175,6 +179,7 @@
 
         <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="menu_wake_screen"
+            android:dependency="hardware_keys_enable"
             android:title="@string/hardware_keys_wake_title"
             android:defaultValue="false" />       
 
@@ -204,6 +209,7 @@
 
         <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="assist_wake_screen"
+            android:dependency="hardware_keys_enable"
             android:title="@string/hardware_keys_wake_title"
             android:defaultValue="false" />
 
@@ -233,6 +239,7 @@
 
         <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="back_wake_screen"
+            android:dependency="hardware_keys_enable"
             android:title="@string/hardware_keys_wake_title"
             android:defaultValue="false" />
 
@@ -305,7 +312,7 @@
             android:defaultValue="false" />
 
         <com.android.settings.custom.preference.SystemSettingSwitchPreference
-            android:key="volume_rocker_wake"
+            android:key="volume_wake_screen"
             android:summary="@string/volume_rocker_wake_summary"
             android:title="@string/volume_rocker_wake_title"
             android:defaultValue="false" />

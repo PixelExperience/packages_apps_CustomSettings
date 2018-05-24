@@ -182,6 +182,4 @@
     <!-- UTouch -->
     <string name="hardware_keys_utouch_left_swipe">Left swipe</string>
     <string name="hardware_keys_utouch_right_swipe">Right swipe</string>
-    <string name="hardware_keys_utouch_single_tap">Tap</string>
-    <string name="hardware_keys_utouch_long_tap">Long tap</string>
 </resources>

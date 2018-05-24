@@ -115,67 +115,6 @@ public class ButtonSettings extends ActionFragment implements
 
         // HW Keys
         final PreferenceCategory hwkeyCat = (PreferenceCategory) prefScreen.findPreference(CATEGORY_HWKEY);
-        final boolean needsNavbar = ActionUtils.hasNavbarByDefault(getActivity());
-        mHwKeyEnable = (SwitchPreference) findPreference(HWKEY_ENABLE);
-        boolean hwKeysEnabled = Settings.Secure.getIntForUser(getContentResolver(),
-                    Settings.Secure.HARDWARE_KEYS_DISABLE, 0,
-                    UserHandle.USER_CURRENT) == 0;
-
-        if (needsNavbar){
-            prefScreen.removePreference(hwkeyCat);
-        }else{
-            mHwKeyEnable.setChecked(hwKeysEnabled);
-            mHwKeyEnable.setOnPreferenceChangeListener(this);
-        }
-
-        // Brightness
-        mManualButtonBrightness = (CustomSeekBarPreference) findPreference(
-                KEY_BUTTON_MANUAL_BRIGHTNESS_NEW);
-        final int customButtonBrightness = getResources().getInteger(
-                com.android.internal.R.integer.config_button_brightness_default);
-        final int currentBrightness = Settings.System.getInt(resolver,
-                Settings.System.CUSTOM_BUTTON_BRIGHTNESS, customButtonBrightness);
-        PowerManager pm = (PowerManager)getActivity().getSystemService(Context.POWER_SERVICE);
-        mManualButtonBrightness.setMax(pm.getMaximumScreenBrightnessSetting());
-        mManualButtonBrightness.setValue(currentBrightness);
-        mManualButtonBrightness.setOnPreferenceChangeListener(this);
-
-        mButtonTimoutBar = (CustomSeekBarPreference) findPreference(KEY_BUTTON_TIMEOUT);
-        int currentTimeout = Settings.System.getInt(resolver,
-                Settings.System.BUTTON_BACKLIGHT_TIMEOUT, 0);
-        mButtonTimoutBar.setValue(currentTimeout);
-        mButtonTimoutBar.setOnPreferenceChangeListener(this);
-
-        final boolean enableBacklightOptions = getResources().getBoolean(
-                com.android.internal.R.bool.config_button_brightness_support);
-
-        mButtonBackLightCategory = (PreferenceCategory) findPreference(KEY_BUTON_BACKLIGHT_OPTIONS);
-
-        if (needsNavbar || !enableBacklightOptions) {
-            prefScreen.removePreference(mButtonBackLightCategory);
-        }
-
-        // bits for hardware keys present on device
-        final int deviceKeys = getResources().getInteger(
-                com.android.internal.R.integer.config_deviceHardwareKeys);
-        final int deviceWakeKeys = getResources().getInteger(
-                com.android.internal.R.integer.config_deviceHardwareWakeKeys);
-
-        // read bits for present hardware keys
-        final boolean hasHomeKey = (deviceKeys & KEY_MASK_HOME) != 0;
-        final boolean hasBackKey = (deviceKeys & KEY_MASK_BACK) != 0;
-        final boolean hasMenuKey = (deviceKeys & KEY_MASK_MENU) != 0;
-        final boolean hasAssistKey = (deviceKeys & KEY_MASK_ASSIST) != 0;
-        final boolean hasAppSwitchKey = (deviceKeys & KEY_MASK_APP_SWITCH) != 0;
-
-        final boolean showHomeWake = (deviceWakeKeys & KEY_MASK_HOME) != 0;
-        final boolean showBackWake = (deviceWakeKeys & KEY_MASK_BACK) != 0;
-        final boolean showMenuWake = (deviceWakeKeys & KEY_MASK_MENU) != 0;
-        final boolean showAssistWake = (deviceWakeKeys & KEY_MASK_ASSIST) != 0;
-        final boolean showAppSwitchWake = (deviceWakeKeys & KEY_MASK_APP_SWITCH) != 0;
-
-        // load categories and init/remove preferences based on device
-        // configuration
         final PreferenceCategory backCategory =
                 (PreferenceCategory) prefScreen.findPreference(CATEGORY_BACK);
         final PreferenceCategory homeCategory =
@@ -186,63 +125,126 @@ public class ButtonSettings extends ActionFragment implements
                 (PreferenceCategory) prefScreen.findPreference(CATEGORY_ASSIST);
         final PreferenceCategory appSwitchCategory =
                 (PreferenceCategory) prefScreen.findPreference(CATEGORY_APPSWITCH);
-
-        // back key
-        if (hasBackKey) {
-            if (!showBackWake) {
-                backCategory.removePreference(findPreference(Settings.System.BACK_WAKE_SCREEN));
-            }
-        } else {
-            prefScreen.removePreference(backCategory);
-        }
-
-        // home key
-        if (hasHomeKey) {
-            if (!showHomeWake) {
-                homeCategory.removePreference(findPreference(Settings.System.HOME_WAKE_SCREEN));
-            }
-        } else {
-            prefScreen.removePreference(homeCategory);
-        }
-
-        // App switch key (recents)
-        if (hasAppSwitchKey) {
-            if (!showAppSwitchWake) {
-                appSwitchCategory.removePreference(findPreference(
-                        Settings.System.APP_SWITCH_WAKE_SCREEN));
-            }
-        } else {
-            prefScreen.removePreference(appSwitchCategory);
-        }
-
-        // menu key
-        if (hasMenuKey) {
-            if (!showMenuWake) {
-                menuCategory.removePreference(findPreference(Settings.System.MENU_WAKE_SCREEN));
-            }
-        } else {
-            prefScreen.removePreference(menuCategory);
-        }
-
-        // search/assist key
-        if (hasAssistKey) {
-            if (!showAssistWake) {
-                assistCategory.removePreference(findPreference(Settings.System.ASSIST_WAKE_SCREEN));
-            }
-        } else {
-            prefScreen.removePreference(assistCategory);
-        }
-
         final PreferenceCategory UTouchCategory =
                 (PreferenceCategory) prefScreen.findPreference(CATEGORY_UTOUCH);
-        final boolean useUTouch = getResources().getBoolean(R.bool.config_use_utouch_hwkeys_binding);
-        if (useUTouch){
+
+        final boolean hwKeysSupported = ActionUtils.isHWKeysSupported(getActivity());
+        boolean hwKeysEnabled = hwKeysSupported && Settings.Secure.getIntForUser(getContentResolver(),
+                    Settings.Secure.HARDWARE_KEYS_DISABLE, 0,
+                    UserHandle.USER_CURRENT) == 0;
+
+        if (!hwKeysSupported){
+            prefScreen.removePreference(hwkeyCat);
             prefScreen.removePreference(backCategory);
+            prefScreen.removePreference(homeCategory);
+            prefScreen.removePreference(menuCategory);
             prefScreen.removePreference(assistCategory);
             prefScreen.removePreference(appSwitchCategory);
-            prefScreen.removePreference(menuCategory);
-        }else{
             prefScreen.removePreference(UTouchCategory);
+        }else{
+            mHwKeyEnable = (SwitchPreference) findPreference(HWKEY_ENABLE);
+            mHwKeyEnable.setChecked(hwKeysEnabled);
+            mHwKeyEnable.setOnPreferenceChangeListener(this);
+
+            // bits for hardware keys present on device
+            final int deviceKeys = getResources().getInteger(
+                    com.android.internal.R.integer.config_deviceHardwareKeys);
+            final int deviceWakeKeys = getResources().getInteger(
+                    com.android.internal.R.integer.config_deviceHardwareWakeKeys);
+
+            // read bits for present hardware keys
+            final boolean hasHomeKey = (deviceKeys & KEY_MASK_HOME) != 0;
+            final boolean hasBackKey = (deviceKeys & KEY_MASK_BACK) != 0;
+            final boolean hasMenuKey = (deviceKeys & KEY_MASK_MENU) != 0;
+            final boolean hasAssistKey = (deviceKeys & KEY_MASK_ASSIST) != 0;
+            final boolean hasAppSwitchKey = (deviceKeys & KEY_MASK_APP_SWITCH) != 0;
+
+            final boolean showHomeWake = (deviceWakeKeys & KEY_MASK_HOME) != 0;
+            final boolean showBackWake = (deviceWakeKeys & KEY_MASK_BACK) != 0;
+            final boolean showMenuWake = (deviceWakeKeys & KEY_MASK_MENU) != 0;
+            final boolean showAssistWake = (deviceWakeKeys & KEY_MASK_ASSIST) != 0;
+            final boolean showAppSwitchWake = (deviceWakeKeys & KEY_MASK_APP_SWITCH) != 0;
+
+            // back key
+            if (hasBackKey) {
+                if (!showBackWake) {
+                    backCategory.removePreference(findPreference(Settings.System.BACK_WAKE_SCREEN));
+                }
+            } else {
+                prefScreen.removePreference(backCategory);
+            }
+
+            // home key
+            if (hasHomeKey) {
+                if (!showHomeWake) {
+                    homeCategory.removePreference(findPreference(Settings.System.HOME_WAKE_SCREEN));
+                }
+            } else {
+                prefScreen.removePreference(homeCategory);
+            }
+
+            // App switch key (recents)
+            if (hasAppSwitchKey) {
+                if (!showAppSwitchWake) {
+                    appSwitchCategory.removePreference(findPreference(
+                            Settings.System.APP_SWITCH_WAKE_SCREEN));
+                }
+            } else {
+                prefScreen.removePreference(appSwitchCategory);
+            }
+
+            // menu key
+            if (hasMenuKey) {
+                if (!showMenuWake) {
+                    menuCategory.removePreference(findPreference(Settings.System.MENU_WAKE_SCREEN));
+                }
+            } else {
+                prefScreen.removePreference(menuCategory);
+            }
+
+            // search/assist key
+            if (hasAssistKey) {
+                if (!showAssistWake) {
+                    assistCategory.removePreference(findPreference(Settings.System.ASSIST_WAKE_SCREEN));
+                }
+            } else {
+                prefScreen.removePreference(assistCategory);
+            }
+
+            final boolean useUTouch = getResources().getBoolean(R.bool.config_use_utouch_hwkeys_binding);
+            if (useUTouch){
+                prefScreen.removePreference(backCategory);
+                prefScreen.removePreference(assistCategory);
+                prefScreen.removePreference(appSwitchCategory);
+                prefScreen.removePreference(menuCategory);
+            }else{
+                prefScreen.removePreference(UTouchCategory);
+            }
+        }
+
+        // Backlight
+        mButtonBackLightCategory = (PreferenceCategory) findPreference(KEY_BUTON_BACKLIGHT_OPTIONS);
+        final boolean enableBacklightOptions = hwKeysSupported && getResources().getBoolean(
+                    com.android.internal.R.bool.config_button_brightness_support);
+        if (!enableBacklightOptions) {
+            prefScreen.removePreference(mButtonBackLightCategory);
+        }else{
+            mManualButtonBrightness = (CustomSeekBarPreference) findPreference(
+                    KEY_BUTTON_MANUAL_BRIGHTNESS_NEW);
+            final int customButtonBrightness = getResources().getInteger(
+                    com.android.internal.R.integer.config_button_brightness_default);
+            final int currentBrightness = Settings.System.getInt(resolver,
+                    Settings.System.CUSTOM_BUTTON_BRIGHTNESS, customButtonBrightness);
+            PowerManager pm = (PowerManager)getActivity().getSystemService(Context.POWER_SERVICE);
+            mManualButtonBrightness.setMax(pm.getMaximumScreenBrightnessSetting());
+            mManualButtonBrightness.setValue(currentBrightness);
+            mManualButtonBrightness.setOnPreferenceChangeListener(this);
+
+            mButtonTimoutBar = (CustomSeekBarPreference) findPreference(KEY_BUTTON_TIMEOUT);
+            int currentTimeout = Settings.System.getInt(resolver,
+                    Settings.System.BUTTON_BACKLIGHT_TIMEOUT, 0);
+            mButtonTimoutBar.setValue(currentTimeout);
+            mButtonTimoutBar.setOnPreferenceChangeListener(this);
         }
 
         // let super know we can load ActionPreferences

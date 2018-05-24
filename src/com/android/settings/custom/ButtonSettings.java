@@ -41,7 +41,6 @@ import com.android.settings.custom.preference.CustomSeekBarPreference;
 import com.android.settings.custom.ActionFragment;
 
 import com.android.internal.util.hwkeys.ActionConstants;
-import com.android.internal.util.hwkeys.ActionUtils;
 
 import com.android.settings.custom.preference.ActionPreference;
 
@@ -115,18 +114,17 @@ public class ButtonSettings extends ActionFragment implements
 
         // HW Keys
         final PreferenceCategory hwkeyCat = (PreferenceCategory) prefScreen.findPreference(CATEGORY_HWKEY);
-        final boolean needsNavbar = ActionUtils.hasNavbarByDefault(getActivity());
         mHwKeyEnable = (SwitchPreference) findPreference(HWKEY_ENABLE);
         boolean hwKeysEnabled = Settings.Secure.getIntForUser(getContentResolver(),
                     Settings.Secure.HARDWARE_KEYS_DISABLE, 0,
                     UserHandle.USER_CURRENT) == 0;
 
-        if (needsNavbar){
-            prefScreen.removePreference(hwkeyCat);
-        }else{
-            mHwKeyEnable.setChecked(hwKeysEnabled);
-            mHwKeyEnable.setOnPreferenceChangeListener(this);
-        }
+        // bits for hardware keys present on device
+        final int deviceKeys = getResources().getInteger(
+                com.android.internal.R.integer.config_deviceHardwareKeys);
+        final int deviceWakeKeys = getResources().getInteger(
+                com.android.internal.R.integer.config_deviceHardwareWakeKeys);
+        final boolean hwKeysSupported = deviceKeys != 64;
 
         // Brightness
         mManualButtonBrightness = (CustomSeekBarPreference) findPreference(
@@ -146,20 +144,21 @@ public class ButtonSettings extends ActionFragment implements
         mButtonTimoutBar.setValue(currentTimeout);
         mButtonTimoutBar.setOnPreferenceChangeListener(this);
 
-        final boolean enableBacklightOptions = getResources().getBoolean(
+        final boolean enableBacklightOptions = hwKeysSupported && getResources().getBoolean(
                 com.android.internal.R.bool.config_button_brightness_support);
 
         mButtonBackLightCategory = (PreferenceCategory) findPreference(KEY_BUTON_BACKLIGHT_OPTIONS);
 
-        if (needsNavbar || !enableBacklightOptions) {
+        if (!enableBacklightOptions) {
             prefScreen.removePreference(mButtonBackLightCategory);
         }
 
-        // bits for hardware keys present on device
-        final int deviceKeys = getResources().getInteger(
-                com.android.internal.R.integer.config_deviceHardwareKeys);
-        final int deviceWakeKeys = getResources().getInteger(
-                com.android.internal.R.integer.config_deviceHardwareWakeKeys);
+        if (!hwKeysSupported){
+            prefScreen.removePreference(hwkeyCat);
+        }else{
+            mHwKeyEnable.setChecked(hwKeysEnabled);
+            mHwKeyEnable.setOnPreferenceChangeListener(this);
+        }
 
         // read bits for present hardware keys
         final boolean hasHomeKey = (deviceKeys & KEY_MASK_HOME) != 0;

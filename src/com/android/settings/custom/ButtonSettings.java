@@ -18,6 +18,7 @@ package com.android.settings.custom;
 
 import android.content.Context;
 import android.content.ContentResolver;
+import android.content.pm.PackageManager;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.UserHandle;
@@ -38,8 +39,6 @@ import com.android.settings.Utils;
 
 import com.android.settings.custom.preference.CustomSeekBarPreference;
 import com.android.settings.custom.ActionFragment;
-
-import com.android.internal.util.custom.CustomUtils;
 
 import com.android.internal.util.hwkeys.ActionConstants;
 import com.android.internal.util.hwkeys.ActionUtils;
@@ -100,7 +99,7 @@ public class ButtonSettings extends ActionFragment implements
         final PreferenceScreen prefScreen = getPreferenceScreen();
 
         // Flashlight on power button
-        if (!CustomUtils.deviceHasFlashlight(getContext())) {
+        if (!deviceHasFlashlight()) {
             Preference toRemove = prefScreen.findPreference(POWER_CATEGORY);
             if (toRemove != null) {
                 prefScreen.removePreference(toRemove);
@@ -251,6 +250,10 @@ public class ButtonSettings extends ActionFragment implements
 
         // load preferences first
         setActionPreferencesEnabled(hwKeysEnabled);
+    }
+
+    private boolean deviceHasFlashlight() {
+        return getActivity().getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA_FLASH);
     }
 
     @Override

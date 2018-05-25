@@ -54,21 +54,6 @@
   <string name="torch_power_button_gesture_dt">Doble toque</string>
   <string name="torch_power_button_gesture_lp">Pulsación larga</string>
   <!-- Button touch -->
-  <string name="button_backlight_on_touch_only_title">Botón táctil</string>
-  <string name="button_backlight_on_touch_only_summary">Activar luz de fondo con tiempo de espera sólo en el botones táctiles</string>
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">Tiempo de espera de la luz de fondo de los botones</string>
-  <string name="backlight_timeout_on">Habilitado siempre</string>
-  <string name="backlight_timeout_3s">3 segundos</string>
-  <string name="backlight_timeout_default">5 segundos (predeterminado)</string>
-  <string name="backlight_timeout_10s">10 segundos</string>
-  <string name="backlight_timeout_15s">15 segundos</string>
-  <string name="backlight_timeout_20s">20 segundos</string>
-  <string name="backlight_timeout_30s">30 segundos</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_title">Retroiluminación</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">Habilitar retroiluminación</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Gestionar la barra de navegación</string>
   <!-- Notification light dialogs -->
@@ -135,9 +120,6 @@
   <string name="powermenu_advanced_reboot_summary">Habilita el menú de reinicio avanzado para opciones para reiniciar en modo recovery, bootloader, reiniciar interfaz o provocar un reinicio en caliente</string>
   <string name="powermenu_screenshot_title">Captura de pantalla</string>
   <string name="powermenu_airplane_title">Modo avión</string>
-  <string name="powermenu_category_other">Otro</string>
-  <string name="powermenu_lockscreen_title">Visibilidad de la pantalla de bloqueo</string>
-  <string name="powermenu_lockscreen_summary">Habilitar la capacidad para mostrar y usar el menú de apagado en la pantalla de bloqueo</string>
   <!-- HW Keys customization -->
   <string name="picker_activities">Actividades</string>
   <string name="select_custom_app_title">Seleccionar aplicación personalizada</string>
@@ -163,11 +145,4 @@
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">Deslizar hacia la izquierda</string>
   <string name="hardware_keys_utouch_right_swipe">Deslizar hacia la derecha</string>
-  <string name="hardware_keys_utouch_single_tap">Pulsar</string>
-  <string name="hardware_keys_utouch_long_tap">Mantener pulsado</string>
-  <!-- Ambient music -->
-  <string name="force_ambient_for_media_pref_title">Reproduciéndose </string>
-  <string name="force_ambient_for_media_pref_summary">Mostrar información actual de la pista de música</string>
-  <string name="ambient_ticker_footer">Esta función permite mostrar la información de la pista de música actual en la pantalla de bloqueo con o sin la pantalla Ambiente habilitada.\n\nPuede seleccionar entre dos diseños, normal y mínimo. Si bien esta característica aprovecha la visualización ambiental, no depende de ella. Se puede activar sin tener activada la visualización ambiental mediante las opciones (forzadas).\n\nLa vista normal incluye el reloj de pantalla bloqueada, la fecha y la información de música. \n\nLa vista mínima incluye solo la información de música en el centro de la pantalla.</string>
-  <string name="force_ambient_for_media_on_forced">Normal (forzado)</string>
 </resources>

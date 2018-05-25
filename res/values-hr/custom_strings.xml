@@ -54,21 +54,6 @@
   <string name="torch_power_button_gesture_dt">Dupli dodir</string>
   <string name="torch_power_button_gesture_lp">Dugi dodir</string>
   <!-- Button touch -->
-  <string name="button_backlight_on_touch_only_title">Dodir gumba</string>
-  <string name="button_backlight_on_touch_only_summary">Omogući pozadinsko osvjetljenje sa ograničenim vremenom samo na dodir gumba</string>
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">Ograničeno vrijeme gumba</string>
-  <string name="backlight_timeout_on">Uvijek omogućeno</string>
-  <string name="backlight_timeout_3s">3 s</string>
-  <string name="backlight_timeout_default">5 s (zadano)</string>
-  <string name="backlight_timeout_10s">10 s</string>
-  <string name="backlight_timeout_15s">15 s</string>
-  <string name="backlight_timeout_20s">20 s</string>
-  <string name="backlight_timeout_30s">30 s</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_title">Pozadinsko osvjetljenje</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">Uključi pozadinsko osvjetljenje</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Upravljanje navigacijske trake</string>
   <!-- Notification light dialogs -->
@@ -102,12 +87,39 @@
   <string name="notification_light_applist_title">Aplikacije</string>
   <string name="notification_light_phonelist_title">Telefon</string>
   <string name="notification_light_use_custom">Koristi prilagođene vrijednosti</string>
+  <string name="notification_light_use_custom_summary">Uključite da bi ste postavili boje obavijesti za pojedine aplikacije</string>
   <string name="notification_light_default_value">Zadano</string>
   <string name="notification_light_missed_call_title">Propušteni poziv</string>
   <string name="notification_light_voicemail_title">Glasovna pošta</string>
+  <string name="notification_light_screen_on">Svjetla s uključenim zaslonom</string>
+  <string name="notification_light_zen_mode">Svjetla u načinu Ne ometaj</string>
+  <string name="notification_light_use_multiple_leds">Više LED svjetala</string>
   <!-- Notification light settings -->
+  <string name="leds_category_title">LED Mogućnosti</string>
+  <string name="battery_light_settings">Svjetlo baterije</string>
+  <string name="led_notification_title">Postavke svjetla</string>
+  <string name="led_notification_text">LED svjetlo omogućeno postavkama</string>
+  <string name="notification_light_no_apps_summary">Da biste dodali kontrolu za pojedine aplikacije, omogućite \'%1$s\' i pritisnite \'\u002b\' u traci izbornika</string>
   <!-- Battery light settings  -->
+  <string name="batterylight_title">Postavke LED-a baterije</string>
+  <string name="battery_light_enable">Uključi</string>
+  <string name="battery_low_pulse_title">Pulsiraj ako je baterija slaba</string>
+  <string name="battery_light_only_full_charge_title">Svjetli samo kada je potpuno napunjena</string>
+  <string name="battery_light_list_title">Boje</string>
+  <string name="battery_light_low_color_title">Baterija slaba</string>
+  <string name="battery_light_medium_color_title">Puni se</string>
+  <string name="battery_light_full_color_title">Napunjeno (90%)</string>
+  <string name="battery_light_really_full_color_title">Napunjeno (100%)</string>
+  <string name="led_color_green">Zeleno</string>
+  <string name="led_color_red">Crveno</string>
+  <string name="led_color_blue">Plavo</string>
   <!-- Power Menu -->
+  <string name="powermenu_manage">Upravljanje izbornikom za napajanje</string>
+  <string name="powermenu_reboot_title">Ponovno pokreni</string>
+  <string name="powermenu_advanced_reboot_title">Napredno ponovno pokretanje</string>
+  <string name="powermenu_advanced_reboot_summary">Omogućuje napredni izbornik za ponovno pokretanje s opcijama za ponovno pokretanje u sustav za oporavak, bootloader, ponovno pokretanje sučelja ili \"vruće\" ponovno pokretanje</string>
+  <string name="powermenu_screenshot_title">Snimka zaslona</string>
+  <string name="powermenu_airplane_title">Zrakoplovni način</string>
   <!-- HW Keys customization -->
   <string name="picker_activities">Aktivnosti</string>
   <string name="select_custom_app_title">Odaberi prilagođenu aplikaciju</string>
@@ -133,7 +145,4 @@
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">Povlačenje ulijevo</string>
   <string name="hardware_keys_utouch_right_swipe">Povlačenje udesno</string>
-  <string name="hardware_keys_utouch_single_tap">Dodir</string>
-  <string name="hardware_keys_utouch_long_tap">Dugi dodir</string>
-  <!-- Ambient music -->
 </resources>

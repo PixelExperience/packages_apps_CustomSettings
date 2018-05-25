@@ -43,17 +43,6 @@
   <string name="torch_power_button_gesture_dt">രണ്ടു പ്രാവശ്യം അമർത്തുക</string>
   <string name="torch_power_button_gesture_lp">അമർത്തി പിടിക്കുക</string>
   <!-- Button touch -->
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_3s">മൂന്ന് സെക്കന്റ്‌</string>
-  <string name="backlight_timeout_default">അഞ്ച് സെക്കന്റ്‌ (സാദാരണം)</string>
-  <string name="backlight_timeout_10s">പത്ത് സെക്കന്റ്‌</string>
-  <string name="backlight_timeout_15s">പതിനഞ്ച് സെക്കന്റ്‌</string>
-  <string name="backlight_timeout_20s">ഇരുപത് സെക്കന്റ്‌</string>
-  <string name="backlight_timeout_30s">മുപ്പത് സെക്കന്റ്‌</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_title">ബാക്ക്‌ലൈറ്റ്</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">ബാക്ക്‌ലൈറ്റ് പ്രവതിപ്പിക്കുക</string>
   <!-- Navbar tuner -->
   <!-- Notification light dialogs -->
   <!-- Values for the notification light pulse spinners -->
@@ -63,5 +52,4 @@
   <!-- Power Menu -->
   <!-- HW Keys customization -->
   <!-- UTouch -->
-  <!-- Ambient music -->
 </resources>

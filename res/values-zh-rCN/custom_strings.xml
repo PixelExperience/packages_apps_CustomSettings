@@ -54,21 +54,6 @@
   <string name="torch_power_button_gesture_dt">双击</string>
   <string name="torch_power_button_gesture_lp">长按</string>
   <!-- Button touch -->
-  <string name="button_backlight_on_touch_only_title">触摸按键</string>
-  <string name="button_backlight_on_touch_only_summary">仅在触摸按键时启用背光超时</string>
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">按键背光超时</string>
-  <string name="backlight_timeout_on">总是启用</string>
-  <string name="backlight_timeout_3s">3 秒</string>
-  <string name="backlight_timeout_default">5秒（默认）</string>
-  <string name="backlight_timeout_10s">10秒</string>
-  <string name="backlight_timeout_15s">15 秒</string>
-  <string name="backlight_timeout_20s">20秒</string>
-  <string name="backlight_timeout_30s">30秒</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_title">背光灯</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">启用背光</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">导航栏管理</string>
   <!-- Notification light dialogs -->
@@ -132,12 +117,9 @@
   <string name="powermenu_manage">管理电源菜单</string>
   <string name="powermenu_reboot_title">重启</string>
   <string name="powermenu_advanced_reboot_title">高级重启</string>
-  <string name="powermenu_advanced_reboot_summary">启用高级重启以选择重启到Recovery，Bootloader，重启界面，或软重启</string>
+  <string name="powermenu_advanced_reboot_summary">启用高级重启以选择重启到恢复模式，引导模式，重启系统界面，或软重启</string>
   <string name="powermenu_screenshot_title">屏幕截图</string>
   <string name="powermenu_airplane_title">飞行模式</string>
-  <string name="powermenu_category_other">其他</string>
-  <string name="powermenu_lockscreen_title">锁屏可见</string>
-  <string name="powermenu_lockscreen_summary">锁屏状态下允许使用电源菜单</string>
   <!-- HW Keys customization -->
   <string name="picker_activities">活动</string>
   <string name="select_custom_app_title">选择自定义应用程序</string>
@@ -163,15 +145,4 @@
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">左滑</string>
   <string name="hardware_keys_utouch_right_swipe">右滑</string>
-  <string name="hardware_keys_utouch_single_tap">轻触</string>
-  <string name="hardware_keys_utouch_long_tap">长轻触</string>
-  <!-- Ambient music -->
-  <string name="force_ambient_for_media_pref_title">正在播放</string>
-  <string name="force_ambient_for_media_pref_summary">显示当前音乐曲目信息</string>
-  <string name="ambient_ticker_footer">此功能允许在启用或未启用环境显示的情况下在锁屏显示当前音乐曲目信息。\n\n您有两个布局可供选择，分别是“正常”和“最小”。虽然此功能利用了环境显示，但它并不依赖于环境显示。它可以通过使用“强制”选项从而在未启用环境显示的情况下触发。\n\n正常视图包括锁屏时钟，日期和环境音乐通知。\n\n最小视图只包含屏幕中间的环境音乐通知。</string>
-  <string name="force_ambient_for_media_title">选择布局</string>
-  <string name="force_ambient_for_media_off">禁用</string>
-  <string name="force_ambient_for_media_on">正常</string>
-  <string name="force_ambient_for_media_on_forced">正常（强制）</string>
-  <string name="force_ambient_for_media_on_forced_clean">最小（强制）</string>
 </resources>

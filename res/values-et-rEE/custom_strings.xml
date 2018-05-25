@@ -17,7 +17,16 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Color Picker -->
+  <string name="dialog_color_picker">Värvi valija</string>
+  <string name="press_color_to_apply">Värvi rakendamiseks vajutage värvi peale</string>
+  <string name="arrow_right">→</string>
+  <string name="arrow_down">↓</string>
+  <string name="hex">Hex:</string>
+  <string name="hex_hint">#ff000000</string>
+  <string name="set">Määra</string>
+  <string name="color_default">Vaikimisi</string>
   <!-- Buttons -->
+  <string name="button_settings">Nupud</string>
   <!-- Volume category -->
   <!-- Power category -->
   <!-- Volume category -->
@@ -28,9 +37,6 @@
   <!-- The volume key answer -->
   <!-- Torch Power button gestures -->
   <!-- Button touch -->
-  <!-- Buttons backlight timeout -->
-  <!-- Enable keys backlight-->
-  <!-- Enable keys backlight-->
   <!-- Navbar tuner -->
   <!-- Notification light dialogs -->
   <!-- Values for the notification light pulse spinners -->
@@ -40,5 +46,4 @@
   <!-- Power Menu -->
   <!-- HW Keys customization -->
   <!-- UTouch -->
-  <!-- Ambient music -->
 </resources>

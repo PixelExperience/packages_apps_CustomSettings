@@ -54,21 +54,6 @@
   <string name="torch_power_button_gesture_dt">Dvojité poklepání</string>
   <string name="torch_power_button_gesture_lp">Dlouhý stisk</string>
   <!-- Button touch -->
-  <string name="button_backlight_on_touch_only_title">Podsvícení tlačítek při dotyku</string>
-  <string name="button_backlight_on_touch_only_summary">Aktivujte podsvícení s časovým omezením pouze při stisknutí tlačítka</string>
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">Časový limit podsvícení tlačítek</string>
-  <string name="backlight_timeout_on">Vždy povoleno</string>
-  <string name="backlight_timeout_3s">3 sekundy</string>
-  <string name="backlight_timeout_default">5 sekund (výchozí)</string>
-  <string name="backlight_timeout_10s">10 sekund</string>
-  <string name="backlight_timeout_15s">15 sekund</string>
-  <string name="backlight_timeout_20s">20 sekund</string>
-  <string name="backlight_timeout_30s">30 sekund</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_title">Podsvícení</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">Zapnout podsvícení</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Správa navigačního panelu</string>
   <!-- Notification light dialogs -->
@@ -135,9 +120,6 @@
   <string name="powermenu_advanced_reboot_summary">Umožní rozšířenou nabídku restartu do recovery, bootloaderu, restartu systemUI nebo spuštění rychlého restartu</string>
   <string name="powermenu_screenshot_title">Snímek obrazovky</string>
   <string name="powermenu_airplane_title">Režim Letadlo</string>
-  <string name="powermenu_category_other">Ostatní</string>
-  <string name="powermenu_lockscreen_title">Viditelnost na zamykací obrazovce</string>
-  <string name="powermenu_lockscreen_summary">Povolte možnost zobrazovat a používat dialogové okno menu napájení na zamykací obrazovce</string>
   <!-- HW Keys customization -->
   <string name="picker_activities">Aktivity</string>
   <string name="select_custom_app_title">Vybrat vlastní aplikaci</string>
@@ -163,15 +145,4 @@
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">Posunutí doleva</string>
   <string name="hardware_keys_utouch_right_swipe">Posunutí doprava</string>
-  <string name="hardware_keys_utouch_single_tap">Klepnutí</string>
-  <string name="hardware_keys_utouch_long_tap">Dlouhý stisk</string>
-  <!-- Ambient music -->
-  <string name="force_ambient_for_media_pref_title">Právě hraje</string>
-  <string name="force_ambient_for_media_pref_summary">Zobrazit aktuální informace o hudební skladbě</string>
-  <string name="ambient_ticker_footer">Tato funkce umožňuje zobrazit aktuální informace o hudebních skladbách na zamykací obrazovce při zapnutém nebo vypnutém Ambientním displeji.\n\nMůžete si vybrat ze dvou zobrazení, normálního a minimálního. I když tato funkce využívá výhody Ambientního displeje, není na něm závislá. Může být spuštěna i bez zapnutí Ambientního displeje pomocí (vynucených) voleb.\n\nNormální zobrazení obsahuje hodiny, datum a informaci o hudební skladbě na zamykací obrazovce.\n\nMinimální zobrazení obsahuje pouze informaci o hudební skladbě uprostřed obrazovky.</string>
-  <string name="force_ambient_for_media_title">Vybrat rozložení</string>
-  <string name="force_ambient_for_media_off">Vypnuto</string>
-  <string name="force_ambient_for_media_on">Normální</string>
-  <string name="force_ambient_for_media_on_forced">Normální (vynucené)</string>
-  <string name="force_ambient_for_media_on_forced_clean">Minimální (vynucené)</string>
 </resources>

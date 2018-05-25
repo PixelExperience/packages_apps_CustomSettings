@@ -54,21 +54,6 @@
   <string name="torch_power_button_gesture_dt">نقر مزدوج</string>
   <string name="torch_power_button_gesture_lp">الضغط لمدة طويلة</string>
   <!-- Button touch -->
-  <string name="button_backlight_on_touch_only_title">لمس الزر</string>
-  <string name="button_backlight_on_touch_only_summary">مكن الإضاءة الخلفية لمهلة فقط عند لمس الزر</string>
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">ازرار مُهلة إضاءة الخلفية</string>
-  <string name="backlight_timeout_on">تمكين دائماً</string>
-  <string name="backlight_timeout_3s">٣ ثواني</string>
-  <string name="backlight_timeout_default">٥ ثواني (افتراضي)</string>
-  <string name="backlight_timeout_10s">١٠ ثواني</string>
-  <string name="backlight_timeout_15s">١٥ ثانية</string>
-  <string name="backlight_timeout_20s">٢٠ ثانية</string>
-  <string name="backlight_timeout_30s">٣٠ ثانية</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_title">الإضاءة الخلفية</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">تمكين الإضاءة الخلفية</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">أدارة شريط الأزرار</string>
   <!-- Notification light dialogs -->
@@ -88,7 +73,7 @@
   <string name="pulse_length_very_short">قصير جداً</string>
   <string name="pulse_length_short">قصير</string>
   <string name="pulse_length_normal">عام</string>
-  <string name="pulse_length_long">مطول</string>
+  <string name="pulse_length_long">طويل</string>
   <string name="pulse_length_very_long">طويل جداً</string>
   <string name="pulse_speed_very_fast">سريع جدًا</string>
   <string name="pulse_speed_fast">سريع</string>
@@ -136,9 +121,6 @@
 أو يؤدي إلى إعادة تشغيل سريعة</string>
   <string name="powermenu_screenshot_title">لقطة الشاشة</string>
   <string name="powermenu_airplane_title">وضع الطيران</string>
-  <string name="powermenu_category_other">أخرى</string>
-  <string name="powermenu_lockscreen_title">رؤية الشاشة المغلقة</string>
-  <string name="powermenu_lockscreen_summary">مكن القدرة على إظهار و إستخدام كلمات قائمة الطاقة أثناء غلق الشاشة</string>
   <!-- HW Keys customization -->
   <string name="picker_activities">الأنشطة</string>
   <string name="select_custom_app_title">حدد تطبيق مخصص</string>
@@ -164,7 +146,4 @@
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">اسحب لليسار</string>
   <string name="hardware_keys_utouch_right_swipe">اسحب لليمين</string>
-  <string name="hardware_keys_utouch_single_tap">إنقر</string>
-  <string name="hardware_keys_utouch_long_tap">نقرة مطولة</string>
-  <!-- Ambient music -->
 </resources>

@@ -54,21 +54,6 @@
   <string name="torch_power_button_gesture_dt">Двойное нажатие</string>
   <string name="torch_power_button_gesture_lp">Длительное нажатие</string>
   <!-- Button touch -->
-  <string name="button_backlight_on_touch_only_title">Подсветка при касании</string>
-  <string name="button_backlight_on_touch_only_summary">Включать подсветку клавиш только при касании</string>
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">Длительность подсветки клавиш</string>
-  <string name="backlight_timeout_on">Включена всегда</string>
-  <string name="backlight_timeout_3s">3 сек.</string>
-  <string name="backlight_timeout_default">5 сек. (по умолчанию)</string>
-  <string name="backlight_timeout_10s">10 сек.</string>
-  <string name="backlight_timeout_15s">15 сек.</string>
-  <string name="backlight_timeout_20s">20 сек.</string>
-  <string name="backlight_timeout_30s">30 сек.</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_title">Подсветка</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">Включить подсветку</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Управление панелью навигации</string>
   <!-- Notification light dialogs -->
@@ -102,7 +87,7 @@
   <string name="notification_light_applist_title">Приложения</string>
   <string name="notification_light_phonelist_title">Телефон</string>
   <string name="notification_light_use_custom">Использовать пользовательские значения</string>
-  <string name="notification_light_use_custom_summary">Включить, чтобы установить цвета уведомлений каждому приложению отдельно</string>
+  <string name="notification_light_use_custom_summary">Включите, чтобы настроить цвета уведомлений для каждого приложения по-отдельности</string>
   <string name="notification_light_default_value">По умолчанию</string>
   <string name="notification_light_missed_call_title">Пропущенный вызов</string>
   <string name="notification_light_voicemail_title">Голосовая почта</string>
@@ -113,7 +98,7 @@
   <string name="leds_category_title">Опции индикатора</string>
   <string name="battery_light_settings">Индикатор батареи</string>
   <string name="led_notification_title">Настройки индикации</string>
-  <string name="led_notification_text">Включить настройки индикации</string>
+  <string name="led_notification_text">Цветовая индикация активирована в настройках</string>
   <string name="notification_light_no_apps_summary">Чтобы разрешить управление приложениями, включите «%1$s» и нажмите «\u002b» в строке меню</string>
   <!-- Battery light settings  -->
   <string name="batterylight_title">Настройки индикации батареи</string>
@@ -135,9 +120,6 @@
   <string name="powermenu_advanced_reboot_summary">Включить расширенную перезагрузку для перезагрузки в режим восстановления или загрузчика, перезагрузки системного интерфейса или быстрой перезагрузки</string>
   <string name="powermenu_screenshot_title">Скриншот</string>
   <string name="powermenu_airplane_title">Режим полёта</string>
-  <string name="powermenu_category_other">Прочее</string>
-  <string name="powermenu_lockscreen_title">Видимость на экране блокировки</string>
-  <string name="powermenu_lockscreen_summary">Включите, чтобы отображать меню питания на экране блокировки</string>
   <!-- HW Keys customization -->
   <string name="picker_activities">Действия</string>
   <string name="select_custom_app_title">Выбрать приложение</string>
@@ -163,15 +145,4 @@
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">Свайп влево</string>
   <string name="hardware_keys_utouch_right_swipe">Свайп вправо</string>
-  <string name="hardware_keys_utouch_single_tap">Одиночное нажатие</string>
-  <string name="hardware_keys_utouch_long_tap">Долгое касание</string>
-  <!-- Ambient music -->
-  <string name="force_ambient_for_media_pref_title">Сейчас играет</string>
-  <string name="force_ambient_for_media_pref_summary">Отображать информацию информацию о текущем музыкальном треке</string>
-  <string name="ambient_ticker_footer">Эта функция позволяет отображать информацию о текущем музыкальном треке на экране блокировки с включенной функцией активного экрана или без неё.\n\nВы можете выбрать один из двух вариантов, обычный и минимальный. Несмотря на то, что эта функция использует активный экран, она не зависит от него. Она может быть вызвана и без активного экрана, включенного (принудительно) с помощью опций.\n\nОбычный вид включает в себя отображение часов, даты и информации о музыкальном треке.\n\nМинимальный вид включает в себя только отображение информацию о музыкальном треке в центре экрана.</string>
-  <string name="force_ambient_for_media_title">Выберите шаблон</string>
-  <string name="force_ambient_for_media_off">Отключено</string>
-  <string name="force_ambient_for_media_on">Обычный</string>
-  <string name="force_ambient_for_media_on_forced">Обычный (принудительно)</string>
-  <string name="force_ambient_for_media_on_forced_clean">Минимальный (принудительно)</string>
 </resources>

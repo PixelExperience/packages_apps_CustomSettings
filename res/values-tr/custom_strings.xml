@@ -54,21 +54,14 @@
   <string name="torch_power_button_gesture_dt">Çift dokunma</string>
   <string name="torch_power_button_gesture_lp">Uzun basma</string>
   <!-- Button touch -->
-  <string name="button_backlight_on_touch_only_title">Dokunmatik tuş</string>
-  <string name="button_backlight_on_touch_only_summary">Tuşa dokunulduğunda yalnızca zaman aşımıyla arka ışığı etkinleştirin</string>
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">Tuşların arka ışık zaman aşımı</string>
-  <string name="backlight_timeout_on">Her zaman etkin</string>
-  <string name="backlight_timeout_3s">3 sn</string>
-  <string name="backlight_timeout_default">5 sn (varsayılan)</string>
-  <string name="backlight_timeout_10s">10 sn</string>
-  <string name="backlight_timeout_15s">15 sn</string>
-  <string name="backlight_timeout_20s">20 sn</string>
-  <string name="backlight_timeout_30s">30 sn</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_title">Arka aydınlatma</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">Arka aydınlatmayı etkinleştir</string>
+  <string name="button_backlight_options_category">Aydınlatma ışığı seçenekleri</string>
+  <string name="button_backlight_enable_title">Tuş aydınlatmasına izin ver</string>
+  <string name="button_link_brightness">Ekran parlaklığına bağla</string>
+  <string name="button_link_brightness_summary">Tuş arka aydınlatma parlaklığı, ekran parlaklığı seviyesine göre ayarlanır</string>
+  <string name="button_manual_brightness">Parlaklık düzeyi</string>
+  <string name="button_timeout_title">Aydınlatma zaman aşımı</string>
+  <string name="button_backlight_on_touch_only_title">Tuşa dokunulduğunda aydınlat</string>
+  <string name="button_backlight_on_touch_only_summary">Tuş aydınlatma ışığı yalnızca tuşlara basıldığında değil her zaman açık kalır. Zaman aşımı yine de bu özelliği etkiler.</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Gezinme çubuğunu yönetin</string>
   <!-- Notification light dialogs -->
@@ -135,9 +128,6 @@
   <string name="powermenu_advanced_reboot_summary">Kurtarma modu, ön yükleyici, arayüzü yeniden başlatma veya hızlı yeniden başlatma seçenekleri için gelişmiş yeniden başlatma menüsünü etkinleştirir</string>
   <string name="powermenu_screenshot_title">Ekran görüntüsü</string>
   <string name="powermenu_airplane_title">Uçak modu</string>
-  <string name="powermenu_category_other">Diğer</string>
-  <string name="powermenu_lockscreen_title">Kilit ekranı görünürlüğü</string>
-  <string name="powermenu_lockscreen_summary">Kilit ekranındayken güç menüsünü gösterme ve kullanma durumunu etkinleştirin</string>
   <!-- HW Keys customization -->
   <string name="picker_activities">Etkinlikler</string>
   <string name="select_custom_app_title">Özel uygulama seçin</string>
@@ -160,18 +150,8 @@
   <string name="hardware_keys_double_tap_title">Çift dokunma eylemi</string>
   <string name="hardware_keys_category">Donanım tuşları</string>
   <string name="hardware_keys_enable_title">Etkinleştir</string>
+  <string name="hardware_keys_wake_title">Cihazı uyandır</string>
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">Sola kaydır</string>
   <string name="hardware_keys_utouch_right_swipe">Sağa kaydır</string>
-  <string name="hardware_keys_utouch_single_tap">Dokun</string>
-  <string name="hardware_keys_utouch_long_tap">Uzun basma</string>
-  <!-- Ambient music -->
-  <string name="force_ambient_for_media_pref_title">Şimdi oynatılıyor</string>
-  <string name="force_ambient_for_media_pref_summary">Geçerli müzik parçası bilgisini göster</string>
-  <string name="ambient_ticker_footer">Bu özellik, Ortam ekranı etkinleştirilmiş veya kilit ekranı üzerinde geçerli müzik parçası bilgisini gösterebilme olanağı sağlar.\n\nNormal ve minimum iki düzen arasından seçim yapabilirsiniz. Bu özellik ortam ekranından yararlanırken, bu buna bağımlı değildir. (Zorla) seçeneklerini kullanarak ortam ekranı etkinleştirmeden tetiklenebilir.\n\nNormal görünüm, kilit ekranı saati, tarihi ve müzik bilgilerini içerir.\n\nMinimal görünüm, ekranın ortasında sadece müzik bilgisini içerir.</string>
-  <string name="force_ambient_for_media_title">Düzen seç</string>
-  <string name="force_ambient_for_media_off">Devre dışı</string>
-  <string name="force_ambient_for_media_on">Normal</string>
-  <string name="force_ambient_for_media_on_forced">Standart (zorla)</string>
-  <string name="force_ambient_for_media_on_forced_clean">Minimal (zorla)</string>
 </resources>

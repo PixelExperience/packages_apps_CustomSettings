@@ -54,21 +54,6 @@
   <string name="torch_power_button_gesture_dt">Dubbelklick</string>
   <string name="torch_power_button_gesture_lp">Långtryck</string>
   <!-- Button touch -->
-  <string name="button_backlight_on_touch_only_title">Knapptryck</string>
-  <string name="button_backlight_on_touch_only_summary">Aktivera bakgrundsbelysningen med tidsgräns endast vid knapptryck</string>
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">Tidsgräns bakbelysning för knappar</string>
-  <string name="backlight_timeout_on">Alltid aktiv</string>
-  <string name="backlight_timeout_3s">3 sek</string>
-  <string name="backlight_timeout_default">5 sek (standard)</string>
-  <string name="backlight_timeout_10s">10 sek</string>
-  <string name="backlight_timeout_15s">15 sek</string>
-  <string name="backlight_timeout_20s">20 sek</string>
-  <string name="backlight_timeout_30s">30 sek</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_title">Bakgrundsbelysning</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">Aktivera bakgrundsbelysningen</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Aktivera navigationsfältet</string>
   <!-- Notification light dialogs -->
@@ -135,9 +120,6 @@
   <string name="powermenu_advanced_reboot_summary">Aktiverar menyn avancerade omstart för alternativ till återställning, starthanterare, starta om systemui eller utlösa en snabb omstart</string>
   <string name="powermenu_screenshot_title">Skärmdump</string>
   <string name="powermenu_airplane_title">Flygplansläge</string>
-  <string name="powermenu_category_other">Andra</string>
-  <string name="powermenu_lockscreen_title">Låsskärmens synlighet</string>
-  <string name="powermenu_lockscreen_summary">Aktivera möjligheten att visa och använd dialogrutan powermenyn medan låsskärmen är på</string>
   <!-- HW Keys customization -->
   <string name="picker_activities">Aktiviteter</string>
   <string name="select_custom_app_title">Välj anpassad app</string>
@@ -163,7 +145,4 @@
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">Svep vänster</string>
   <string name="hardware_keys_utouch_right_swipe">Svep höger</string>
-  <string name="hardware_keys_utouch_single_tap">Tryck</string>
-  <string name="hardware_keys_utouch_long_tap">Långtryck</string>
-  <!-- Ambient music -->
 </resources>

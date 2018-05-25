@@ -17,28 +17,74 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Color Picker -->
+  <string name="dialog_color_picker">Escolledor de cor</string>
+  <string name="press_color_to_apply">Presionar na cor de abaixo para aplicar</string>
+  <string name="arrow_right">→</string>
+  <string name="arrow_down">↓</string>
+  <string name="hex">Hex:</string>
+  <string name="hex_hint">#ff000000</string>
+  <string name="set">Definir</string>
+  <string name="color_default">Por defecto</string>
   <!-- Buttons -->
+  <string name="button_settings">Botóns</string>
   <!-- Volume category -->
+  <string name="volume_category">Control de volume</string>
   <!-- Power category -->
+  <string name="power_category">Acendido</string>
   <!-- Volume category -->
+  <string name="navbar_category">Barra de navegación</string>
   <!-- Volume button orientation based on current rotation -->
+  <string name="swap_volume_buttons_title">Intercambiar orientación do control de volume</string>
+  <string name="swap_volume_buttons_summary">Axustar a orientación do control en base a rotación actual</string>
   <!-- Volume key controls media stream -->
+  <string name="volume_keys_control_media_stream_title">As teclas de volume controlan o volume multimedia</string>
+  <string name="volume_keys_control_media_stream_summary">Forzar que as teclas de volume controlen a reproducción multimedia</string>
   <!-- Volume rocker music control -->
+  <string name="volume_rocker_music_controls_title">Control de reproducción</string>
+  <string name="volume_rocker_music_controls_summary">Cando a pantalla estéa apagada, un premido longo nas teclas de volum buscará pistas de música</string>
   <!-- Volume rocker wake -->
+  <string name="volume_rocker_wake_title">Espertar cos botóns de volume</string>
+  <string name="volume_rocker_wake_summary">Premer os botóns de volumé espertarán o teu dispositivo</string>
   <!-- The volume key answer -->
+  <string name="volume_answer_call_title">Responder cos botóns de volume</string>
+  <string name="volume_answer_call_summary">Responder a chamada cando se preman os botóns de volume</string>
   <!-- Torch Power button gestures -->
+  <string name="torch_power_button_gesture_title">Flash cando a pantalla estea apagada</string>
+  <string name="torch_power_button_gesture_none">Desactivado</string>
+  <string name="torch_power_button_gesture_dt">Dobre toque</string>
+  <string name="torch_power_button_gesture_lp">Premido longo</string>
   <!-- Button touch -->
-  <!-- Buttons backlight timeout -->
-  <!-- Enable keys backlight-->
-  <!-- Enable keys backlight-->
   <!-- Navbar tuner -->
+  <string name="navbar_tuner_title">Xestionar a barra de navegación</string>
   <!-- Notification light dialogs -->
+  <string name="ok">Dacordo</string>
+  <string name="reset">Restaurar</string>
+  <string name="advanced">Avanzado</string>
+  <string name="profiles_add">Engadir...</string>
+  <string name="edit_light_settings">Editar axustes de luz</string>
+  <string name="pulse_speed_title">Duración e velocidade do pulso</string>
+  <string name="default_time">Normal</string>
+  <string name="custom_time">Personalizado</string>
+  <string name="dialog_choose_app">Seleccionar aplicación</string>
+  <string name="dialog_delete_title">Borrar</string>
+  <string name="dialog_delete_message">Eliminar o elemento seleccionado?</string>
   <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_always_on">Sempre activo</string>
+  <string name="pulse_length_very_short">Moi débil</string>
+  <string name="pulse_length_short">Débil</string>
+  <string name="pulse_length_normal">Normal</string>
+  <string name="pulse_length_long">Forte</string>
+  <string name="pulse_length_very_long">Moi forte</string>
+  <string name="pulse_speed_very_fast">Moi rápido</string>
+  <string name="pulse_speed_fast">Rápido</string>
+  <string name="pulse_speed_normal">Normal</string>
+  <string name="pulse_speed_slow">Lento</string>
+  <string name="pulse_speed_very_slow">Moi lento</string>
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_title">Luz de notificación</string>
   <!-- Notification light settings -->
   <!-- Battery light settings  -->
   <!-- Power Menu -->
   <!-- HW Keys customization -->
   <!-- UTouch -->
-  <!-- Ambient music -->
 </resources>

@@ -35,6 +35,7 @@
   <string name="navbar_category">Navigációs sáv</string>
   <!-- Volume button orientation based on current rotation -->
   <string name="swap_volume_buttons_title">Hangerő görgető tájolás</string>
+  <string name="swap_volume_buttons_summary">A hangerőgombok az adott képernyő tájolásához való igazítása</string>
   <!-- Volume key controls media stream -->
   <string name="volume_keys_control_media_stream_title">Médiahangerő vezérlése hangerőgombokkal</string>
   <string name="volume_keys_control_media_stream_summary">Hangerő</string>
@@ -45,6 +46,7 @@
   <string name="volume_rocker_wake_title">Hangerő gombra feléleszt</string>
   <string name="volume_rocker_wake_summary">A hangerő gombok megnyomására a készülék felébred</string>
   <!-- The volume key answer -->
+  <string name="volume_answer_call_title">Hívásfogadás a hangerő gombokkal</string>
   <string name="volume_answer_call_summary">Hívásfogadás hangerőgombok lenyomásakor</string>
   <!-- Torch Power button gestures -->
   <string name="torch_power_button_gesture_title">Zseblámpa, amikor a képernyő ki van kapcsolva</string>
@@ -52,20 +54,6 @@
   <string name="torch_power_button_gesture_dt">Dupla érintés</string>
   <string name="torch_power_button_gesture_lp">Hosszan nyomás</string>
   <!-- Button touch -->
-  <string name="button_backlight_on_touch_only_title">Gomb érintése</string>
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">Gombok háttérvilágításának időtúllépése</string>
-  <string name="backlight_timeout_on">Mindig engedélyezve</string>
-  <string name="backlight_timeout_3s">3 mp</string>
-  <string name="backlight_timeout_default">5 mp (alapértelmezett)</string>
-  <string name="backlight_timeout_10s">10 mp</string>
-  <string name="backlight_timeout_15s">15 mp</string>
-  <string name="backlight_timeout_20s">20 mp</string>
-  <string name="backlight_timeout_30s">30 mp</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_title">Háttérvilágítás</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">Háttérvilágítás engedélyezése</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Navigációs sáv kezelése</string>
   <!-- Notification light dialogs -->
@@ -73,6 +61,7 @@
   <string name="reset">Alaphelyzet</string>
   <string name="advanced">Haladó</string>
   <string name="profiles_add">Hozzáadás...</string>
+  <string name="edit_light_settings">Értesítési fény beállítások</string>
   <string name="pulse_speed_title">Pulzálás hossza és sebessége</string>
   <string name="default_time">Normál</string>
   <string name="custom_time">Egyedi</string>
@@ -96,14 +85,26 @@
   <string name="notification_light_title_summary">Villogó értesítési fény engedélyezése</string>
   <string name="notification_light_general_title">Általános</string>
   <string name="notification_light_applist_title">Alkalmazások</string>
+  <string name="notification_light_phonelist_title">Telefon</string>
   <string name="notification_light_use_custom">Egyedi értékek használata</string>
+  <string name="notification_light_use_custom_summary">Értesítési LED színének testreszabása alkalmazásonként</string>
   <string name="notification_light_default_value">Alapértelmezett</string>
   <string name="notification_light_missed_call_title">Nem fogadott hívás</string>
   <string name="notification_light_voicemail_title">Hangüzenet</string>
+  <string name="notification_light_screen_on">Értesítési LED bekapcsolt képernyőnél</string>
+  <string name="notification_light_zen_mode">Értesítési fények a Ne zavarjanak módban</string>
+  <string name="notification_light_use_multiple_leds">Több LED</string>
   <!-- Notification light settings -->
   <string name="leds_category_title">LED beállítások</string>
+  <string name="battery_light_settings">Akkumulátor jelző fény</string>
+  <string name="led_notification_title">LED beállítások</string>
+  <string name="led_notification_text">LED engedélyezve a beállítások által</string>
+  <string name="notification_light_no_apps_summary">Alkalmazásonkénti vezérléshez aktiválja: \"%1$s\" és nyomja meg \"\u002b\" jelet a menüsávon</string>
   <!-- Battery light settings  -->
+  <string name="batterylight_title">Akkumulátor LED beállítások</string>
+  <string name="battery_light_enable">Engedélyezés</string>
   <string name="battery_low_pulse_title">Pulzálás alacsony akkumulátorszintnél</string>
+  <string name="battery_light_only_full_charge_title">Csak teljes feltöltöttség esetén világítson</string>
   <string name="battery_light_list_title">Színek</string>
   <string name="battery_light_low_color_title">Alacsony akkumulátorszint</string>
   <string name="battery_light_medium_color_title">Töltés</string>
@@ -116,10 +117,9 @@
   <string name="powermenu_manage">Power menü kezelése</string>
   <string name="powermenu_reboot_title">Újraindítás</string>
   <string name="powermenu_advanced_reboot_title">Speciális újraindítás</string>
+  <string name="powermenu_advanced_reboot_summary">Engedélyezi a speciális újraindítási menüt a következő lehetőségekkel: recovery, bootloader, SystemUI újraindítása, vagy gyors újraindítás</string>
   <string name="powermenu_screenshot_title">Képernyőmentés</string>
   <string name="powermenu_airplane_title">Repülőgép üzemmód</string>
-  <string name="powermenu_category_other">Egyéb</string>
-  <string name="powermenu_lockscreen_title">Záróképernyő láthatósága</string>
   <!-- HW Keys customization -->
   <string name="picker_activities">Tevékenységek</string>
   <string name="select_custom_app_title">Egyedi alkalmazás választása</string>
@@ -145,10 +145,4 @@
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">Balra csúsztatás</string>
   <string name="hardware_keys_utouch_right_swipe">Jobbra csúsztatás</string>
-  <string name="hardware_keys_utouch_single_tap">Érintés</string>
-  <string name="hardware_keys_utouch_long_tap">Hosszú érintés</string>
-  <!-- Ambient music -->
-  <string name="force_ambient_for_media_on">Normál</string>
-  <string name="force_ambient_for_media_on_forced">Normál (erőltetett)</string>
-  <string name="force_ambient_for_media_on_forced_clean">Minimál (erőltetett)</string>
 </resources>

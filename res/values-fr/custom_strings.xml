@@ -43,6 +43,7 @@
   <string name="volume_rocker_music_controls_title">Contrôle de lecture</string>
   <string name="volume_rocker_music_controls_summary">Lorsque l\'écran est éteint, un appui long sur les boutons de volume permet de changer le titre en cours de lecture</string>
   <!-- Volume rocker wake -->
+  <string name="volume_rocker_wake_title">Éveil par les touches volume</string>
   <string name="volume_rocker_wake_summary">Appuyer sur les touches de volume pour dévérouiller</string>
   <!-- The volume key answer -->
   <string name="volume_answer_call_title">Décrocher un appel via les touches de volume</string>
@@ -53,21 +54,6 @@
   <string name="torch_power_button_gesture_dt">Appui double</string>
   <string name="torch_power_button_gesture_lp">Appui long</string>
   <!-- Button touch -->
-  <string name="button_backlight_on_touch_only_title">Bouton tactile</string>
-  <string name="button_backlight_on_touch_only_summary">Activer le rétro-éclairage avec minuteur uniquement après appui</string>
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">Délai de rétroéclairage des boutons</string>
-  <string name="backlight_timeout_on">Toujours activé</string>
-  <string name="backlight_timeout_3s">3 secondes</string>
-  <string name="backlight_timeout_default">5 secondes (Par défaut)</string>
-  <string name="backlight_timeout_10s">10 secondes</string>
-  <string name="backlight_timeout_15s">15 secondes</string>
-  <string name="backlight_timeout_20s">20 secondes</string>
-  <string name="backlight_timeout_30s">30 secondes</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_title">Rétroéclairage</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">Activer le rétroéclairage</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Gérer la barre de navigation</string>
   <!-- Notification light dialogs -->
@@ -134,9 +120,6 @@
   <string name="powermenu_advanced_reboot_summary">Active le menu de redémarrage avancé pour redémarrer en Recovery, Bootloader, redémarrer le système d\'interface ou en mode redémarrage sans échec</string>
   <string name="powermenu_screenshot_title">Capture d\'écran</string>
   <string name="powermenu_airplane_title">Mode Avion</string>
-  <string name="powermenu_category_other">Autres</string>
-  <string name="powermenu_lockscreen_title">Visibilité de l\'écran de verrouillage</string>
-  <string name="powermenu_lockscreen_summary">Permettre d’afficher et d’utiliser le menu power depuis l\'écran de verrouillage</string>
   <!-- HW Keys customization -->
   <string name="picker_activities">Activités</string>
   <string name="select_custom_app_title">Sélectionner une application personnalisée</string>
@@ -162,15 +145,4 @@
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">Balayage vers la gauche</string>
   <string name="hardware_keys_utouch_right_swipe">Balayage vers la droite</string>
-  <string name="hardware_keys_utouch_single_tap">Appui</string>
-  <string name="hardware_keys_utouch_long_tap">Appui long</string>
-  <!-- Ambient music -->
-  <string name="force_ambient_for_media_pref_title">Lecture en cours</string>
-  <string name="force_ambient_for_media_pref_summary">Afficher les informations sur la piste musicale en cours</string>
-  <string name="ambient_ticker_footer">Cette fonctionnalité permet d\'afficher les informations sur la piste musicale en cours sur l\'écran de verrouillage avec ou sans l\'affichage d\'ambiance activé.\n\nVous pouvez choisir parmi deux mises en page, normales et minimales. Bien que cette fonction profite de l\'affichage d\'ambiance, elle n\'en dépend pas. Il peut être déclenché sans que l\'affichage ambiant ne soit activé en utilisant les options (forcées).\n\nLa vue normale inclut l\'horloge de l\'écran de verrouillage, la date et les informations musicales.\n\nLa vue en miniature inclut uniquement les informations musicales au centre de l\'écran.</string>
-  <string name="force_ambient_for_media_title">Sélectionner la mise en page</string>
-  <string name="force_ambient_for_media_off">Désactivé</string>
-  <string name="force_ambient_for_media_on">Normal</string>
-  <string name="force_ambient_for_media_on_forced">Normal (forcé)</string>
-  <string name="force_ambient_for_media_on_forced_clean">Minimum (forcé)</string>
 </resources>

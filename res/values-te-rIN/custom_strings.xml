@@ -54,21 +54,6 @@
   <string name="torch_power_button_gesture_dt">రెండుసార్లు నొక్కండి</string>
   <string name="torch_power_button_gesture_lp">లాంగ్ ప్రెస్</string>
   <!-- Button touch -->
-  <string name="button_backlight_on_touch_only_title">బటన్ను తాకండి</string>
-  <string name="button_backlight_on_touch_only_summary">బ్యాక్లైట్నూ బటన్ టచ్తొ ప్రారంభించు చేయండి</string>
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">బటన్లు బ్యాక్లైట్ ముగిసింది</string>
-  <string name="backlight_timeout_on">ఎల్లప్పుడూ ప్రారంభించబడింది</string>
-  <string name="backlight_timeout_3s">3 క్షణ</string>
-  <string name="backlight_timeout_default">5 సెకన్లు (డిఫాల్ట్)</string>
-  <string name="backlight_timeout_10s">10 క్షణ</string>
-  <string name="backlight_timeout_15s">15 క్షణ</string>
-  <string name="backlight_timeout_20s">20 క్షణ</string>
-  <string name="backlight_timeout_30s">30 క్షణ</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_title">వెనక లైట్</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">బ్యాక్లైట్ ప్రారంభించండి</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">నావిగేషన్ బార్ని నిర్వహించండి</string>
   <!-- Notification light dialogs -->
@@ -135,9 +120,6 @@
   <string name="powermenu_advanced_reboot_summary">పునరుద్ధరణను రీబూట్ చేయడానికి ఎంపికలు కోసం అధునాతన రీబూట్ మెనుని ప్రారంభిస్తుంది, బూట్లోడర్, ట్రిగ్గర్ సిస్టమ్ను పునఃప్రారంభించండి లేదా వేడి రీబూట్</string>
   <string name="powermenu_screenshot_title">స్క్రీన్‌షాట్</string>
   <string name="powermenu_airplane_title">విమానం మోడ్</string>
-  <string name="powermenu_category_other">ఇతరులు</string>
-  <string name="powermenu_lockscreen_title">లాక్స్క్రీన్ దృశ్యమానత</string>
-  <string name="powermenu_lockscreen_summary">లాక్ స్క్రీన్ లో ఉన్నప్పుడు పవర్ మెను డైలాగ్ను చూపించే మరియు ఉపయోగించగల సామర్థ్యాన్ని ప్రారంభించండి</string>
   <!-- HW Keys customization -->
   <string name="picker_activities">చర్యలు</string>
   <string name="select_custom_app_title">అనుకూల అనువర్తనాన్ని ఎంచుకోండి</string>
@@ -163,7 +145,4 @@
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">ఎడమ వైపు</string>
   <string name="hardware_keys_utouch_right_swipe">కుడి వైపు</string>
-  <string name="hardware_keys_utouch_single_tap">టాప్</string>
-  <string name="hardware_keys_utouch_long_tap">లాంగ్ ట్యాప్</string>
-  <!-- Ambient music -->
 </resources>

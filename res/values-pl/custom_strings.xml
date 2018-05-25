@@ -54,21 +54,10 @@
   <string name="torch_power_button_gesture_dt">Dwukrotne tapnięcie</string>
   <string name="torch_power_button_gesture_lp">Długie naciśnięcie</string>
   <!-- Button touch -->
-  <string name="button_backlight_on_touch_only_title">Przy naciśnięciu</string>
-  <string name="button_backlight_on_touch_only_summary">Aktywuje podświetlenie przycisków z opóźnieniem tylko po ich dotknięciu</string>
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">Limit czasu dla podświetlenia przycisków</string>
-  <string name="backlight_timeout_on">Zawsze włączone</string>
-  <string name="backlight_timeout_3s">3 sek.</string>
-  <string name="backlight_timeout_default">5 sek. (domyślnie)</string>
-  <string name="backlight_timeout_10s">10 sek.</string>
-  <string name="backlight_timeout_15s">15 sek.</string>
-  <string name="backlight_timeout_20s">20 sek.</string>
-  <string name="backlight_timeout_30s">30 sek.</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_title">Podświetlenie</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">Włącz podświetlenie</string>
+  <string name="button_backlight_options_category">Opcje podświetlenia</string>
+  <string name="button_backlight_enable_title">Zezwól na podświetlanie przycisków</string>
+  <string name="button_link_brightness">Podepnij do jasności ekranu</string>
+  <string name="button_manual_brightness">Poziom jasności</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Zarządzanie paskiem nawigacyjnym</string>
   <!-- Notification light dialogs -->
@@ -135,9 +124,6 @@
   <string name="powermenu_advanced_reboot_summary">Umożliwia przejście do zaawansowanych funkcji restartu takich jak recovery, bootloader, systemui lub szybki restart</string>
   <string name="powermenu_screenshot_title">Zrzut ekranu</string>
   <string name="powermenu_airplane_title">Tryb samolotowy</string>
-  <string name="powermenu_category_other">Inne</string>
-  <string name="powermenu_lockscreen_title">Widoczność ekranu blokady</string>
-  <string name="powermenu_lockscreen_summary">Włącz możliwość skorzystania z okna menu zasilania na ekranie blokady</string>
   <!-- HW Keys customization -->
   <string name="picker_activities">Aktywności</string>
   <string name="select_custom_app_title">Wybierz własną aplikację</string>
@@ -160,19 +146,8 @@
   <string name="hardware_keys_double_tap_title">Akcja podwójnego naciśnięcia</string>
   <string name="hardware_keys_category">Przyciski sprzętowe</string>
   <string name="hardware_keys_enable_title">Włącz</string>
+  <string name="hardware_keys_wake_title">Wybudź urządzenie</string>
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">Przesunięcie w lewo</string>
   <string name="hardware_keys_utouch_right_swipe">Przesunięcie w prawo</string>
-  <string name="hardware_keys_utouch_single_tap">Naciśnij</string>
-  <string name="hardware_keys_utouch_long_tap">Długie naciśnięcie</string>
-  <!-- Ambient music -->
-  <string name="force_ambient_for_media_pref_title">Teraz
-Odtwarzane</string>
-  <string name="force_ambient_for_media_pref_summary">Pokaż informacje o bieżącym utworze</string>
-  <string name="ambient_ticker_footer">Funkcja ta pozwala na pokazywanie informacji na temat aktualnie odtwarzanej muzyki na ekranie blokady z lub bez włączonej funkcji Ambient Display.\n\nMasz możliwość wybrania dwóch różnych motywów, normalnego oraz minimalnego. Podczas gdy funkcja ta korzysta z Ambient Display, nie podlega niej. Może być wywołana bez włączonej funkcji Ambient Display poprzez (wymuszoną) opcję.\n\nW Motywie Normalnym zawarty jest zegar ekranu blokady, datę oraz informację na temat słuchanej muzyki.\n\nWidok Minimalny zawiera informacje tylko na temat muzyki, na środku ekranu.</string>
-  <string name="force_ambient_for_media_title">Wybierz Szablon</string>
-  <string name="force_ambient_for_media_off">Wyłączone</string>
-  <string name="force_ambient_for_media_on">Standardowy</string>
-  <string name="force_ambient_for_media_on_forced">Normalny (wymuszony)</string>
-  <string name="force_ambient_for_media_on_forced_clean">Minimalne (wymuszone)</string>
 </resources>

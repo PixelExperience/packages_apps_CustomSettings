@@ -238,7 +238,7 @@
         android:title="@string/hardware_keys_home_key_title" >
 
         <com.android.settings.custom.preference.SystemSettingSwitchPreference
-            android:key="back_wake_screen"
+            android:key="home_wake_screen"
             android:dependency="hardware_keys_enable"
             android:title="@string/hardware_keys_wake_title"
             android:defaultValue="false" />

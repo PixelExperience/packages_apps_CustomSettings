@@ -28,9 +28,6 @@
   <!-- The volume key answer -->
   <!-- Torch Power button gestures -->
   <!-- Button touch -->
-  <!-- Buttons backlight timeout -->
-  <!-- Enable keys backlight-->
-  <!-- Enable keys backlight-->
   <!-- Navbar tuner -->
   <!-- Notification light dialogs -->
   <!-- Values for the notification light pulse spinners -->
@@ -40,5 +37,4 @@
   <!-- Power Menu -->
   <!-- HW Keys customization -->
   <!-- UTouch -->
-  <!-- Ambient music -->
 </resources>

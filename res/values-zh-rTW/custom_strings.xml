@@ -54,21 +54,6 @@
   <string name="torch_power_button_gesture_dt">點兩下</string>
   <string name="torch_power_button_gesture_lp">長按</string>
   <!-- Button touch -->
-  <string name="button_backlight_on_touch_only_title">按鍵觸控</string>
-  <string name="button_backlight_on_touch_only_summary">僅在按鍵被觸碰時啟用背光逾時</string>
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">按鍵背光逾時</string>
-  <string name="backlight_timeout_on">一律啟用</string>
-  <string name="backlight_timeout_3s">3 秒</string>
-  <string name="backlight_timeout_default">5 秒 (預設)</string>
-  <string name="backlight_timeout_10s">10 秒</string>
-  <string name="backlight_timeout_15s">15 秒</string>
-  <string name="backlight_timeout_20s">20 秒</string>
-  <string name="backlight_timeout_30s">30 秒</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_title">背光</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">啟用按鍵背光</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">管理導航列</string>
   <!-- Notification light dialogs -->
@@ -135,9 +120,6 @@
   <string name="powermenu_advanced_reboot_summary">啟用 \"進階重新啟動\" 選單以重新啟動到recovery、bootloader、重新啟動 systemui 或觸發熱重啟</string>
   <string name="powermenu_screenshot_title">擷取螢幕畫面</string>
   <string name="powermenu_airplane_title">飛航模式</string>
-  <string name="powermenu_category_other">其他</string>
-  <string name="powermenu_lockscreen_title">鎖定螢幕能見度</string>
-  <string name="powermenu_lockscreen_summary">啟用在鎖定螢幕上顯示和使用電源選單對話框的功能</string>
   <!-- HW Keys customization -->
   <string name="picker_activities">活動</string>
   <string name="select_custom_app_title">選擇自訂應用程式</string>
@@ -163,15 +145,4 @@
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">左滑</string>
   <string name="hardware_keys_utouch_right_swipe">右滑</string>
-  <string name="hardware_keys_utouch_single_tap">輕觸</string>
-  <string name="hardware_keys_utouch_long_tap">長按</string>
-  <!-- Ambient music -->
-  <string name="force_ambient_for_media_pref_title">目前播放</string>
-  <string name="force_ambient_for_media_pref_summary">顯示當前音樂曲目資訊</string>
-  <string name="ambient_ticker_footer">此功能允許在啟用或未啟用環境顯示的情況下，在鎖定螢幕顯示當前的音樂曲目資訊。 \n\n你可以選擇兩個佈局——\"正常\" 和 \"極簡\"。雖然此功能利用了環境顯示，但它並不依賴於它。它可以在使用 (強制) 選項的情況下觸發環境顯示。\n\n\"正常\"佈局包括鎖定螢幕時鐘、日期和音樂資訊。\n\n \"極簡\"佈局只包含螢幕中心的音樂資訊。</string>
-  <string name="force_ambient_for_media_title">選擇佈局</string>
-  <string name="force_ambient_for_media_off">已停用</string>
-  <string name="force_ambient_for_media_on">正常</string>
-  <string name="force_ambient_for_media_on_forced">正常 (強制)</string>
-  <string name="force_ambient_for_media_on_forced_clean">極簡 (強制)</string>
 </resources>

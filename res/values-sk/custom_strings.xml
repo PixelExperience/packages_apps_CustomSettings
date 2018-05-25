@@ -54,21 +54,6 @@
   <string name="torch_power_button_gesture_dt">Dvojité kliknutie</string>
   <string name="torch_power_button_gesture_lp">Dlhé stlačenie</string>
   <!-- Button touch -->
-  <string name="button_backlight_on_touch_only_title">Podsvietenie tlačidiel pri dotyku</string>
-  <string name="button_backlight_on_touch_only_summary">Aktivuje podsvietenie s časovým obmedzením iba pri stlačení tlačidla</string>
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">Časový limit podsvietenia tlačidiel</string>
-  <string name="backlight_timeout_on">Vždy zapnuté</string>
-  <string name="backlight_timeout_3s">3 sekundy</string>
-  <string name="backlight_timeout_default">5 sekúnd (predvolené)</string>
-  <string name="backlight_timeout_10s">10 sekúnd</string>
-  <string name="backlight_timeout_15s">15 sekúnd</string>
-  <string name="backlight_timeout_20s">20 sekúnd</string>
-  <string name="backlight_timeout_30s">30 sekúnd</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_title">Podsvietenie</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">Zapnúť podsvietenie</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Správa navigačného panela</string>
   <!-- Notification light dialogs -->
@@ -135,9 +120,6 @@
   <string name="powermenu_advanced_reboot_summary">Umožňuje rozšírenú ponuku reštartu do Recovery, Bootloadera, reštart SystemUI alebo spustenie Hot reštartu</string>
   <string name="powermenu_screenshot_title">Snímka obrazovky</string>
   <string name="powermenu_airplane_title">Režim v lietadle</string>
-  <string name="powermenu_category_other">Iné</string>
-  <string name="powermenu_lockscreen_title">Viditeľnosť na obrazovke uzamknutia</string>
-  <string name="powermenu_lockscreen_summary">Povolí zobrazovať a používať menu tlačidla Napájanie aj na obrazovke uzamknutia</string>
   <!-- HW Keys customization -->
   <string name="picker_activities">Aktivity</string>
   <string name="select_custom_app_title">Vybrať vlastnú aplikáciu</string>
@@ -163,15 +145,4 @@
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">Potiahnutie doľava</string>
   <string name="hardware_keys_utouch_right_swipe">Potiahnutie doprava</string>
-  <string name="hardware_keys_utouch_single_tap">Kliknutie</string>
-  <string name="hardware_keys_utouch_long_tap">Dlhé stlačenie</string>
-  <!-- Ambient music -->
-  <string name="force_ambient_for_media_pref_title">Prehráva sa</string>
-  <string name="force_ambient_for_media_pref_summary">Zobraziť aktuálne informácie o hudobnej skladbe</string>
-  <string name="ambient_ticker_footer">Táto funkcia umožňuje zobraziť aktuálne informácie o hudobných skladbách na obrazovke uzamknutia pri zapnutom alebo vypnutom Ambientnom displeji.\n\nMôžete si vybrať z dvoch zobrazení, normálneho a minimálneho. Aj keď táto funkcia využíva výhody Ambientneho displeja, nie je na ňom závislá. Môže byť spustená aj bez zapnutia Ambientneho displeja pomocou (vynútených) volieb.\n\nNormálne zobrazenie obsahuje hodiny, dátum a text na obrazovke uzamknutia.\n\nMinimálne zobrazenie obsahuje iba text v strede obrazovky.</string>
-  <string name="force_ambient_for_media_title">Vyberať rozloženie</string>
-  <string name="force_ambient_for_media_off">Vypnuté</string>
-  <string name="force_ambient_for_media_on">Normálne</string>
-  <string name="force_ambient_for_media_on_forced">Normálne (vynútené)</string>
-  <string name="force_ambient_for_media_on_forced_clean">Minimálne (vynútené)</string>
 </resources>

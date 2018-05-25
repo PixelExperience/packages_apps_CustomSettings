@@ -54,21 +54,6 @@
   <string name="torch_power_button_gesture_dt">دو ضربه</string>
   <string name="torch_power_button_gesture_lp">نگه داشتن</string>
   <!-- Button touch -->
-  <string name="button_backlight_on_touch_only_title">لمس دکمه</string>
-  <string name="button_backlight_on_touch_only_summary">فعال سازی نور پس زمینه ی مهلت دار فقط هنگام لمس کردن دکمه</string>
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">مهلت نور پس زمینه ی دکمه ها</string>
-  <string name="backlight_timeout_on">همیشه فعال</string>
-  <string name="backlight_timeout_3s">۳ ثانیه</string>
-  <string name="backlight_timeout_default">۵ ثانیه (پیش فرض)</string>
-  <string name="backlight_timeout_10s">۱۰ ثانیه</string>
-  <string name="backlight_timeout_15s">۱۵ ثانیه</string>
-  <string name="backlight_timeout_20s">۲۰ ثانیه</string>
-  <string name="backlight_timeout_30s">۳۰ ثانیه</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_title">نور پس زمینه</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">فعال سازی نور پس زمینه</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">مدیریت نوار پیمایش</string>
   <!-- Notification light dialogs -->
@@ -135,9 +120,6 @@
   <string name="powermenu_advanced_reboot_summary">تنظیمات پیشرفته ی راه اندازی مجدد برای گزینه های ریبوت به ریکاوری، بوت لودر، راه اندازی مجدد systemui،‌ یا راه اندازی مجدد کامل را فعال می کند</string>
   <string name="powermenu_screenshot_title">عکس گرفتن از صفحه</string>
   <string name="powermenu_airplane_title">حالت پرواز</string>
-  <string name="powermenu_category_other">دیگر</string>
-  <string name="powermenu_lockscreen_title">قابل دید بودن در قفل صفحه</string>
-  <string name="powermenu_lockscreen_summary">فعال سازی توانایی نمایش و استفاده از منوی پاور هنگام قفل بودن صفحه</string>
   <!-- HW Keys customization -->
   <string name="picker_activities">فعالیت ها</string>
   <string name="select_custom_app_title">انتخاب برنامه ی سفارشی</string>
@@ -163,15 +145,4 @@
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">کشیدن به چپ</string>
   <string name="hardware_keys_utouch_right_swipe">کشیدن به راست</string>
-  <string name="hardware_keys_utouch_single_tap">ضربه ی آرام</string>
-  <string name="hardware_keys_utouch_long_tap">ضربه ی طولانی</string>
-  <!-- Ambient music -->
-  <string name="force_ambient_for_media_pref_title">درحال پخش</string>
-  <string name="force_ambient_for_media_pref_summary">نمایش اطلاعات موسیقی فعلی</string>
-  <string name="ambient_ticker_footer">این ویژگی اجازه می دهد تا اطلاعات موسیقی فعلی بدون در نظر گرفتن فعال بودن نمایشگر محیط، روی قفل صفحه نمایش داده شود.\n\nشما می توانید از بین دو چیدمان عادی و ساده یکی را انتخاب کنید. با اینکه این ویژگی از نمایشگر محیط استفاده می کند اما به آن وابسته نیست. این ویژگی میتواند بدون فعال بودن نمایشگر محیطی و با انتخاب گزینه های (اجباری) فعال شود.\n\nنمای عادی شامل ساعت قفل صفحه، تاریخ و اطلاعات موسیقی است.\n\nنمای ساده فقط شامل اطلاعات موسیقی در وسط صفحه است.</string>
-  <string name="force_ambient_for_media_title">انتخاب چیدمان</string>
-  <string name="force_ambient_for_media_off">غیر فعال</string>
-  <string name="force_ambient_for_media_on">عادی</string>
-  <string name="force_ambient_for_media_on_forced">عادی (اجباری)</string>
-  <string name="force_ambient_for_media_on_forced_clean">ساده (اجباری)</string>
 </resources>

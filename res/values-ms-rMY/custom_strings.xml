@@ -54,21 +54,6 @@
   <string name="torch_power_button_gesture_dt">Tekan dua kali</string>
   <string name="torch_power_button_gesture_lp">Tekan lama-lama</string>
   <!-- Button touch -->
-  <string name="button_backlight_on_touch_only_title">Butang sentuh</string>
-  <string name="button_backlight_on_touch_only_summary">Benarkan backlight dengan masa tamat bila butang ditekan sahaja</string>
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">Masa tamat butang backlight</string>
-  <string name="backlight_timeout_on">Sentiasa dibenarkan</string>
-  <string name="backlight_timeout_3s">3 saat</string>
-  <string name="backlight_timeout_default">5 saat (lalai)</string>
-  <string name="backlight_timeout_10s">10 saat</string>
-  <string name="backlight_timeout_15s">15 saat</string>
-  <string name="backlight_timeout_20s">20 saat</string>
-  <string name="backlight_timeout_30s">30 saat</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_title">Backlight</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">Aktifkan Backlight</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Uruskan bar navigasi</string>
   <!-- Notification light dialogs -->
@@ -135,9 +120,6 @@
   <string name="powermenu_advanced_reboot_summary">Membenarkan menu boot semula selanjutnya untuk pilihan boot semula ke recover, bootloader, systemui atau cetuskan boot semula pantas</string>
   <string name="powermenu_screenshot_title">Tangkapan skrin</string>
   <string name="powermenu_airplane_title">Mod kapal terbang</string>
-  <string name="powermenu_category_other">Lain-lain</string>
-  <string name="powermenu_lockscreen_title">Skrin kunci boleh dilihat</string>
-  <string name="powermenu_lockscreen_summary">Membolehkan keupayaan untuk menunjukkan dan juga menggunakan dialog menu kuasa semasa di skrin kunci</string>
   <!-- HW Keys customization -->
   <string name="picker_activities">Aktiviti</string>
   <string name="select_custom_app_title">Pilih aplikasi tersuai</string>
@@ -163,7 +145,4 @@
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">Sapu kiri</string>
   <string name="hardware_keys_utouch_right_swipe">Sapu kanan</string>
-  <string name="hardware_keys_utouch_single_tap">Ketuk</string>
-  <string name="hardware_keys_utouch_long_tap">Ketuk lama</string>
-  <!-- Ambient music -->
 </resources>

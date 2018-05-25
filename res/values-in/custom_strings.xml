@@ -41,7 +41,7 @@
   <string name="volume_keys_control_media_stream_summary">Paksa tombol volume untuk mengontrol media stream</string>
   <!-- Volume rocker music control -->
   <string name="volume_rocker_music_controls_title">Kontrol pemutaran</string>
-  <string name="volume_rocker_music_controls_summary">Ketika layar dimatikan, menekan lama tombol volume akan mencari trek musik</string>
+  <string name="volume_rocker_music_controls_summary">Ketika layar mati, menekan lama tombol volume akan mencari trek musik</string>
   <!-- Volume rocker wake -->
   <string name="volume_rocker_wake_title">Bangun volume rocker</string>
   <string name="volume_rocker_wake_summary">Menekan tombol volume akan membangunkan perangkat Anda</string>
@@ -54,21 +54,12 @@
   <string name="torch_power_button_gesture_dt">Ketuk dua kali</string>
   <string name="torch_power_button_gesture_lp">Tekan lama</string>
   <!-- Button touch -->
-  <string name="button_backlight_on_touch_only_title">Tombol sentuh</string>
-  <string name="button_backlight_on_touch_only_summary">Aktifkan lampu latar dengan batas waktu hanya pada sentuhan tombol</string>
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">Waktu habis tombol lampu latar</string>
-  <string name="backlight_timeout_on">Diaktifkan selalu</string>
-  <string name="backlight_timeout_3s">3 detik</string>
-  <string name="backlight_timeout_default">5 detik (standar)</string>
-  <string name="backlight_timeout_10s">10 detik</string>
-  <string name="backlight_timeout_15s">15 detik</string>
-  <string name="backlight_timeout_20s">20 detik</string>
-  <string name="backlight_timeout_30s">30 detik</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_title">Lampu latar</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">Aktifkan lampu latar</string>
+  <string name="button_backlight_options_category">Opsi lampu latar</string>
+  <string name="button_backlight_enable_title">Izinkan lampu latar tombol</string>
+  <string name="button_link_brightness">Sesuaikan dengan tingkat kecerahan layar</string>
+  <string name="button_link_brightness_summary">Kecerahan tombol lampu latar akan menyesuaikan berdasarkan pada tingkat kecerahan layar</string>
+  <string name="button_manual_brightness">Tingkat kecerahan</string>
+  <string name="button_timeout_title">Batas waktu backlight</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Kelola bilah navigasi</string>
   <!-- Notification light dialogs -->
@@ -96,7 +87,7 @@
   <string name="pulse_speed_slow">Lambat</string>
   <string name="pulse_speed_very_slow">Sangat lambat</string>
   <!-- Lights settings screen, notification light settings -->
-  <string name="notification_light_title">Lampu notifikasi</string>
+  <string name="notification_light_title">Lampu pemberitahuan</string>
   <string name="notification_light_title_summary">Aktifkan denyutan lampu pemberitahuan</string>
   <string name="notification_light_general_title">Umum</string>
   <string name="notification_light_applist_title">Aplikasi</string>
@@ -104,7 +95,7 @@
   <string name="notification_light_use_custom">Gunakan nilai kustom</string>
   <string name="notification_light_use_custom_summary">Aktifkan untuk mengatur warna pemberitahuan di setiap aplikasi</string>
   <string name="notification_light_default_value">Standar</string>
-  <string name="notification_light_missed_call_title">Panggilan tidak terjawab</string>
+  <string name="notification_light_missed_call_title">Panggilan tak terjawab</string>
   <string name="notification_light_voicemail_title">Pesan suara</string>
   <string name="notification_light_screen_on">Lampu menyala saat layar hidup</string>
   <string name="notification_light_zen_mode">Nyalakan Lampu di mode Jangan Ganggu</string>
@@ -134,10 +125,7 @@
   <string name="powermenu_advanced_reboot_title">Mulai ulang lanjutan</string>
   <string name="powermenu_advanced_reboot_summary">Mengaktifkan menu mulai ulang lanjutan untuk pilihan mulai ulang ke pemulihan, bootloader, memulai ulang systemui atau melakukan mulai ulang cepat</string>
   <string name="powermenu_screenshot_title">Gambar layar</string>
-  <string name="powermenu_airplane_title">Mode pesawat</string>
-  <string name="powermenu_category_other">Lain-lain</string>
-  <string name="powermenu_lockscreen_title">Terlihat di layar kunci</string>
-  <string name="powermenu_lockscreen_summary">Aktifkan kemampuan untuk menampilkan dan menggunakan dialog menu daya saat berada di layar kunci</string>
+  <string name="powermenu_airplane_title">Modus pesawat</string>
   <!-- HW Keys customization -->
   <string name="picker_activities">Aktivitas</string>
   <string name="select_custom_app_title">Pilih aplikasi lain</string>
@@ -160,18 +148,8 @@
   <string name="hardware_keys_double_tap_title">Tindakan untuk dua kali tekan</string>
   <string name="hardware_keys_category">Tombol perangkat keras</string>
   <string name="hardware_keys_enable_title">Aktifkan</string>
+  <string name="hardware_keys_wake_title">Bangunkan perangkat</string>
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">Geser ke kiri</string>
   <string name="hardware_keys_utouch_right_swipe">Geser ke kanan</string>
-  <string name="hardware_keys_utouch_single_tap">Tekan</string>
-  <string name="hardware_keys_utouch_long_tap">Tekan yang lama</string>
-  <!-- Ambient music -->
-  <string name="force_ambient_for_media_pref_title">Sedang diputar</string>
-  <string name="force_ambient_for_media_pref_summary">Tampilkan informasi trek musik saat ini</string>
-  <string name="ambient_ticker_footer">Fitur ini memungkinkan kemampuan untuk menunjukkan musik saat ini informasi trek pada layar kunci dengan atau tanpa tampilan Ambien diaktifkan.\n\n Anda dapat memilih dari dua tata letak, normal dan minimal. Fitur ini mengambil keuntungan dari tampilan ambient, tidak tergantung di atasnya. Itu dapat disebabkan tanpa mengaktifkan tampilan ambien dengan menggunakan opsi tampilan.\n\nNormal (paksa) termasuk jam layar kunci, tanggal dan informasi musik.\n\nMinimal pemandangan hanya memuat informasi musik di tengah layar.</string>
-  <string name="force_ambient_for_media_title">Pilih tata letak</string>
-  <string name="force_ambient_for_media_off">Nonaktif</string>
-  <string name="force_ambient_for_media_on">Normal</string>
-  <string name="force_ambient_for_media_on_forced">Normal (paksa)</string>
-  <string name="force_ambient_for_media_on_forced_clean">Minimal (paksa)</string>
 </resources>

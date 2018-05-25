@@ -40,17 +40,6 @@
   <string name="torch_power_button_gesture_dt">ಎರಡು ಬಾರಿ ಸ್ಪರ್ಷಿಸು</string>
   <string name="torch_power_button_gesture_lp">ದೀರ್ಘವಾಗಿ ಒತ್ತಿರಿ</string>
   <!-- Button touch -->
-  <string name="button_backlight_on_touch_only_title">ಬಟನ್ ಟಚ್</string>
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_3s">3 ಸೆಕೆಂಡು</string>
-  <string name="backlight_timeout_default">5 ಸೆಕೆಂಡು (ಡೀಫಾಲ್ಟ್)</string>
-  <string name="backlight_timeout_10s">10 ಸೆಕೆಂಡು</string>
-  <string name="backlight_timeout_15s">15 ಸೆಕೆಂಡು</string>
-  <string name="backlight_timeout_20s">20 ಸೆಕೆಂಡು</string>
-  <string name="backlight_timeout_30s">30 ಸೆಕೆಂಡು</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_title">ಬ್ಯಾಕ್‌ಲೈಟ್</string>
-  <!-- Enable keys backlight-->
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">ನ್ಯಾವಿಗೇಷನ್ ಬಾರ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
   <!-- Notification light dialogs -->
@@ -84,10 +73,7 @@
   <string name="powermenu_advanced_reboot_title">ಅಡ್ವಾನ್ಸ್ಡ್ ರೀಬೂಟ್</string>
   <string name="powermenu_screenshot_title">ಸ್ಕ್ರೀನ್‍ಶಾಟ್</string>
   <string name="powermenu_airplane_title">ಏರ್ಪ್ಲೇನ್ ಮೋಡ್</string>
-  <string name="powermenu_category_other">ಇತರೆ</string>
   <!-- HW Keys customization -->
   <string name="hardware_keys_enable_title">ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
   <!-- UTouch -->
-  <string name="hardware_keys_utouch_single_tap">ಟ್ಯಾಪ್</string>
-  <!-- Ambient music -->
 </resources>

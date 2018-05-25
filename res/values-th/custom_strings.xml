@@ -17,28 +17,111 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Color Picker -->
+  <string name="dialog_color_picker">ตัวเลือกสี</string>
+  <string name="press_color_to_apply">กดบนสีที่ต้องการใช้</string>
+  <string name="arrow_right">→</string>
+  <string name="arrow_down">↓</string>
+  <string name="hex_hint">#ff000000</string>
+  <string name="set">ตั้ง​ค่า</string>
+  <string name="color_default">ค่าเริ่มต้น</string>
   <!-- Buttons -->
+  <string name="button_settings">ปุ่ม</string>
   <!-- Volume category -->
+  <string name="volume_category">ปรับระดับเสียง</string>
   <!-- Power category -->
   <!-- Volume category -->
+  <string name="navbar_category">แถบนำทาง</string>
   <!-- Volume button orientation based on current rotation -->
   <!-- Volume key controls media stream -->
   <!-- Volume rocker music control -->
+  <string name="volume_rocker_music_controls_title">ควบคุมการเล่น</string>
   <!-- Volume rocker wake -->
   <!-- The volume key answer -->
   <!-- Torch Power button gestures -->
+  <string name="torch_power_button_gesture_none">ปิดการใช้งาน</string>
+  <string name="torch_power_button_gesture_dt">เคาะสองครั้ง</string>
+  <string name="torch_power_button_gesture_lp">กดค้างไว้</string>
   <!-- Button touch -->
-  <!-- Buttons backlight timeout -->
-  <!-- Enable keys backlight-->
-  <!-- Enable keys backlight-->
   <!-- Navbar tuner -->
+  <string name="navbar_tuner_title">จัดการแถบนำทาง</string>
   <!-- Notification light dialogs -->
+  <string name="ok">ตกลง</string>
+  <string name="reset">รีเซ็ต</string>
+  <string name="advanced">ขั้นสูง</string>
+  <string name="profiles_add">เพิ่ม...</string>
+  <string name="edit_light_settings">แก้ไขการตั้งค่าแสง</string>
+  <string name="default_time">ปกติ</string>
+  <string name="custom_time">กำหนด​เอง</string>
+  <string name="dialog_choose_app">เลือกแอปพลิเคชัน</string>
+  <string name="dialog_delete_title">ลบ</string>
+  <string name="dialog_delete_message">ลบรายการที่เลือกหรือไม่</string>
   <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_always_on">เปิดตลอดเวลา</string>
+  <string name="pulse_length_very_short">สั้นมาก</string>
+  <string name="pulse_length_short">สั้น</string>
+  <string name="pulse_length_normal">ปกติ</string>
+  <string name="pulse_length_long">ยาว</string>
+  <string name="pulse_length_very_long">ยาวมาก</string>
+  <string name="pulse_speed_very_fast">เร็วมาก</string>
+  <string name="pulse_speed_fast">เร็ว</string>
+  <string name="pulse_speed_normal">ปกติ</string>
+  <string name="pulse_speed_slow">ช้า</string>
+  <string name="pulse_speed_very_slow">ช้ามากกก</string>
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_title">ไฟแจ้งเตือน</string>
+  <string name="notification_light_title_summary">เปิดใช้งานไฟแจ้งเตือน</string>
+  <string name="notification_light_general_title">ทั่วไป</string>
+  <string name="notification_light_applist_title">แอปพลิเคชั่น</string>
+  <string name="notification_light_phonelist_title">โทรศัพท์</string>
+  <string name="notification_light_use_custom">ใช้ค่าที่กำหนดเอง</string>
+  <string name="notification_light_use_custom_summary">เปิดใช้งานไฟแจ้งเตือนแบบแยกแอพ</string>
+  <string name="notification_light_default_value">ค่าเริ่มต้น</string>
+  <string name="notification_light_missed_call_title">สายที่ไม่ได้รับ</string>
+  <string name="notification_light_voicemail_title">ข้อความเสียง</string>
+  <string name="notification_light_screen_on">ไฟแจ้งเมื่อเปิดหน้าจอ</string>
+  <string name="notification_light_zen_mode">ไฟแจ้งเมื่ออยู่ในโหมดห้ามรบกวน</string>
+  <string name="notification_light_use_multiple_leds">ไฟแจ้งเตือนหลายดวง</string>
   <!-- Notification light settings -->
+  <string name="leds_category_title">ตัวเลือกของไฟแจ้งเตือน</string>
+  <string name="battery_light_settings">ไฟแจ้งเตือนแบตเตอรี่</string>
+  <string name="led_notification_title">ตั้งค่าไฟแจ้งเตือน</string>
+  <string name="led_notification_text">ไฟแจ้งเตือนถูกเปิดโดยการตั้งค่า</string>
   <!-- Battery light settings  -->
+  <string name="batterylight_title">การตั้งค่าแบตเตอรี่ LED</string>
+  <string name="battery_light_enable">เปิดใช้งาน</string>
+  <string name="battery_low_pulse_title">กระพริบเมื่อแบตเตอรีต่ำ</string>
+  <string name="battery_light_only_full_charge_title">ไฟสว่างขึ้นเมื่่อชาร์จเต็ม</string>
+  <string name="battery_light_list_title">สี</string>
+  <string name="battery_light_low_color_title">แบตเตอรีต่ำ</string>
+  <string name="battery_light_medium_color_title">กำลังชาร์จ</string>
+  <string name="battery_light_full_color_title">ชาร์จแล้ว (90%)</string>
+  <string name="battery_light_really_full_color_title">ชาร์จแล้ว (100%)</string>
+  <string name="led_color_green">สีเขียว</string>
+  <string name="led_color_red">สีแดง</string>
+  <string name="led_color_blue">น้ำเงิน</string>
   <!-- Power Menu -->
+  <string name="powermenu_manage">จัดการปุ่มพาวเวอร์ฺ</string>
+  <string name="powermenu_reboot_title">เริ่มระบบใหม่</string>
+  <string name="powermenu_advanced_reboot_title">เริ่มระบบใหม่แบบขั้นสูง</string>
+  <string name="powermenu_screenshot_title">ถ่ายภาพหน้าจอ</string>
+  <string name="powermenu_airplane_title">โหมดเครื่องบิน</string>
   <!-- HW Keys customization -->
+  <string name="picker_activities">กิจกรรม</string>
+  <string name="select_custom_app_title">เลือกแอปเอง</string>
+  <string name="select_custom_activity_title">เลือกกิจกรรมเอง</string>
+  <string name="profile_applist_title">แอพพลิเคชั่น</string>
+  <string name="choose_action_title">เลือกการกระทำ</string>
+  <string name="action_entry_default_action">การตั้งค่าเริ่มต้น</string>
+  <string name="action_entry_select_app">เลือกแอปพลิเคชัน</string>
+  <string name="action_entry_custom_action">เลือกการกระทำแบบกำหนดเอง</string>
+  <string name="hardware_keys_home_key_title">ปุ่มโฮม</string>
+  <string name="hardware_keys_menu_key_title">ปุ่มเมนู</string>
+  <string name="hardware_keys_assist_key_title">ปุ่มค้นหา</string>
+  <string name="hardware_keys_back_key_title">ปุ่มย้อนกลับ</string>
+  <string name="hardware_keys_double_tap_summary">ตั้งค่าการแตะสองครั้ง</string>
+  <string name="hardware_keys_single_tap_summary">ตั้งค่าการแต๊ะครั้งเดียว</string>
+  <string name="hardware_keys_enable_title">เปิดใช้งาน</string>
   <!-- UTouch -->
-  <!-- Ambient music -->
+  <string name="hardware_keys_utouch_left_swipe">ปัดซ้าย</string>
+  <string name="hardware_keys_utouch_right_swipe">ปัดขวา</string>
 </resources>

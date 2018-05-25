@@ -54,19 +54,6 @@
   <string name="torch_power_button_gesture_dt">Senned snat tikal</string>
   <string name="torch_power_button_gesture_lp">Senned mliḥ</string>
   <!-- Button touch -->
-  <string name="button_backlight_on_touch_only_title">Taqeffalt tanalant</string>
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_on">Yall-ass ad yermed</string>
-  <string name="backlight_timeout_3s">3 tasinin</string>
-  <string name="backlight_timeout_default">5 tasinin (s amezwer)</string>
-  <string name="backlight_timeout_10s">10 tasinin</string>
-  <string name="backlight_timeout_15s">15 tasinin</string>
-  <string name="backlight_timeout_20s">20 tasinin</string>
-  <string name="backlight_timeout_30s">30 tasinin</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_title">Tafat n deffir </string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">Sekker tafat n deffir</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Sefrek tafeggagt n tunigin</string>
   <!-- Notification light dialogs -->
@@ -100,19 +87,24 @@
   <string name="notification_light_applist_title">Isnasen</string>
   <string name="notification_light_phonelist_title">Teleɣṛi</string>
   <string name="notification_light_use_custom">Seqdec azalen udmawanen</string>
+  <string name="notification_light_use_custom_summary">Tiǧǧin usebdded n initen n ilɣa s usnas</string>
   <string name="notification_light_default_value">Amezwer</string>
   <string name="notification_light_missed_call_title">Asiwel yettwazgalen</string>
   <string name="notification_light_voicemail_title">Izen aɣectan</string>
+  <string name="notification_light_screen_on">Taftilt n tiddin n wagdil </string>
+  <string name="notification_light_zen_mode">Taftilt deg waskar \"Ur smermed ara\"</string>
   <string name="notification_light_use_multiple_leds">Deqs n Led</string>
   <!-- Notification light settings -->
   <string name="leds_category_title">Iɣewwaṛen n LED</string>
   <string name="battery_light_settings">Asaskad n uẓru</string>
   <string name="led_notification_title">Iɣewwaṛen n tafat</string>
   <string name="led_notification_text">Tafat LED termed s iɣewwaṛen</string>
+  <string name="notification_light_no_apps_summary">I tmerniwt n usefrek s usnas,rmed \'%1$s\' u senned ɣef \'\u002b deg tafeggagt n wumuɣ</string>
   <!-- Battery light settings  -->
   <string name="batterylight_title">Iɣewwaṛen n uzṛu</string>
   <string name="battery_light_enable">Rmed</string>
   <string name="battery_low_pulse_title">Sablaw ma yenɣes wazṛu</string>
+  <string name="battery_light_only_full_charge_title">Siɣ taftilt ḥaca ma yella tekfa taccaṛt </string>
   <string name="battery_light_list_title">Initen</string>
   <string name="battery_light_low_color_title">Aẓru yenɣeṣ aṭas</string>
   <string name="battery_light_medium_color_title">Ittaccaṛ</string>
@@ -122,12 +114,12 @@
   <string name="led_color_red">Azeggaɣ</string>
   <string name="led_color_blue">Azegzaw</string>
   <!-- Power Menu -->
+  <string name="powermenu_manage">Sefrek umuɣ n tazmert</string>
   <string name="powermenu_reboot_title">Ales asenker</string>
   <string name="powermenu_advanced_reboot_title">Talqayt n tulsa n tnekra</string>
+  <string name="powermenu_advanced_reboot_summary">Rmed umuɣ n waskar leqqayen i waskar s Recovery, bootloader , skar anagraw n udmawan neɣ s tanfa n waskar wer tuccḍa </string>
   <string name="powermenu_screenshot_title">Tuṭṭfa n ugdil</string>
   <string name="powermenu_airplane_title">Askar asafag</string>
-  <string name="powermenu_category_other">Wayeḍ</string>
-  <string name="powermenu_lockscreen_title">Tawalit n ugdil n usekkweṛ</string>
   <!-- HW Keys customization -->
   <string name="picker_activities">Iqeddicen</string>
   <string name="select_custom_app_title">Fren asnas udmawan</string>
@@ -153,14 +145,4 @@
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">Azuɣer s azelmaḍ</string>
   <string name="hardware_keys_utouch_right_swipe">Azuɣer s ayeffus</string>
-  <string name="hardware_keys_utouch_single_tap">Senned</string>
-  <string name="hardware_keys_utouch_long_tap">A senned i kra n wakud</string>
-  <!-- Ambient music -->
-  <string name="force_ambient_for_media_pref_title">Itturaren tura</string>
-  <string name="force_ambient_for_media_pref_summary">Sken isalen n tafuɣalt uẓawan ig teddun yakan</string>
-  <string name="force_ambient_for_media_title">Fren tamudemt</string>
-  <string name="force_ambient_for_media_off">Yettwassens</string>
-  <string name="force_ambient_for_media_on">Amagnu</string>
-  <string name="force_ambient_for_media_on_forced">Amagnu (yettwaḥeṛsen)</string>
-  <string name="force_ambient_for_media_on_forced_clean">Adday (yettwaḥeṛsen)</string>
 </resources>

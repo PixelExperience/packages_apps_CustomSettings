@@ -54,21 +54,13 @@
   <string name="torch_power_button_gesture_dt">Duplo toque</string>
   <string name="torch_power_button_gesture_lp">Toque longo</string>
   <!-- Button touch -->
-  <string name="button_backlight_on_touch_only_title">Toque no botão</string>
-  <string name="button_backlight_on_touch_only_summary">Ativar a luz de fundo com tempo limite apenas no toque de botão</string>
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">Limite de tempo de retroiluminação dos botões</string>
-  <string name="backlight_timeout_on">Sempre activada</string>
-  <string name="backlight_timeout_3s">3 seg</string>
-  <string name="backlight_timeout_default">5 seg (por omissão)</string>
-  <string name="backlight_timeout_10s">10 seg</string>
-  <string name="backlight_timeout_15s">15 seg</string>
-  <string name="backlight_timeout_20s">20 seg</string>
-  <string name="backlight_timeout_30s">30 seg</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_title">Luz de fundo</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">Ativar luz de fundo</string>
+  <string name="button_backlight_options_category">Opções das luzes de fundo</string>
+  <string name="button_link_brightness">Ligar com o brilho do ecrã</string>
+  <string name="button_link_brightness_summary">O brilho da luz dos botões irá ajustar-se com base no nível de brilho do ecrã</string>
+  <string name="button_manual_brightness">Nível de brilho</string>
+  <string name="button_timeout_title">Tempo limite da luz de fundo</string>
+  <string name="button_backlight_on_touch_only_title">Luz de fundo dos botões ao tocar</string>
+  <string name="button_backlight_on_touch_only_summary">A luz de fundo dos botões irá ligar-se apenas quando os botões são pressionados em vez de estar sempre ligada. Porém, o tempo limite continuará a ser utilizado.</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Gerir a barra de navegação</string>
   <!-- Notification light dialogs -->
@@ -135,9 +127,6 @@
   <string name="powermenu_advanced_reboot_summary">Ativa as opções do menu avançado de reinício para recuperação, bootloader, reinicar systemui ou desencadear um reinício</string>
   <string name="powermenu_screenshot_title">Capturar ecrã</string>
   <string name="powermenu_airplane_title">Modo de avião</string>
-  <string name="powermenu_category_other">Outro</string>
-  <string name="powermenu_lockscreen_title">Visibilidade do ecrã de bloqueio</string>
-  <string name="powermenu_lockscreen_summary">Ativar a funcionalidade de mostrar e utilizar o menu de energia enquanto está no ecrã de bloqueio</string>
   <!-- HW Keys customization -->
   <string name="picker_activities">Atividades</string>
   <string name="select_custom_app_title">Selecione o aplicativo personalizado</string>
@@ -160,10 +149,8 @@
   <string name="hardware_keys_double_tap_title">Ação de toque duplo</string>
   <string name="hardware_keys_category">Teclas físicas</string>
   <string name="hardware_keys_enable_title">Ativar</string>
+  <string name="hardware_keys_wake_title">Acordar o dispositivo</string>
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">Deslizar para a esquerda</string>
   <string name="hardware_keys_utouch_right_swipe">Deslizar para a direita</string>
-  <string name="hardware_keys_utouch_single_tap">Toque</string>
-  <string name="hardware_keys_utouch_long_tap">Toque longo</string>
-  <!-- Ambient music -->
 </resources>

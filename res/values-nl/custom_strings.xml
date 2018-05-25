@@ -54,21 +54,6 @@
   <string name="torch_power_button_gesture_dt">Dubbel tikken</string>
   <string name="torch_power_button_gesture_lp">Lang indrukken</string>
   <!-- Button touch -->
-  <string name="button_backlight_on_touch_only_title">Knopaanraking</string>
-  <string name="button_backlight_on_touch_only_summary">Inschakelen achtergrondverlichting met timeout als knop wordt aangeraakt</string>
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">Timeout achtergrondverlichting van de toetsen</string>
-  <string name="backlight_timeout_on">Altijd ingeschakeld</string>
-  <string name="backlight_timeout_3s">3 seconden</string>
-  <string name="backlight_timeout_default">5 seconden (standaard)</string>
-  <string name="backlight_timeout_10s">10 seconden</string>
-  <string name="backlight_timeout_15s">15 seconden</string>
-  <string name="backlight_timeout_20s">20 seconden</string>
-  <string name="backlight_timeout_30s">30 seconden</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_title">Achtergrondverlichting</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">Aanraakknoppen oplichten indien scherm aan is</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Navigatiebalk beheren</string>
   <!-- Notification light dialogs -->
@@ -135,9 +120,6 @@
   <string name="powermenu_advanced_reboot_summary">Schakelt het geavanceerde herstart menu in voor opties om te herstarten in recovery, bootloader, systemUI of een hot reboot uit te voeren</string>
   <string name="powermenu_screenshot_title">Schermafbeelding</string>
   <string name="powermenu_airplane_title">Vliegtuig modus</string>
-  <string name="powermenu_category_other">Andere</string>
-  <string name="powermenu_lockscreen_title">Vergrendelscherm zichtbaarheid</string>
-  <string name="powermenu_lockscreen_summary">Schakel te mogelijkheid in om aan/uit menu te tonen en gebruiken terwijl je telefoon vergrendeld is</string>
   <!-- HW Keys customization -->
   <string name="picker_activities">Activiteiten</string>
   <string name="select_custom_app_title">Aangepaste app kiezen</string>
@@ -163,14 +145,4 @@
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">Naar links vegen</string>
   <string name="hardware_keys_utouch_right_swipe">Naar rechts vegen</string>
-  <string name="hardware_keys_utouch_single_tap">Tik</string>
-  <string name="hardware_keys_utouch_long_tap">Lang aanraken</string>
-  <!-- Ambient music -->
-  <string name="force_ambient_for_media_pref_title">Nu aan het afspelen</string>
-  <string name="force_ambient_for_media_pref_summary">Toon informatie van het huidige muzieknummer</string>
-  <string name="force_ambient_for_media_title">Selecteer lay-out</string>
-  <string name="force_ambient_for_media_off">Uitgeschakeld</string>
-  <string name="force_ambient_for_media_on">Normaal</string>
-  <string name="force_ambient_for_media_on_forced">Normaal (geforceerd)</string>
-  <string name="force_ambient_for_media_on_forced_clean">Minimaal (geforceerd)</string>
 </resources>

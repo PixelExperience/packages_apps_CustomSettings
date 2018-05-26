@@ -54,21 +54,6 @@
   <string name="torch_power_button_gesture_dt">இருமுறை தட்டவும்</string>
   <string name="torch_power_button_gesture_lp">நீண்ட அழுத்த</string>
   <!-- Button touch -->
-  <string name="button_backlight_on_touch_only_title">பட்டனை டச்</string>
-  <string name="button_backlight_on_touch_only_summary">நேரம் பட்டனை டச் மீது பின்னொளியுடனான செயல்படுத்து</string>
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">பொத்தான்கள் நேரம் பின்னொளியுடனான</string>
-  <string name="backlight_timeout_on">எப்போதும் இயக்கப்பட்டது</string>
-  <string name="backlight_timeout_3s">3 sec</string>
-  <string name="backlight_timeout_default">5 sec (இயல்புநிலை)</string>
-  <string name="backlight_timeout_10s">10 sec</string>
-  <string name="backlight_timeout_15s">15 நொடி</string>
-  <string name="backlight_timeout_20s">20 நொடி</string>
-  <string name="backlight_timeout_30s">30 நொடி</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_title">பேக்லைட்</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">பின்னொளியுடனான செயல்படுத்து</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">ஊடாடுதல் பட்டி நிர்வகி</string>
   <!-- Notification light dialogs -->
@@ -135,9 +120,6 @@
   <string name="powermenu_advanced_reboot_summary">மீட்டமைக்க, துவக்க ஏற்றி, மறுதொடக்கம் செய்ய கணினி முறைமை அல்லது சூடான மறுதொடக்கம்</string>
   <string name="powermenu_screenshot_title">திரைப்பிடிப்பு</string>
   <string name="powermenu_airplane_title">விமானப் பயன்முறை</string>
-  <string name="powermenu_category_other">மற்றவை</string>
-  <string name="powermenu_lockscreen_title">லாக்ஸ்கிரீன் காட்சி</string>
-  <string name="powermenu_lockscreen_summary">லாக்ஸ்கிரீன் இல் இருக்கும்போது மின் பட்டி உரையாடலைக் காட்ட மற்றும் பயன்படுத்தக்கூடிய திறனை இயக்கு</string>
   <!-- HW Keys customization -->
   <string name="picker_activities">செயல்பாடுகள்</string>
   <string name="select_custom_app_title">விருப்பமான பயன்பாட்டு தேர்ந்தெடு</string>
@@ -163,7 +145,4 @@
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">இடது தேய்க்கவும்</string>
   <string name="hardware_keys_utouch_right_swipe">வலதுபுறம் தேய்க்கவும்</string>
-  <string name="hardware_keys_utouch_single_tap">தட்டு</string>
-  <string name="hardware_keys_utouch_long_tap">நீண்ட குழாய்</string>
-  <!-- Ambient music -->
 </resources>

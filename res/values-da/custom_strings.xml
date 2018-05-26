@@ -32,17 +32,6 @@
   <string name="torch_power_button_gesture_dt">Dobbelt tryk</string>
   <string name="torch_power_button_gesture_lp">Langt tryk</string>
   <!-- Button touch -->
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_3s">3 sek</string>
-  <string name="backlight_timeout_default">5 sek (standard)</string>
-  <string name="backlight_timeout_10s">10 sek</string>
-  <string name="backlight_timeout_15s">15 sek</string>
-  <string name="backlight_timeout_20s">20 sek</string>
-  <string name="backlight_timeout_30s">30 sek</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_title">Baggrundslys</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">Aktiver knap bagrundslys</string>
   <!-- Navbar tuner -->
   <!-- Notification light dialogs -->
   <string name="ok">Okay</string>
@@ -78,7 +67,6 @@
   <string name="powermenu_advanced_reboot_title">Avanceret genstart</string>
   <string name="powermenu_screenshot_title">Skærmbillede</string>
   <string name="powermenu_airplane_title">Flytilstand</string>
-  <string name="powermenu_category_other">Andet</string>
   <!-- HW Keys customization -->
   <string name="picker_activities">Aktiviteter</string>
   <string name="select_custom_app_title">Vælg brugerdefineret app</string>
@@ -96,5 +84,4 @@
   <string name="hardware_keys_enable_title">Aktiver</string>
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">Swipe til venstre</string>
-  <!-- Ambient music -->
 </resources>

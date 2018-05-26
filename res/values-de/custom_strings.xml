@@ -54,21 +54,14 @@
   <string name="torch_power_button_gesture_dt">Doppeltes Tippen</string>
   <string name="torch_power_button_gesture_lp">Lange drücken</string>
   <!-- Button touch -->
-  <string name="button_backlight_on_touch_only_title">Tastendruck</string>
-  <string name="button_backlight_on_touch_only_summary">Hintergrundbeleuchtung nur nach Tastendruck aktivieren</string>
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">Timeout der Hintergrundbeleuchtung</string>
-  <string name="backlight_timeout_on">Immer aktiviert</string>
-  <string name="backlight_timeout_3s">3 Sek</string>
-  <string name="backlight_timeout_default">5 Sekunden (Standard)</string>
-  <string name="backlight_timeout_10s">10 Sek</string>
-  <string name="backlight_timeout_15s">15 Sek</string>
-  <string name="backlight_timeout_20s">20 Sek</string>
-  <string name="backlight_timeout_30s">30 Sek</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_title">Hintergrundbeleuchtung</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">Hintergrundbeleuchtung aktivieren</string>
+  <string name="button_backlight_options_category">Hintergrundbeleuchtungsoptionen</string>
+  <string name="button_backlight_enable_title">Tastenhintergrundbeleuchtung erlauben</string>
+  <string name="button_link_brightness">Verknüpfen mit Bildschirmhelligkeit</string>
+  <string name="button_link_brightness_summary">Tastenhintergrundbeleuchtung richtet sich an Bildschirmhelligkeit</string>
+  <string name="button_manual_brightness">Helligkeitsstufe</string>
+  <string name="button_timeout_title">Hintergrunsbeleuchtungs Auszeit</string>
+  <string name="button_backlight_on_touch_only_title">Tastenbeleuchtung nur bei Berühren</string>
+  <string name="button_backlight_on_touch_only_summary">Tastenbeleuchtung nur einschalten, wenn die Tasten bedient werden. Das Timeout der Beleuchtung beeinflusst die Beleuchtungszeit weiterhin.</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Navigationsleiste bearbeiten</string>
   <!-- Notification light dialogs -->
@@ -135,9 +128,6 @@
   <string name="powermenu_advanced_reboot_summary">Aktiviert erweiterte Neustartoptionen, wie starten in Recovery, Bootloader oder SystemUI</string>
   <string name="powermenu_screenshot_title">Bildschirmfoto</string>
   <string name="powermenu_airplane_title">Flugmodus</string>
-  <string name="powermenu_category_other">Weitere</string>
-  <string name="powermenu_lockscreen_title">Sichtbarkeit Sperrbildschirm</string>
-  <string name="powermenu_lockscreen_summary">Powermenü auf dem Sperrbildschirm anzeigen und verwenden</string>
   <!-- HW Keys customization -->
   <string name="picker_activities">Aktivitäten</string>
   <string name="select_custom_app_title">Benutzerdefinierte App auswählen</string>
@@ -160,18 +150,8 @@
   <string name="hardware_keys_double_tap_title">Doppeltes Tippen (Aktion)</string>
   <string name="hardware_keys_category">Hardware-Tasten</string>
   <string name="hardware_keys_enable_title">Aktivieren</string>
+  <string name="hardware_keys_wake_title">Gerät aufwecken</string>
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">Nach links wischen</string>
   <string name="hardware_keys_utouch_right_swipe">Nach rechts wischen</string>
-  <string name="hardware_keys_utouch_single_tap">Tippen</string>
-  <string name="hardware_keys_utouch_long_tap">Lange drücken</string>
-  <!-- Ambient music -->
-  <string name="force_ambient_for_media_pref_title">Aktuelle Wiedergabe</string>
-  <string name="force_ambient_for_media_pref_summary">Aktuelle Musik-Track-Informationen anzeigen</string>
-  <string name="ambient_ticker_footer">Diese Funktion erlaubt die Möglichkeit die aktuelle Musiktitelinformation auf dem Sperrbildschirm mit und ohne altivierte Ambient Anzeige.\n\nDu kannst zwei Layouts, normal und minimal wählen. Da diese Funktion den Vorteil der Ambient Anzeige nutzt, kommt es nicht darauf an. Es kann ohne aktivierte Ambient Anzeige ausgelöst werden bei Wahl der Force-Option.\n\nDie normale Ansicht beinhaltet die Sperrbildschirm-Uhr, das Datum und die Musiktitelanzeige.\n\nDie minimale Ansicht beinhaltet nur die Musiktitelanzeige in Zentrum des Bildschirms.</string>
-  <string name="force_ambient_for_media_title">Layout wählen</string>
-  <string name="force_ambient_for_media_off">Deaktiviert</string>
-  <string name="force_ambient_for_media_on">Normal</string>
-  <string name="force_ambient_for_media_on_forced">Normal (erzwungen)</string>
-  <string name="force_ambient_for_media_on_forced_clean">Minimal (erzwungen)</string>
 </resources>

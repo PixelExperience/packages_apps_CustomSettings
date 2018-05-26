@@ -54,21 +54,13 @@
   <string name="torch_power_button_gesture_dt">दो बार स्पर्श</string>
   <string name="torch_power_button_gesture_lp">लंबे समय दबाए</string>
   <!-- Button touch -->
-  <string name="button_backlight_on_touch_only_title">कुंजी स्पर्श</string>
-  <string name="button_backlight_on_touch_only_summary">केवल कुंजी स्पर्श पर समय समाप्ति के साथ बैकलाइट सक्षम करें</string>
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">बटन बैकलाइट मध्यांतर</string>
-  <string name="backlight_timeout_on">हमेशा सक्षम</string>
-  <string name="backlight_timeout_3s">३ सेकेंड</string>
-  <string name="backlight_timeout_default">५ सेकेंड (पूर्व निर्धारित)</string>
-  <string name="backlight_timeout_10s">१० सेकेंड</string>
-  <string name="backlight_timeout_15s">१५ सेकेंड</string>
-  <string name="backlight_timeout_20s">२० सेकेंड</string>
-  <string name="backlight_timeout_30s">३० सेकेंड</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_title">बैकलाइट</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">बैकलाइट सक्षम करें</string>
+  <string name="button_backlight_options_category">पश्‍च प्रकाश विकल्प</string>
+  <string name="button_backlight_enable_title">पश्‍च प्रकाश बटन की अनुमति दें</string>
+  <string name="button_link_brightness">स्क्रीन चमक से जोड़ें</string>
+  <string name="button_link_brightness_summary">पश्‍च प्रकाश बटन की चमक स्क्रीन की चमक स्तर के आधार पर समायोजित होगी</string>
+  <string name="button_manual_brightness">चमक स्तर</string>
+  <string name="button_timeout_title">पश्‍च प्रकाश समय समाप्ति</string>
+  <string name="button_backlight_on_touch_only_summary">पश्‍च प्रकाश बटन केवल तभी दिखाई देगा जब बटन दबाया जाता है बजाय हर समय के । समयबाह्य अभी भी इस सुविधा को प्रभावित करता है ।</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">नेविगेशन पट्टी को समायोजित करें</string>
   <!-- Notification light dialogs -->
@@ -135,9 +127,6 @@
   <string name="powermenu_advanced_reboot_summary">रिकवरी, बूटलोडर, systemui पुनः आरंभ या एक तुरंत रिबूट ट्रिगर करने के लिए रिबूट करने के लिए विकल्पों के लिए उन्नत रिबूट मेनू सक्षम बनाता है</string>
   <string name="powermenu_screenshot_title">स्क्रीनशॉट</string>
   <string name="powermenu_airplane_title">हवाई जहाज मोड</string>
-  <string name="powermenu_category_other">अन्य</string>
-  <string name="powermenu_lockscreen_title">लॉक्सक्रीन दृश्यता</string>
-  <string name="powermenu_lockscreen_summary">लॉकस्क्रीन पर होने पर पावर मेनू संवाद दिखाने और उपयोग करने की क्षमता सक्षम करें</string>
   <!-- HW Keys customization -->
   <string name="picker_activities">गतिविधियों</string>
   <string name="select_custom_app_title">कस्टम ऐप का चयन करें</string>
@@ -160,17 +149,8 @@
   <string name="hardware_keys_double_tap_title">दो बार टैप से क्रिया</string>
   <string name="hardware_keys_category">हार्डवेयर कुंजी</string>
   <string name="hardware_keys_enable_title">सक्षम करें</string>
+  <string name="hardware_keys_wake_title">डिवाइस को जगाये.</string>
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">बाएं फेरना</string>
   <string name="hardware_keys_utouch_right_swipe">दाहिने फेरना</string>
-  <string name="hardware_keys_utouch_single_tap">टेप करें</string>
-  <string name="hardware_keys_utouch_long_tap">लंबा दबाएँ</string>
-  <!-- Ambient music -->
-  <string name="force_ambient_for_media_pref_title">जो गाना आप सुन रहे है</string>
-  <string name="force_ambient_for_media_pref_summary">वर्तमान संगीत की जानकारी दिखाए</string>
-  <string name="force_ambient_for_media_title">लेआउट का चयन करें</string>
-  <string name="force_ambient_for_media_off">निर्योग्य</string>
-  <string name="force_ambient_for_media_on">सामान्य</string>
-  <string name="force_ambient_for_media_on_forced">सामान्य (जबरदस्ती)</string>
-  <string name="force_ambient_for_media_on_forced_clean">कम से कम (जबरदस्ती)</string>
 </resources>

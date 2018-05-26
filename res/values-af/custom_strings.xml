@@ -17,20 +17,43 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Color Picker -->
+  <string name="dialog_color_picker">Kleursoeker</string>
+  <string name="press_color_to_apply">Druk op kleur hieronder om aansoek te doen</string>
+  <string name="arrow_right">→</string>
+  <string name="arrow_down">↓</string>
+  <string name="hex">Hex</string>
+  <string name="hex_hint">#ff000000</string>
+  <string name="set">Stel</string>
+  <string name="color_default">Default</string>
   <!-- Buttons -->
+  <string name="button_settings">Knoppies</string>
   <!-- Volume category -->
+  <string name="volume_category">Volume Rocker</string>
   <!-- Power category -->
+  <string name="power_category">Krag</string>
   <!-- Volume category -->
+  <string name="navbar_category">Kennisgewing balk</string>
   <!-- Volume button orientation based on current rotation -->
+  <string name="swap_volume_buttons_title">Agterbande volume rocker oriëntasie</string>
+  <string name="swap_volume_buttons_summary">Verstel die rocker oriëntasie gebaseer op huidige rotasie</string>
   <!-- Volume key controls media stream -->
+  <string name="volume_keys_control_media_stream_title">Volume knoppies beheer media volume</string>
+  <string name="volume_keys_control_media_stream_summary">Dwing volume sleutels te beheer media stroom</string>
   <!-- Volume rocker music control -->
+  <string name="volume_rocker_music_controls_title">Terugspeel beheer</string>
+  <string name="volume_rocker_music_controls_summary">Wanneer die skerm af is, sal \'n lang-druk op die volume knoppies poog om deur musiek liedtjies te soek</string>
   <!-- Volume rocker wake -->
+  <string name="volume_rocker_wake_title">Volume rocker wakker</string>
+  <string name="volume_rocker_wake_summary">Druk van \'n volume-knoppie sal jou toestel aktiveer</string>
   <!-- The volume key answer -->
+  <string name="volume_answer_call_title">Volume sleutels antwoord</string>
+  <string name="volume_answer_call_summary">Die oproep beantwoord wanneer volume sleutels gedruk word</string>
   <!-- Torch Power button gestures -->
+  <string name="torch_power_button_gesture_title">Flitslig wanneer skerm af is</string>
+  <string name="torch_power_button_gesture_none">Gedeaktiveer</string>
+  <string name="torch_power_button_gesture_dt">Dubbele aanraak</string>
+  <string name="torch_power_button_gesture_lp">Lang-druk</string>
   <!-- Button touch -->
-  <!-- Buttons backlight timeout -->
-  <!-- Enable keys backlight-->
-  <!-- Enable keys backlight-->
   <!-- Navbar tuner -->
   <!-- Notification light dialogs -->
   <!-- Values for the notification light pulse spinners -->
@@ -40,5 +63,4 @@
   <!-- Power Menu -->
   <!-- HW Keys customization -->
   <!-- UTouch -->
-  <!-- Ambient music -->
 </resources>

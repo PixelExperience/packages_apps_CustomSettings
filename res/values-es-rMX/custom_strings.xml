@@ -54,21 +54,14 @@
   <string name="torch_power_button_gesture_dt">Doble toque</string>
   <string name="torch_power_button_gesture_lp">Pulsación larga</string>
   <!-- Button touch -->
-  <string name="button_backlight_on_touch_only_title">Botón táctil</string>
-  <string name="button_backlight_on_touch_only_summary">Activar luz de fondo con tiempo de espera sólo en el botones táctiles</string>
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">Tiempo de espera de la luz de fondo de los botones</string>
-  <string name="backlight_timeout_on">Habilitado siempre</string>
-  <string name="backlight_timeout_3s">3 seg</string>
-  <string name="backlight_timeout_default">5 seg (por defecto)</string>
-  <string name="backlight_timeout_10s">10 seg</string>
-  <string name="backlight_timeout_15s">15 seg</string>
-  <string name="backlight_timeout_20s">20 seg</string>
-  <string name="backlight_timeout_30s">30 seg</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_title">Retroiluminación</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">Habilitar retroiluminación</string>
+  <string name="button_backlight_options_category">Opciones de luz de fondo</string>
+  <string name="button_backlight_enable_title">Permitir retroiluminación botones</string>
+  <string name="button_link_brightness">Enlace a luminosidad de la pantalla</string>
+  <string name="button_link_brightness_summary">La luminosidad de la retroiluminación de los botones se regula según el nivel de luminosidad de la pantalla</string>
+  <string name="button_manual_brightness">Nivel de brillo</string>
+  <string name="button_timeout_title">Tiempo de espera de retroiluminación</string>
+  <string name="button_backlight_on_touch_only_title">Tiempo de retroiluminación botones</string>
+  <string name="button_backlight_on_touch_only_summary">La retroiluminación de los botones sera visualizada solo si los botones se oprimen en vez de todo el tiempo. El timeout influye sobre esta función.</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Gestionar la barra de navegación</string>
   <!-- Notification light dialogs -->
@@ -135,9 +128,6 @@
   <string name="powermenu_advanced_reboot_summary">Habilita el menú de reinicio avanzado para opciones como reiniciar en modo recovery, bootloader, reiniciar UI o reinicio rápido</string>
   <string name="powermenu_screenshot_title">Captura de pantalla</string>
   <string name="powermenu_airplane_title">Modo avión</string>
-  <string name="powermenu_category_other">Otro</string>
-  <string name="powermenu_lockscreen_title">Visibilidad de la pantalla de bloqueo</string>
-  <string name="powermenu_lockscreen_summary">Habilitar la capacidad para mostrar y usar el menú de apagado en la pantalla de bloqueo</string>
   <!-- HW Keys customization -->
   <string name="picker_activities">Actividades</string>
   <string name="select_custom_app_title">Seleccionar aplicación personalizada</string>
@@ -160,18 +150,8 @@
   <string name="hardware_keys_double_tap_title">Acción de doble toque</string>
   <string name="hardware_keys_category">Teclas físicas</string>
   <string name="hardware_keys_enable_title">Habilitar</string>
+  <string name="hardware_keys_wake_title">Despertar dispositivo</string>
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">Deslizar hacia la izquierda</string>
   <string name="hardware_keys_utouch_right_swipe">Deslizar hacia la derecha</string>
-  <string name="hardware_keys_utouch_single_tap">Pulsar</string>
-  <string name="hardware_keys_utouch_long_tap">Pulsacion larga</string>
-  <!-- Ambient music -->
-  <string name="force_ambient_for_media_pref_title">Reproduciendo</string>
-  <string name="force_ambient_for_media_pref_summary">Mostrar información de la pista de música actual</string>
-  <string name="ambient_ticker_footer">Esta característica permite la habilidad para mostrar la música actual, información de la pista en el pantalla de bloqueo con o sin ambiente pantalla habilitada.\n\nTu puedes elegir entre dos diseños, normal y mínimo. Mientras que esta función toma ventaja de la pantalla de ambiente, que depende de ella. Se puede activar sin tener la pantalla ambiente activada mediante las opciones (forzada).\n\nNormal se muestra el reloj de pantalla de bloqueo, fecha y información de música.\n\nMínimo esta vista incluye sólo la información de la música en el centro de la pantalla.</string>
-  <string name="force_ambient_for_media_title">Seleccionar diseño</string>
-  <string name="force_ambient_for_media_off">Deshabilitado</string>
-  <string name="force_ambient_for_media_on">Normal</string>
-  <string name="force_ambient_for_media_on_forced">Normal (forzado)</string>
-  <string name="force_ambient_for_media_on_forced_clean">Mínimo (forzado)</string>
 </resources>

@@ -54,21 +54,7 @@
   <string name="torch_power_button_gesture_dt">Подвійний дотик</string>
   <string name="torch_power_button_gesture_lp">Довге натискання</string>
   <!-- Button touch -->
-  <string name="button_backlight_on_touch_only_title">Натискання клавіші</string>
-  <string name="button_backlight_on_touch_only_summary">Вмикати підсвічування клавіш тільки при дотику до кнопки</string>
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">Тривалість підсвічування</string>
-  <string name="backlight_timeout_on">Завжди увімкнено</string>
-  <string name="backlight_timeout_3s">3 с</string>
-  <string name="backlight_timeout_default">5 с (типово)</string>
-  <string name="backlight_timeout_10s">10 с</string>
-  <string name="backlight_timeout_15s">15 с</string>
-  <string name="backlight_timeout_20s">20 с</string>
-  <string name="backlight_timeout_30s">30 с</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_title">Підсвічування</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">Увімкнути підсвічування</string>
+  <string name="button_manual_brightness">Рівень світла</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Керування панеллю навігації</string>
   <!-- Notification light dialogs -->
@@ -135,9 +121,6 @@
   <string name="powermenu_advanced_reboot_summary">Увімкнути розширене меню перезавантаження для перезапуску у режим відновлення, завантажувач, перезапуску SystemUI, або швидкого перзапуску</string>
   <string name="powermenu_screenshot_title">Скріншот</string>
   <string name="powermenu_airplane_title">Режим \"У літаку\"</string>
-  <string name="powermenu_category_other">Інше</string>
-  <string name="powermenu_lockscreen_title">Видимість на екрані блокування</string>
-  <string name="powermenu_lockscreen_summary">Увімкніть для можливості використання меню живлення на екрані блокування</string>
   <!-- HW Keys customization -->
   <string name="picker_activities">Дії</string>
   <string name="select_custom_app_title">Вибрати власну програму</string>
@@ -163,7 +146,4 @@
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">Свайп вліво</string>
   <string name="hardware_keys_utouch_right_swipe">Свайп вправо</string>
-  <string name="hardware_keys_utouch_single_tap">Дотик</string>
-  <string name="hardware_keys_utouch_long_tap">Довгий дотик</string>
-  <!-- Ambient music -->
 </resources>

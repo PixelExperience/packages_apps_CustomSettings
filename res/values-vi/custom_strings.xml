@@ -41,7 +41,7 @@
   <string name="volume_keys_control_media_stream_summary">Luôn dùng nút âm lượng để điều khiển các phương tiện truyền thông</string>
   <!-- Volume rocker music control -->
   <string name="volume_rocker_music_controls_title">Điều khiển nhạc</string>
-  <string name="volume_rocker_music_controls_summary">Khi màn hình tắt, nhấn giữ các nút âm lượng chuyển bài</string>
+  <string name="volume_rocker_music_controls_summary">Khi màn hình tắt, nhấn giữ các nút âm lượng để chuyển bài</string>
   <!-- Volume rocker wake -->
   <string name="volume_rocker_wake_title">Mở khoá bằng phím âm lượng</string>
   <string name="volume_rocker_wake_summary">Nhấn nút âm lượng để mở thiết bị của bạn</string>
@@ -50,25 +50,10 @@
   <string name="volume_answer_call_summary">Trả lời cuộc gọi khi nhấn nút âm lượng</string>
   <!-- Torch Power button gestures -->
   <string name="torch_power_button_gesture_title">Đèn pin khi màn hình đã tắt</string>
-  <string name="torch_power_button_gesture_none">Tắt</string>
+  <string name="torch_power_button_gesture_none">Vô hiệu hoá</string>
   <string name="torch_power_button_gesture_dt">Nhấn đúp</string>
   <string name="torch_power_button_gesture_lp">Nhấn giữ</string>
   <!-- Button touch -->
-  <string name="button_backlight_on_touch_only_title">Chạm vào nút</string>
-  <string name="button_backlight_on_touch_only_summary">Bật đèn nền với thời gian chờ khi chạm vào nút</string>
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">Thời gian chờ đèn nền</string>
-  <string name="backlight_timeout_on">Luôn bật</string>
-  <string name="backlight_timeout_3s">3 Giây</string>
-  <string name="backlight_timeout_default">5 giây (mặc định)</string>
-  <string name="backlight_timeout_10s">10 Giây</string>
-  <string name="backlight_timeout_15s">15 Giây</string>
-  <string name="backlight_timeout_20s">20 Giây</string>
-  <string name="backlight_timeout_30s">30 Giây</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_title">Đèn nền</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">Bật đèn nền</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Bật thanh điều hướng</string>
   <!-- Notification light dialogs -->
@@ -102,11 +87,11 @@
   <string name="notification_light_applist_title">Ứng dụng</string>
   <string name="notification_light_phonelist_title">Điện thoại</string>
   <string name="notification_light_use_custom">Sử dụng giá trị tùy chỉnh</string>
-  <string name="notification_light_use_custom_summary">Bật để đặt cho mỗi màu thông báo ứng dụng</string>
+  <string name="notification_light_use_custom_summary">Bật để đặt màu cho mỗi thông báo ứng dụng</string>
   <string name="notification_light_default_value">Mặc định</string>
   <string name="notification_light_missed_call_title">Cuộc gọi nhỡ</string>
   <string name="notification_light_voicemail_title">Thư thoại</string>
-  <string name="notification_light_screen_on">Đèn cùng màn hình</string>
+  <string name="notification_light_screen_on">Đèn màn hình bật</string>
   <string name="notification_light_zen_mode">Đèn ở chế độ Không Làm Phiền</string>
   <string name="notification_light_use_multiple_leds">Nhiều đèn LED</string>
   <!-- Notification light settings -->
@@ -114,17 +99,17 @@
   <string name="battery_light_settings">Đèn pin</string>
   <string name="led_notification_title">Cài đặt ánh sáng</string>
   <string name="led_notification_text">Bật đèn LED theo cài đặt</string>
-  <string name="notification_light_no_apps_summary">Thêm một ứng dụng ấn giữ  \'%1$s\' và bấm \'\u002b\' trên thanh trình đơn</string>
+  <string name="notification_light_no_apps_summary">Để thêm một ứng dụng, ấn giữ  \'%1$s\' và bấm \'\u002b\' trên thanh trình đơn</string>
   <!-- Battery light settings  -->
-  <string name="batterylight_title">Cài đặt đèn pin</string>
+  <string name="batterylight_title">Thiết lập Battery LED</string>
   <string name="battery_light_enable">Bật</string>
-  <string name="battery_low_pulse_title">Nháy nếu đèn pin yếu</string>
+  <string name="battery_low_pulse_title">Nhấp nháy nếu pin yếu</string>
   <string name="battery_light_only_full_charge_title">Chỉ sáng khi sạc đầy</string>
   <string name="battery_light_list_title">Màu sắc</string>
   <string name="battery_light_low_color_title">Pin yếu</string>
-  <string name="battery_light_medium_color_title">Sạc</string>
-  <string name="battery_light_full_color_title">Sạc (90%)</string>
-  <string name="battery_light_really_full_color_title">Sạc (100%)</string>
+  <string name="battery_light_medium_color_title">Đang sạc</string>
+  <string name="battery_light_full_color_title">Đã sạc (90%)</string>
+  <string name="battery_light_really_full_color_title">Đã sạc (100%)</string>
   <string name="led_color_green">Xanh lá</string>
   <string name="led_color_red">Đỏ</string>
   <string name="led_color_blue">Xanh da trời</string>
@@ -135,9 +120,6 @@
   <string name="powermenu_advanced_reboot_summary">Cho phép trình đơn khởi động lại nâng cao cho các tùy chọn khởi động lại để phục hồi, khởi động, khởi động lại hệ thống hoặc kích hoạt khởi động lại nóng</string>
   <string name="powermenu_screenshot_title">Ảnh chụp màn hình</string>
   <string name="powermenu_airplane_title">Chế độ máy bay</string>
-  <string name="powermenu_category_other">Khác</string>
-  <string name="powermenu_lockscreen_title">Khả năng hiển thị màn hình khóa</string>
-  <string name="powermenu_lockscreen_summary">Bật khả năng hiển thị và sử dụng hộp thoại trình đơn nguồn trong khi trên màn hình khóa</string>
   <!-- HW Keys customization -->
   <string name="picker_activities">Kích hoạt</string>
   <string name="select_custom_app_title">Chọn ứng dụng tùy chỉnh</string>
@@ -152,7 +134,7 @@
   <string name="hardware_keys_assist_key_title">Phím tìm kiếm</string>
   <string name="hardware_keys_appswitch_key_title">Phím đa nhiệm</string>
   <string name="hardware_keys_back_key_title">Phím Back</string>
-  <string name="hardware_keys_double_tap_summary">Đặt hành động khi chậm hai lần</string>
+  <string name="hardware_keys_double_tap_summary">Đặt hành động khi chạm hai lần</string>
   <string name="hardware_keys_single_tap_summary">Đặt hành động khi chạm một lần</string>
   <string name="hardware_keys_long_press_summary">Đặt hành động khi nhấn giữ</string>
   <string name="hardware_keys_single_tap_title">Hành động khi chạm một lần</string>
@@ -163,15 +145,4 @@
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">Vuốt bên trái</string>
   <string name="hardware_keys_utouch_right_swipe">Vuốt bên phải</string>
-  <string name="hardware_keys_utouch_single_tap">Chạm</string>
-  <string name="hardware_keys_utouch_long_tap">Chạm giữ</string>
-  <!-- Ambient music -->
-  <string name="force_ambient_for_media_pref_title">Đang phát</string>
-  <string name="force_ambient_for_media_pref_summary">Hiển thị thông tin bài hát hiện tại</string>
-  <string name="ambient_ticker_footer">Tính năng này cho phép hiển thị thông tin ca khúc nhạc hiện tại trên màn hình khóa có bật hoặc không bật chế độ hiển thị môi trường xung quanh.\n\nBạn có thể chọn từ hai bố cục, bình thường và tối thiểu. Mặc dù tính năng này tận dụng màn hình hiển thị xung quanh nhưng nó không phụ thuộc vào nó. Có thể được kích hoạt mà không bật chế độ hiển thị xung quanh bằng cách sử dụng các tùy chọn (bắt buộc).\n\nChế độ xem thông thường bao gồm đồng hồ, ngày giờ và thông tin âm nhạc.\n\nChế độ xem nhỏ nhất chỉ bao gồm thông tin nhạc ở giữa màn hình.</string>
-  <string name="force_ambient_for_media_title">Chọn bố cục</string>
-  <string name="force_ambient_for_media_off">Vô hiệu hóa</string>
-  <string name="force_ambient_for_media_on">Bình thường</string>
-  <string name="force_ambient_for_media_on_forced">Bình thường (bắt buộc)</string>
-  <string name="force_ambient_for_media_on_forced_clean">Tối thiểu (bắt buộc)</string>
 </resources>

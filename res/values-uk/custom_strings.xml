@@ -54,7 +54,14 @@
   <string name="torch_power_button_gesture_dt">Подвійний дотик</string>
   <string name="torch_power_button_gesture_lp">Довге натискання</string>
   <!-- Button touch -->
+  <string name="button_backlight_options_category">Налаштування підсвічування</string>
+  <string name="button_backlight_enable_title">Увімкнути підсвічування кнопок</string>
+  <string name="button_link_brightness">Прив\'язати до яскравості екрана</string>
+  <string name="button_link_brightness_summary">Яскравість підсвічування кнопок буде регулюватися в залежності від яскравості екрану</string>
   <string name="button_manual_brightness">Рівень світла</string>
+  <string name="button_timeout_title">Затримка підсвічування</string>
+  <string name="button_backlight_on_touch_only_title">Підсвічування кнопок при торканні</string>
+  <string name="button_backlight_on_touch_only_summary">Включати підсвічування сенсорних кнопок тільки при торканні. Затримка підсвічування впливає на цю функцію.</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Керування панеллю навігації</string>
   <!-- Notification light dialogs -->
@@ -143,6 +150,7 @@
   <string name="hardware_keys_double_tap_title">Подвійне натискання</string>
   <string name="hardware_keys_category">Апаратні кнопки</string>
   <string name="hardware_keys_enable_title">Увімкнути</string>
+  <string name="hardware_keys_wake_title">Розбудити пристрій</string>
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">Свайп вліво</string>
   <string name="hardware_keys_utouch_right_swipe">Свайп вправо</string>

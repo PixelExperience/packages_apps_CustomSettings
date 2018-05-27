@@ -54,6 +54,14 @@
   <string name="torch_power_button_gesture_dt">הקשה כפולה</string>
   <string name="torch_power_button_gesture_lp">לחיצה ארוכה</string>
   <!-- Button touch -->
+  <string name="button_backlight_options_category">אפשרויות תאורה אחורית של כפתורי המגע</string>
+  <string name="button_backlight_enable_title">אפשר תאורה אחורית של כפתורי המגע</string>
+  <string name="button_link_brightness">קשר לבחירות המסך</string>
+  <string name="button_link_brightness_summary">בהירות תאורת כפתורי המגע יותאמו בהתאם לבהירות המסך</string>
+  <string name="button_manual_brightness">רמת בהירות</string>
+  <string name="button_timeout_title">משך תאורה אחורית</string>
+  <string name="button_backlight_on_touch_only_title">תאורה אחורית בנגיעה</string>
+  <string name="button_backlight_on_touch_only_summary">תאורה אחורית תופיע רק כאשר כפתורי המגע יילחצו. משך הזמן עדיין משפיע על האופציה הזו.</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">נהל את סרגל הניווט</string>
   <!-- Notification light dialogs -->
@@ -142,6 +150,7 @@
   <string name="hardware_keys_double_tap_title">פעולה בלחיצה כפולה</string>
   <string name="hardware_keys_category">כפתרי חומרה</string>
   <string name="hardware_keys_enable_title">אפשר</string>
+  <string name="hardware_keys_wake_title">הער את המכשיר</string>
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">החלקה שמאלה</string>
   <string name="hardware_keys_utouch_right_swipe">החלקה ימינה</string>

@@ -18,7 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Color Picker -->
   <string name="dialog_color_picker">Värvi valija</string>
-  <string name="press_color_to_apply">Värvi rakendamiseks vajutage värvi peale</string>
+  <string name="press_color_to_apply">Värvi valimiseks vajutage värvi peale</string>
   <string name="arrow_right">→</string>
   <string name="arrow_down">↓</string>
   <string name="hex">Hex:</string>
@@ -28,7 +28,7 @@
   <!-- Buttons -->
   <string name="button_settings">Nupud</string>
   <!-- Volume category -->
-  <string name="volume_category">Köide jalas</string>
+  <string name="volume_category">Helitugevuse muutja</string>
   <!-- Power category -->
   <string name="power_category">Toide</string>
   <!-- Volume category -->
@@ -43,8 +43,13 @@
   <string name="volume_rocker_music_controls_title">Taasesituse kontrolli</string>
   <string name="volume_rocker_music_controls_summary">Kui ekraan on välja lülitatud, long-vajutades helitugevusnuppe püüab muusikat</string>
   <!-- Volume rocker wake -->
+  <string name="volume_rocker_wake_title">Helitugevuse muutja äratamine</string>
+  <string name="volume_rocker_wake_summary">Helitugevuse nuppude vajutamisel äratatakse Teie seade</string>
   <!-- The volume key answer -->
+  <string name="volume_answer_call_title">Helitugevusklahvidega vastamine</string>
+  <string name="volume_answer_call_summary">Võtke kõne vastu helitugevusklahve vajutades</string>
   <!-- Torch Power button gestures -->
+  <string name="torch_power_button_gesture_title">Taskulamp, kui ekraan on välja lülitatud</string>
   <string name="torch_power_button_gesture_none">Keelatud</string>
   <string name="torch_power_button_gesture_dt">Topeltpuudutus</string>
   <string name="torch_power_button_gesture_lp">Pikk vajutus</string>
@@ -52,6 +57,7 @@
   <string name="button_backlight_options_category">Taustavalguse valikud</string>
   <string name="button_backlight_enable_title">Lülita välja nupu taustavalgustus</string>
   <string name="button_link_brightness">Madalaim ekraani heledus</string>
+  <string name="button_link_brightness_summary">Nupu taustvalguse heledus kohandatakse vastavalt ekraani heledustasemele</string>
   <string name="button_manual_brightness">Heleduse tase</string>
   <string name="button_timeout_title">Taustvalgustuse Viivitus</string>
   <string name="button_backlight_on_touch_only_title">Nupu taustavalguse puudutus</string>
@@ -59,11 +65,11 @@
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Navigeerimisriba haldamine</string>
   <!-- Notification light dialogs -->
-  <string name="ok">Selge</string>
+  <string name="ok">Okei</string>
   <string name="reset">Lähtesta</string>
-  <string name="advanced">Täpsem</string>
+  <string name="advanced">Täpsemalt</string>
   <string name="profiles_add">Lisa...</string>
-  <string name="edit_light_settings">Valgustuse seadete redigeerimine</string>
+  <string name="edit_light_settings">Valgusseadete muutmine</string>
   <string name="pulse_speed_title">Vilkumise pikkus ja kiirus</string>
   <string name="default_time">Tavaline</string>
   <string name="custom_time">Kohandatud</string>

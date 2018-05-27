@@ -56,7 +56,7 @@
   <!-- Button touch -->
   <string name="button_backlight_options_category">Настройка подсветки кнопок</string>
   <string name="button_backlight_enable_title">Включить подсветку кнопок</string>
-  <string name="button_link_brightness">Совместить с яркостью экрана</string>
+  <string name="button_link_brightness">Связать с яркостью экрана</string>
   <string name="button_link_brightness_summary">Яркость подсветки кнопок будет регулироваться в зависимости от яркости экрана</string>
   <string name="button_manual_brightness">Уровень яркости</string>
   <string name="button_timeout_title">Длительность подсветки кнопок</string>

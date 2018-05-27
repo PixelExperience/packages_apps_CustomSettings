@@ -235,7 +235,7 @@
 
     <PreferenceCategory
         android:key="utouch_key"
-        android:title="@string/hardware_keys_home_key_title" >
+        android:title="@string/hardware_keys_utouch" >
 
         <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="home_wake_screen"

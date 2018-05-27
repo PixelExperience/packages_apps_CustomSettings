@@ -182,4 +182,5 @@
     <!-- UTouch -->
     <string name="hardware_keys_utouch_left_swipe">Left swipe</string>
     <string name="hardware_keys_utouch_right_swipe">Right swipe</string>
+    <string name="hardware_keys_utouch" translatable="false">U-Touch</string>
 </resources>

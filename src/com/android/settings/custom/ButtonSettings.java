@@ -213,7 +213,6 @@ public class ButtonSettings extends ActionFragment implements
 
             final boolean useUTouch = getResources().getBoolean(R.bool.config_use_utouch_hwkeys_binding);
             if (useUTouch){
-                prefScreen.removePreference(homeCategory);
                 prefScreen.removePreference(backCategory);
                 prefScreen.removePreference(assistCategory);
                 prefScreen.removePreference(appSwitchCategory);

@@ -57,7 +57,11 @@
   <string name="button_backlight_options_category">Opcje podświetlenia</string>
   <string name="button_backlight_enable_title">Zezwól na podświetlanie przycisków</string>
   <string name="button_link_brightness">Podepnij do jasności ekranu</string>
+  <string name="button_link_brightness_summary">Jasność podświetlenia przycisków dostosuje się w zależności od poziomu jasności ekranu</string>
   <string name="button_manual_brightness">Poziom jasności</string>
+  <string name="button_timeout_title">Czas podświetlania</string>
+  <string name="button_backlight_on_touch_only_title">Podświetlenie przycisków podczas dotyku</string>
+  <string name="button_backlight_on_touch_only_summary">Podświetlenie przycisków włączy się tylko gdy przyciski są używane, zamiast świecić się cały czas. Czas podświetlenia ma wpływ na tę funkcję.</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Zarządzanie paskiem nawigacyjnym</string>
   <!-- Notification light dialogs -->

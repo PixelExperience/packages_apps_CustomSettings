@@ -35,7 +35,7 @@
   <string name="navbar_category">Bară de navigare</string>
   <!-- Volume button orientation based on current rotation -->
   <string name="swap_volume_buttons_title">Schimbați orientarea butoanelor de volum</string>
-  <string name="swap_volume_buttons_summary">Ajustați orientarea butoanelor de volum bazat pe rotația curentă</string>
+  <string name="swap_volume_buttons_summary">Reglați orientarea butoanelor de volum pe baza rotației curente</string>
   <!-- Volume key controls media stream -->
   <string name="volume_keys_control_media_stream_title">Butoanele de volum controlează volumul media</string>
   <string name="volume_keys_control_media_stream_summary">Forțează butoanele de volum să controleze volumul media</string>
@@ -54,6 +54,14 @@
   <string name="torch_power_button_gesture_dt">Atingere dublă</string>
   <string name="torch_power_button_gesture_lp">Apăsare lungă</string>
   <!-- Button touch -->
+  <string name="button_backlight_options_category">Optiuni iluminare</string>
+  <string name="button_backlight_enable_title">Permite iluminare butoane</string>
+  <string name="button_link_brightness">Legatura cu luminozitatea ecranului</string>
+  <string name="button_link_brightness_summary">Luminozitatea iluminarii butoanelor o sa se regleze in functie de nivelul luminozitatii ecranului</string>
+  <string name="button_manual_brightness">Nivel luminozitate</string>
+  <string name="button_timeout_title">Timp iluminare de fundal</string>
+  <string name="button_backlight_on_touch_only_title">Timp de expirare iluminare butoane</string>
+  <string name="button_backlight_on_touch_only_summary">Iluminarea butoanelor o sa apara mai degraba doar atunci cand acestea sunt apasate decat tot timpul. Expirarea inca o afecteaza.</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Gestionează bara de navigare</string>
   <!-- Notification light dialogs -->
@@ -142,6 +150,7 @@
   <string name="hardware_keys_double_tap_title">Acțiune apăsare dublă</string>
   <string name="hardware_keys_category">Butoane fizice</string>
   <string name="hardware_keys_enable_title">Activează</string>
+  <string name="hardware_keys_wake_title">Trezeste dispozitiv</string>
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">Trasare la stânga</string>
   <string name="hardware_keys_utouch_right_swipe">Trasare la dreapta</string>

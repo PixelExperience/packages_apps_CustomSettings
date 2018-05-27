@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Color Picker -->
+  <string name="dialog_color_picker">Бирач боја</string>
   <string name="press_color_to_apply">Притиснути на боју испод за примену</string>
   <string name="arrow_right">→</string>
   <string name="arrow_down">↓</string>
@@ -31,7 +32,7 @@
   <!-- Power category -->
   <string name="power_category">Напајање</string>
   <!-- Volume category -->
-  <string name="navbar_category">Навигацијска трака</string>
+  <string name="navbar_category">Навигациона трака</string>
   <!-- Volume button orientation based on current rotation -->
   <string name="swap_volume_buttons_title">Замени оријентацију дугмади за јачину звука</string>
   <string name="swap_volume_buttons_summary">Прилагоди оријентацију дугмади на основу оријентације уређаја</string>
@@ -60,9 +61,9 @@
   <string name="button_manual_brightness">Ниво осветљености</string>
   <string name="button_timeout_title">Трајање позадинског осветљења</string>
   <string name="button_backlight_on_touch_only_title">Позадинско осветљење дугмади само када их додирујете</string>
-  <string name="button_backlight_on_touch_only_summary">Позадинско осветљење дугмета ће се упалити само када се дугмад притисну. \"Трајање позадинског осветљења\" наставља да ради са овом функцијом.</string>
+  <string name="button_backlight_on_touch_only_summary">Позадинско осветљење дугмета ће се упалити само када се дугмад притисну. \"Трајање позадинског осветљења\" утиче на ову функцију.</string>
   <!-- Navbar tuner -->
-  <string name="navbar_tuner_title">Управљање навигацијске траке</string>
+  <string name="navbar_tuner_title">Управљање навигационе траке</string>
   <!-- Notification light dialogs -->
   <string name="ok">У реду</string>
   <string name="reset">Ресетуј</string>
@@ -70,7 +71,7 @@
   <string name="profiles_add">Додај...</string>
   <string name="edit_light_settings">Измени подешавања осветљења</string>
   <string name="pulse_speed_title">Дужина и брзина пулсирања</string>
-  <string name="default_time">Нормална</string>
+  <string name="default_time">Нормално</string>
   <string name="custom_time">Прилагођено</string>
   <string name="dialog_choose_app">Изабери апликацију</string>
   <string name="dialog_delete_title">Избриши</string>
@@ -79,29 +80,78 @@
   <string name="pulse_length_always_on">Увек укључено</string>
   <string name="pulse_length_very_short">Веома кратко</string>
   <string name="pulse_length_short">Кратко</string>
-  <string name="pulse_length_normal">Нормална</string>
+  <string name="pulse_length_normal">Нормално</string>
   <string name="pulse_length_long">Дуго</string>
   <string name="pulse_length_very_long">Веома дуго</string>
   <string name="pulse_speed_very_fast">Веома брзо</string>
+  <string name="pulse_speed_fast">Брзо</string>
+  <string name="pulse_speed_normal">Нормално</string>
+  <string name="pulse_speed_slow">Споро</string>
+  <string name="pulse_speed_very_slow">Веома споро</string>
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_title">Светлo обавештења</string>
+  <string name="notification_light_title_summary">Укључи пулсирајући LED за нотификације</string>
+  <string name="notification_light_general_title">Опште</string>
+  <string name="notification_light_applist_title">Апликације</string>
+  <string name="notification_light_phonelist_title">Телефон</string>
+  <string name="notification_light_use_custom">Користи прилагођене вредности</string>
+  <string name="notification_light_use_custom_summary">Укључите да бисте подесили боје обавештења за одређене апликације</string>
+  <string name="notification_light_default_value">Подразумевано</string>
+  <string name="notification_light_missed_call_title">Пропуштен позив</string>
+  <string name="notification_light_voicemail_title">Говорна пошта</string>
+  <string name="notification_light_screen_on">Обавештење преко LED када је екран укључен</string>
+  <string name="notification_light_zen_mode">Обавештење преко LED у режиму „Не узнемиравај“</string>
+  <string name="notification_light_use_multiple_leds">Више LED светала</string>
   <!-- Notification light settings -->
+  <string name="leds_category_title">LED опције</string>
+  <string name="battery_light_settings">LED индикатор батерије</string>
+  <string name="led_notification_title">Подешавања светла</string>
+  <string name="led_notification_text">LED светло је омогућено у подешавањима</string>
+  <string name="notification_light_no_apps_summary">Да бисте додали конторлу по апликацији, омогућите „%1$s“ и додирните „\u002b“ у траци менија</string>
   <!-- Battery light settings  -->
+  <string name="batterylight_title">Подешавања LED индикатора батерије</string>
+  <string name="battery_light_enable">Омогући</string>
+  <string name="battery_low_pulse_title">Трепери ако је батерија празна</string>
+  <string name="battery_light_only_full_charge_title">Светли само ако је батерија потпуно напуњена</string>
+  <string name="battery_light_list_title">Боје</string>
+  <string name="battery_light_low_color_title">Батерија слаба</string>
+  <string name="battery_light_medium_color_title">Пуњење</string>
+  <string name="battery_light_full_color_title">Напуњено (90%)</string>
+  <string name="battery_light_really_full_color_title">Напуњено (100%)</string>
+  <string name="led_color_green">Зелена</string>
+  <string name="led_color_red">Црвена</string>
+  <string name="led_color_blue">Плава</string>
   <!-- Power Menu -->
+  <string name="powermenu_manage">Управљање менијем за напајање</string>
+  <string name="powermenu_reboot_title">Поново покрени</string>
+  <string name="powermenu_advanced_reboot_title">Напредно поновно покретање</string>
+  <string name="powermenu_advanced_reboot_summary">Омогућује напредни мени за поновно покретање са опцијама поновног покретања система за опоравак, bootloader, поновно покретање интерфејса или \"вруће\" поновно покретање</string>
+  <string name="powermenu_screenshot_title">Снимак слике екрана</string>
+  <string name="powermenu_airplane_title">Режим рада у авиону</string>
   <!-- HW Keys customization -->
+  <string name="picker_activities">Активности</string>
+  <string name="select_custom_app_title">Изабери прилагођену апликацију</string>
+  <string name="select_custom_activity_title">Изабери прилагођену активност</string>
+  <string name="profile_applist_title">Апликације</string>
+  <string name="choose_action_title">Изабери акцију</string>
+  <string name="action_entry_default_action">Подразумевана подешавања</string>
+  <string name="action_entry_select_app">Изабери апликацију</string>
+  <string name="action_entry_custom_action">Изаберите прилагођену акцију</string>
+  <string name="hardware_keys_home_key_title">Дугме за почетни екран</string>
   <string name="hardware_keys_menu_key_title">Мени дугме</string>
   <string name="hardware_keys_assist_key_title">Дугме за претрагу</string>
   <string name="hardware_keys_appswitch_key_title">Дугме за преглед</string>
   <string name="hardware_keys_back_key_title">Дугме за враћање назад</string>
-  <string name="hardware_keys_double_tap_summary">Поставите радњу дуплог додира</string>
-  <string name="hardware_keys_single_tap_summary">Поставите радњу једног додира</string>
-  <string name="hardware_keys_long_press_summary">Поставите радњу дугог додира</string>
-  <string name="hardware_keys_single_tap_title">Радња једног додира</string>
-  <string name="hardware_keys_long_press_title">Радња дугог притиска</string>
-  <string name="hardware_keys_double_tap_title">Радња двоструког додира</string>
+  <string name="hardware_keys_double_tap_summary">Поставите акцију дуплог додира</string>
+  <string name="hardware_keys_single_tap_summary">Поставите акцију једног додира</string>
+  <string name="hardware_keys_long_press_summary">Поставите акцију дугог додира</string>
+  <string name="hardware_keys_single_tap_title">Акција једног додира</string>
+  <string name="hardware_keys_long_press_title">Акција дугог притиска</string>
+  <string name="hardware_keys_double_tap_title">Акција двоструког додира</string>
   <string name="hardware_keys_category">Хардверска дугмад</string>
   <string name="hardware_keys_enable_title">Омогући</string>
   <string name="hardware_keys_wake_title">Пробуди уређај</string>
   <!-- UTouch -->
-  <string name="hardware_keys_utouch_left_swipe">Превлачење на лево</string>
-  <string name="hardware_keys_utouch_right_swipe">Превлачење на десно</string>
+  <string name="hardware_keys_utouch_left_swipe">Превлачење лево</string>
+  <string name="hardware_keys_utouch_right_swipe">Превлачење десно</string>
 </resources>

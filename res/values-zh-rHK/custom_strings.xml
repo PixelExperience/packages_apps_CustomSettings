@@ -54,6 +54,14 @@
   <string name="torch_power_button_gesture_dt">輕按兩下</string>
   <string name="torch_power_button_gesture_lp">長按</string>
   <!-- Button touch -->
+  <string name="button_backlight_options_category">背光選項</string>
+  <string name="button_backlight_enable_title">允許按鍵背光</string>
+  <string name="button_link_brightness">連結至螢幕亮度</string>
+  <string name="button_link_brightness_summary">按鍵背光亮度將根據螢幕的亮度調整</string>
+  <string name="button_manual_brightness">亮度等級</string>
+  <string name="button_timeout_title">背光逾時</string>
+  <string name="button_backlight_on_touch_only_title">按鍵背光觸控</string>
+  <string name="button_backlight_on_touch_only_summary">按鍵背光只會在按下按鍵時出現，而不是一直按下。逾時仍會影響此功能。</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">管理導航列</string>
   <!-- Notification light dialogs -->
@@ -142,6 +150,7 @@
   <string name="hardware_keys_double_tap_title">輕按兩下動作</string>
   <string name="hardware_keys_category">實體按鍵</string>
   <string name="hardware_keys_enable_title">啟用</string>
+  <string name="hardware_keys_wake_title">喚醒裝置</string>
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">左滑</string>
   <string name="hardware_keys_utouch_right_swipe">右滑</string>

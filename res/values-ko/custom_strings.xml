@@ -54,6 +54,14 @@
   <string name="torch_power_button_gesture_dt">더블 탭</string>
   <string name="torch_power_button_gesture_lp">길게 누르기</string>
   <!-- Button touch -->
+  <string name="button_backlight_options_category">백라이트 옵션</string>
+  <string name="button_backlight_enable_title">버튼 백라이트 허용</string>
+  <string name="button_link_brightness">화면 밝기와 연결</string>
+  <string name="button_link_brightness_summary">화면의 밝기 레벨에 따라 버튼 백라이트 밝기가 조정됩니다.</string>
+  <string name="button_manual_brightness">밝기 수준</string>
+  <string name="button_timeout_title">백라이트 시간 제한</string>
+  <string name="button_backlight_on_touch_only_title">버튼 터치 백라이트</string>
+  <string name="button_backlight_on_touch_only_summary">버튼 백라이트는 항상이 아니라 버튼을 누르는 경우에만 나타납니다. 시간 초과는 여전히 이 기능에 영향을 미칩니다.</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">내비게이션 바 관리</string>
   <!-- Notification light dialogs -->
@@ -142,6 +150,7 @@
   <string name="hardware_keys_double_tap_title">더블 탭 했을 때의 동작</string>
   <string name="hardware_keys_category">물리 키</string>
   <string name="hardware_keys_enable_title">활성화</string>
+  <string name="hardware_keys_wake_title">기기 깨우기</string>
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">왼쪽으로 스와이프</string>
   <string name="hardware_keys_utouch_right_swipe">오른쪽으로 스와이프</string>

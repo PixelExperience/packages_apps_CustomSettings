@@ -54,6 +54,14 @@
   <string name="torch_power_button_gesture_dt">Dubbel tikken</string>
   <string name="torch_power_button_gesture_lp">Lang indrukken</string>
   <!-- Button touch -->
+  <string name="button_backlight_options_category">Achtergrondverlichting opties</string>
+  <string name="button_backlight_enable_title">Achtergrondverlichting van knoppen toestaan</string>
+  <string name="button_link_brightness">Koppelen aan helderheid scherm</string>
+  <string name="button_link_brightness_summary">Achtergrondverlichting van knoppen wordt aangepast aan de hand van de schermhelderheid</string>
+  <string name="button_manual_brightness">Helderheidsniveau</string>
+  <string name="button_timeout_title">Time-out achtergrondverlichting</string>
+  <string name="button_backlight_on_touch_only_title">Achtergrondverlichting bij aanraken</string>
+  <string name="button_backlight_on_touch_only_summary">Achtergrondverlichting van knoppen alleen aan bij aanraken in plaats van altijd aan. Time-out heeft nog steeds invloed op deze functie.</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Navigatiebalk beheren</string>
   <!-- Notification light dialogs -->
@@ -142,6 +150,7 @@
   <string name="hardware_keys_double_tap_title">Actie twee keer indrukken</string>
   <string name="hardware_keys_category">Hardwareknoppen</string>
   <string name="hardware_keys_enable_title">Inschakelen</string>
+  <string name="hardware_keys_wake_title">Apparaat ontwaken</string>
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">Naar links vegen</string>
   <string name="hardware_keys_utouch_right_swipe">Naar rechts vegen</string>

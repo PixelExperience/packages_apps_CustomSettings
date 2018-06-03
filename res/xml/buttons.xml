@@ -42,6 +42,17 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="misc_extensions_icons_category"
+        android:title="@string/icons_category">
+
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+             android:key="roaming_indicator_icon"
+             android:title="@string/roaming_indicator_icon_title"
+             android:summary="@string/roaming_indicator_icon_summary"
+             android:defaultValue="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="button_backlight_options_category"
         android:title="@string/button_backlight_options_category" >
 

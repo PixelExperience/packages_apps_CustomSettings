@@ -15,6 +15,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <string name="icons_category">Icons</string>
+    
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
     <string name="press_color_to_apply">Press on color below to apply</string>
@@ -183,4 +185,8 @@
     <string name="hardware_keys_utouch_left_swipe">Left swipe</string>
     <string name="hardware_keys_utouch_right_swipe">Right swipe</string>
     <string name="hardware_keys_utouch" translatable="false">U-Touch</string>
+
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Roaming indicator</string>
+    <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
 </resources>

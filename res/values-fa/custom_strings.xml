@@ -18,42 +18,50 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Color Picker -->
   <string name="dialog_color_picker">انتخابگر رنگ</string>
-  <string name="press_color_to_apply">برای اعمال، رنگ زیر را فشار دهید</string>
+  <string name="press_color_to_apply">رنگ زیر را جهت اعمال لمس کنید</string>
   <string name="arrow_right">→</string>
   <string name="arrow_down">↓</string>
   <string name="hex">کد هگزادسیمال:</string>
   <string name="hex_hint">#ff000000</string>
-  <string name="set">برگزیدن</string>
+  <string name="set">انتخاب</string>
   <string name="color_default">پیش فرض</string>
   <!-- Buttons -->
-  <string name="button_settings">دکمه ها</string>
+  <string name="button_settings">دکمه‌ها</string>
   <!-- Volume category -->
-  <string name="volume_category">دکمه های صدا</string>
+  <string name="volume_category">نوار تنظیم صدا</string>
   <!-- Power category -->
   <string name="power_category">پاور</string>
   <!-- Volume category -->
   <string name="navbar_category">نوار پیمایش</string>
   <!-- Volume button orientation based on current rotation -->
-  <string name="swap_volume_buttons_title">جا به جا کردن دکمه های صدا</string>
+  <string name="swap_volume_buttons_title">جا به جا کردن چینش دکمه‌های صدا</string>
   <string name="swap_volume_buttons_summary">تغییر جهت دکمه های صدا بر اساس چرخش صفحه</string>
   <!-- Volume key controls media stream -->
-  <string name="volume_keys_control_media_stream_title">کلیدهای صدا میزان صدای رسانه را کنترل می کنند</string>
-  <string name="volume_keys_control_media_stream_summary">اجبار کردن دکمه های صدا به کنترل پخش رسانه</string>
+  <string name="volume_keys_control_media_stream_title">کلیدهای صدا، میزان صدای رسانه را کنترل می کنند</string>
+  <string name="volume_keys_control_media_stream_summary">اجبار دکمه های تنظیم صدا به کنترل پخش رسانه</string>
   <!-- Volume rocker music control -->
   <string name="volume_rocker_music_controls_title">کنترل پخش</string>
-  <string name="volume_rocker_music_controls_summary">زمان خاموشی صفحه نمایش، با نگه داشتن کلید های صدا موسیقی را تغییر دهید</string>
+  <string name="volume_rocker_music_controls_summary">زمانی که صفحه نمایش خاموش است، با نگه داشتن کلید های تنظیم صدا موسیقی را تغییر دهید</string>
   <!-- Volume rocker wake -->
-  <string name="volume_rocker_wake_title">بیدار شدن با دکمه های صدا</string>
-  <string name="volume_rocker_wake_summary">فشار دادن کلید های صدا، صفحه نمایش را روشن خواهد کرد</string>
+  <string name="volume_rocker_wake_title">بیدار شدن دکمه های صدا</string>
+  <string name="volume_rocker_wake_summary">فشردن کلید های صدا، دستگاه شما را روشن خواهد کرد</string>
   <!-- The volume key answer -->
   <string name="volume_answer_call_title">پاسخ دادن با دکمه های صدا</string>
-  <string name="volume_answer_call_summary">پاسخگویی به تماس با فشردن کلید های صدا</string>
+  <string name="volume_answer_call_summary">زمانی که کلیدهای تنظیم صدا فشار داده شد به تماس پاسخ بده</string>
   <!-- Torch Power button gestures -->
-  <string name="torch_power_button_gesture_title">چراغ قوه زمانی که صفحه خاموش است</string>
+  <string name="torch_power_button_gesture_title">روشن کردن چراغ قوه زمانی که صفحه خاموش است</string>
   <string name="torch_power_button_gesture_none">غیرفعال</string>
-  <string name="torch_power_button_gesture_dt">دو ضربه</string>
+  <string name="torch_power_button_gesture_dt">دو بار ضربه بزنید</string>
   <string name="torch_power_button_gesture_lp">نگه داشتن</string>
   <!-- Button touch -->
+  <string name="button_backlight_options_category">تنظیمات نور پس زمینه</string>
+  <string name="button_backlight_enable_title">دکمه‌ها نور پس زمینه داشته باشند</string>
+  <string name="button_link_brightness">مرتبط کردن به نور صفحه نمایش</string>
+  <string name="button_link_brightness_summary">روشنایی نور پس زمینه دکمه‌ها بر اساس روشنایی صفحه نمایش تنظیم می شود</string>
+  <string name="button_manual_brightness">شدت روشنایی</string>
+  <string name="button_timeout_title">زمان خاموش کردن نور پس زمینه</string>
+  <string name="button_backlight_on_touch_only_title">زمان خاموش کردن نور پس زمینه دکمه‌ها</string>
+  <string name="button_backlight_on_touch_only_summary">نور پس زمینه دکمه‌ها به جای اینکه دائما روشن باشد تنها در زمان فشردن آنها روشن خواهد شد. زمان خاموش شدن نور پس زمینه بر روی این قابلیت نیز عمل می‌کند.</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">مدیریت نوار پیمایش</string>
   <!-- Notification light dialogs -->
@@ -142,6 +150,7 @@
   <string name="hardware_keys_double_tap_title">عملکرد دو ضربه</string>
   <string name="hardware_keys_category">کلید های سخت افزاری</string>
   <string name="hardware_keys_enable_title">فعال سازی</string>
+  <string name="hardware_keys_wake_title">بیدار کردن دستگاه</string>
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">کشیدن به چپ</string>
   <string name="hardware_keys_utouch_right_swipe">کشیدن به راست</string>

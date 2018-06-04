@@ -56,7 +56,7 @@
   <!-- Button touch -->
   <string name="button_backlight_options_category">Настройка подсветки кнопок</string>
   <string name="button_backlight_enable_title">Включить подсветку кнопок</string>
-  <string name="button_link_brightness">Совместить с яркостью экрана</string>
+  <string name="button_link_brightness">Связать с яркостью экрана</string>
   <string name="button_link_brightness_summary">Яркость подсветки кнопок будет регулироваться в зависимости от яркости экрана</string>
   <string name="button_manual_brightness">Уровень яркости</string>
   <string name="button_timeout_title">Длительность подсветки кнопок</string>
@@ -66,7 +66,7 @@
   <string name="navbar_tuner_title">Управление панелью навигации</string>
   <!-- Notification light dialogs -->
   <string name="ok">ОК</string>
-  <string name="reset">Сбросить</string>
+  <string name="reset">Сброс</string>
   <string name="advanced">Дополнительно</string>
   <string name="profiles_add">Добавить...</string>
   <string name="edit_light_settings">Изменение настроек индикатора</string>
@@ -75,7 +75,7 @@
   <string name="custom_time">Настроить</string>
   <string name="dialog_choose_app">Выберите приложение</string>
   <string name="dialog_delete_title">Удалить</string>
-  <string name="dialog_delete_message">Удалить выбранные элементы?</string>
+  <string name="dialog_delete_message">Удалить выбранный элемент?</string>
   <!-- Values for the notification light pulse spinners -->
   <string name="pulse_length_always_on">Всегда включен</string>
   <string name="pulse_length_very_short">Очень короткая</string>

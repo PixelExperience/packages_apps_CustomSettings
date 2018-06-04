@@ -60,6 +60,7 @@
   <string name="button_link_brightness_summary">पश्‍च प्रकाश बटन की चमक स्क्रीन की चमक स्तर के आधार पर समायोजित होगी</string>
   <string name="button_manual_brightness">चमक स्तर</string>
   <string name="button_timeout_title">पश्‍च प्रकाश समय समाप्ति</string>
+  <string name="button_backlight_on_touch_only_title">बटन बैकलाइट स्पर्श</string>
   <string name="button_backlight_on_touch_only_summary">पश्‍च प्रकाश बटन केवल तभी दिखाई देगा जब बटन दबाया जाता है बजाय हर समय के । समयबाह्य अभी भी इस सुविधा को प्रभावित करता है ।</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">नेविगेशन पट्टी को समायोजित करें</string>

@@ -34,7 +34,7 @@
   <!-- Volume category -->
   <string name="navbar_category">Barre de navigation</string>
   <!-- Volume button orientation based on current rotation -->
-  <string name="swap_volume_buttons_title">Inverser l\'orientation des boutons de volume</string>
+  <string name="swap_volume_buttons_title">Inverser l\'orientation des boutons de volumes +/-</string>
   <string name="swap_volume_buttons_summary">Ajuster l\'orientation des boutons en fonction de l\'orientation actuelle</string>
   <!-- Volume key controls media stream -->
   <string name="volume_keys_control_media_stream_title">Les boutons de volume contrôlent le volume des sons multimédia</string>
@@ -54,6 +54,14 @@
   <string name="torch_power_button_gesture_dt">Appui double</string>
   <string name="torch_power_button_gesture_lp">Appui long</string>
   <!-- Button touch -->
+  <string name="button_backlight_options_category">Options de rétroéclairage</string>
+  <string name="button_backlight_enable_title">Activer le rétroéclairage des boutons</string>
+  <string name="button_link_brightness">Lier à la luminosité de l\'écran</string>
+  <string name="button_link_brightness_summary">Le rétroéclairage des boutons s\'ajustera à la luminosité de l\'écran</string>
+  <string name="button_manual_brightness">Niveau de luminosité</string>
+  <string name="button_timeout_title">Délai avant extinction du rétroéclairage</string>
+  <string name="button_backlight_on_touch_only_title">Rétroéclairage du bouton au touché</string>
+  <string name="button_backlight_on_touch_only_summary">Le rétroéclairage des boutons s\'allumera uniquement lorsque ceux-ci seront pressés plutôt que tout le temps. Le délai s\'applique sur cette fonction.</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Gérer la barre de navigation</string>
   <!-- Notification light dialogs -->
@@ -142,6 +150,7 @@
   <string name="hardware_keys_double_tap_title">Action « appui double»</string>
   <string name="hardware_keys_category">Boutons physiques</string>
   <string name="hardware_keys_enable_title">Activer</string>
+  <string name="hardware_keys_wake_title">Réveiller l\'appareil</string>
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">Balayage vers la gauche</string>
   <string name="hardware_keys_utouch_right_swipe">Balayage vers la droite</string>

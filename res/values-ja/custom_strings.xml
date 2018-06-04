@@ -24,7 +24,7 @@
   <string name="hex">16進数:</string>
   <string name="hex_hint">#ff000000</string>
   <string name="set">適用</string>
-  <string name="color_default">デフォルト</string>
+  <string name="color_default">既定</string>
   <!-- Buttons -->
   <string name="button_settings">ボタン</string>
   <!-- Volume category -->
@@ -35,25 +35,33 @@
   <string name="navbar_category">ナビゲーションバー</string>
   <!-- Volume button orientation based on current rotation -->
   <string name="swap_volume_buttons_title">画面回転時にボリュームボタンの大小を入れ替える</string>
-  <string name="swap_volume_buttons_summary">現在の画面の向きに合わせて大小の向きを合わせます。</string>
+  <string name="swap_volume_buttons_summary">現在の画面の向きに合わせて大小の向きを合わせる</string>
   <!-- Volume key controls media stream -->
   <string name="volume_keys_control_media_stream_title">ボリュームキーをメディア音量に使用</string>
-  <string name="volume_keys_control_media_stream_summary">強制的にボリュームキーをメディア音量調整に使用する。デフォルトは着信音量調整に使用されます。</string>
+  <string name="volume_keys_control_media_stream_summary">強制的にボリュームキーでメディアの再生を制御する</string>
   <!-- Volume rocker music control -->
   <string name="volume_rocker_music_controls_title">音楽のコントロール</string>
   <string name="volume_rocker_music_controls_summary">画面が消えている時、音量ボタンの長押しで曲の進む/戻るを操作出来ます。</string>
   <!-- Volume rocker wake -->
   <string name="volume_rocker_wake_title">ボリュームキーのスリープを解除</string>
-  <string name="volume_rocker_wake_summary">ボリュームキーを押してスリープ解除することを許可します。</string>
+  <string name="volume_rocker_wake_summary">ボリュームキーを押してスリープ解除することを許可する</string>
   <!-- The volume key answer -->
   <string name="volume_answer_call_title">ボリュームキーアンサー</string>
-  <string name="volume_answer_call_summary">電話着信時にボリュームキーを押して応答します。</string>
+  <string name="volume_answer_call_summary">電話着信時にボリュームキーを押して応答する</string>
   <!-- Torch Power button gestures -->
   <string name="torch_power_button_gesture_title">スリープ時のライト操作</string>
   <string name="torch_power_button_gesture_none">無効</string>
   <string name="torch_power_button_gesture_dt">ダブルタップ</string>
   <string name="torch_power_button_gesture_lp">長押し</string>
   <!-- Button touch -->
+  <string name="button_backlight_options_category">バックライトの設定</string>
+  <string name="button_backlight_enable_title">ボタンのバックライトを許可</string>
+  <string name="button_link_brightness">画面の明るさとリンクする</string>
+  <string name="button_link_brightness_summary">ボタンのバックライトの明るさは画面の輝度レベルに応じて調整されます</string>
+  <string name="button_manual_brightness">明るさのレベル</string>
+  <string name="button_timeout_title">バックライトのタイムアウト</string>
+  <string name="button_backlight_on_touch_only_title">タッチ時にのみバックライトを点灯</string>
+  <string name="button_backlight_on_touch_only_summary">ボタンを押したときにだけバックライトが点灯するようになります。消灯時間はこの設定にも引き続き影響します。</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">ナビゲーションバーの管理</string>
   <!-- Notification light dialogs -->
@@ -82,7 +90,7 @@
   <string name="pulse_speed_very_slow">とても遅い</string>
   <!-- Lights settings screen, notification light settings -->
   <string name="notification_light_title">通知ライト</string>
-  <string name="notification_light_title_summary">通知LEDを有効にします。</string>
+  <string name="notification_light_title_summary">通知LEDを有効にする</string>
   <string name="notification_light_general_title">全般</string>
   <string name="notification_light_applist_title">アプリ</string>
   <string name="notification_light_phonelist_title">着信</string>
@@ -99,7 +107,7 @@
   <string name="battery_light_settings">バッテリーの点灯通知</string>
   <string name="led_notification_title">点灯通知設定</string>
   <string name="led_notification_text">設定によりLED通知が有効になっています</string>
-  <string name="notification_light_no_apps_summary">各アプリの操作を追加するには、\'%1$s\' を登録し、メニューバー上の \'\u002b\' を押して下さい</string>
+  <string name="notification_light_no_apps_summary">各アプリの操作を追加するには、\'%1$s\' を登録し、メニューバー上の \'\u002b\' を押して下さい。</string>
   <!-- Battery light settings  -->
   <string name="batterylight_title">バッテリーのLED通知設定</string>
   <string name="battery_light_enable">有効</string>
@@ -108,8 +116,8 @@
   <string name="battery_light_list_title">色設定</string>
   <string name="battery_light_low_color_title">バッテリー容量低下</string>
   <string name="battery_light_medium_color_title">充電中</string>
-  <string name="battery_light_full_color_title">充電中(90%)</string>
-  <string name="battery_light_really_full_color_title">充電完了(100%)</string>
+  <string name="battery_light_full_color_title">充電中（90%）</string>
+  <string name="battery_light_really_full_color_title">充電完了（100%）</string>
   <string name="led_color_green">緑</string>
   <string name="led_color_red">赤</string>
   <string name="led_color_blue">青</string>
@@ -117,13 +125,13 @@
   <string name="powermenu_manage">電源ボタンメニュー</string>
   <string name="powermenu_reboot_title">再起動</string>
   <string name="powermenu_advanced_reboot_title">詳細な再起動メニュー</string>
-  <string name="powermenu_advanced_reboot_summary">詳細な再起動メニューを有効にすると、リカバリーモード、ブートローダ、システムUIの再起動、クイックリブートが選択出来るようになります</string>
+  <string name="powermenu_advanced_reboot_summary">詳細な再起動メニューを有効にすると、リカバリーモード、ブートローダ、システムUIの再起動、クイックリブートが選択出来るようになります。</string>
   <string name="powermenu_screenshot_title">スクリーンショット</string>
   <string name="powermenu_airplane_title">機内モード</string>
   <!-- HW Keys customization -->
   <string name="picker_activities">アクティビティ</string>
   <string name="select_custom_app_title">カスタムアプリを選択</string>
-  <string name="select_custom_activity_title">カスタムアクティビティを選択します</string>
+  <string name="select_custom_activity_title">カスタムアクティビティを選択する</string>
   <string name="profile_applist_title">アプリ</string>
   <string name="choose_action_title">アクションを選択</string>
   <string name="action_entry_default_action">デフォルトの設定</string>
@@ -142,6 +150,7 @@
   <string name="hardware_keys_double_tap_title">ダブルタップ時の動作</string>
   <string name="hardware_keys_category">ハードウェアキー</string>
   <string name="hardware_keys_enable_title">有効</string>
+  <string name="hardware_keys_wake_title">スリープ解除</string>
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">左スワイプ</string>
   <string name="hardware_keys_utouch_right_swipe">右スワイプ</string>

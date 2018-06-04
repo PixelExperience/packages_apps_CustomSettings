@@ -54,6 +54,14 @@
   <string name="torch_power_button_gesture_dt">Dvojité poklepání</string>
   <string name="torch_power_button_gesture_lp">Dlouhý stisk</string>
   <!-- Button touch -->
+  <string name="button_backlight_options_category">Možnosti podsvícení</string>
+  <string name="button_backlight_enable_title">Povolit podsvícení tlačítek</string>
+  <string name="button_link_brightness">Sjednotit s jasem obrazovky</string>
+  <string name="button_link_brightness_summary">Jas podsvícení tlačítek bude přizpůsoben úrovni jasu obrazovky</string>
+  <string name="button_manual_brightness">Úroveň jasu</string>
+  <string name="button_timeout_title">Délka podsvícení</string>
+  <string name="button_backlight_on_touch_only_title">Podsvícení tlačítek při dotyku</string>
+  <string name="button_backlight_on_touch_only_summary">Podsvícení tlačítek bude zobrazeno pouze při stisknutí, nikoli po celou dobu. Časový limit stále ovlivňuje tuto funkci.</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Správa navigačního panelu</string>
   <!-- Notification light dialogs -->
@@ -142,6 +150,7 @@
   <string name="hardware_keys_double_tap_title">Akce dvojím poklepáním</string>
   <string name="hardware_keys_category">Hardwarová tlačítka</string>
   <string name="hardware_keys_enable_title">Povolit</string>
+  <string name="hardware_keys_wake_title">Probudit zařízení</string>
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">Posunutí doleva</string>
   <string name="hardware_keys_utouch_right_swipe">Posunutí doprava</string>

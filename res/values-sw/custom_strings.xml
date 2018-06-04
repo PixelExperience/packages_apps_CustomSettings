@@ -17,14 +17,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Color Picker -->
-  <string name="color_default">डीफॉल्ट</string>
   <!-- Buttons -->
   <!-- Volume category -->
-  <string name="volume_category">आवाजाचे बटन</string>
   <!-- Power category -->
-  <string name="power_category">पॉवर</string>
   <!-- Volume category -->
-  <string name="navbar_category">नेव्हिगेशन बार</string>
   <!-- Volume button orientation based on current rotation -->
   <!-- Volume key controls media stream -->
   <!-- Volume rocker music control -->
@@ -41,6 +37,4 @@
   <!-- Power Menu -->
   <!-- HW Keys customization -->
   <!-- UTouch -->
-  <string name="hardware_keys_utouch_left_swipe">डावीकडे स्वाइप करा</string>
-  <string name="hardware_keys_utouch_right_swipe">उजवीकडे स्वाइप करा</string>
 </resources>

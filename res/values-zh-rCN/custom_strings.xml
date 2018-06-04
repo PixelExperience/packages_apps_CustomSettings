@@ -17,7 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Color Picker -->
-  <string name="dialog_color_picker">拾色器</string>
+  <string name="dialog_color_picker">取色器</string>
   <string name="press_color_to_apply">按选以下颜色以应用</string>
   <string name="arrow_right">→</string>
   <string name="arrow_down">↓</string>

@@ -61,7 +61,7 @@
   <string name="button_manual_brightness">Уровень яркости</string>
   <string name="button_timeout_title">Длительность подсветки кнопок</string>
   <string name="button_backlight_on_touch_only_title">Подсветка кнопок при касании</string>
-  <string name="button_backlight_on_touch_only_summary">Подсветка кнопок будет работать только при их нажатии.</string>
+  <string name="button_backlight_on_touch_only_summary">Подсветка кнопок будет работать только при их нажатии. Длительность по-прежнему влияет на эту функцию.</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Управление панелью навигации</string>
   <!-- Notification light dialogs -->

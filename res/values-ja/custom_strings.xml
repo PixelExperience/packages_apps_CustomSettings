@@ -34,20 +34,20 @@
   <!-- Volume category -->
   <string name="navbar_category">ナビゲーションバー</string>
   <!-- Volume button orientation based on current rotation -->
-  <string name="swap_volume_buttons_title">画面回転時にボリュームボタンの大小を入れ替える</string>
+  <string name="swap_volume_buttons_title">画面回転時に音量ボタンの大小を入れ替える</string>
   <string name="swap_volume_buttons_summary">現在の画面の向きに合わせて大小の向きを合わせる</string>
   <!-- Volume key controls media stream -->
-  <string name="volume_keys_control_media_stream_title">ボリュームキーをメディア音量に使用</string>
-  <string name="volume_keys_control_media_stream_summary">強制的にボリュームキーでメディアの再生を制御する</string>
+  <string name="volume_keys_control_media_stream_title">音量キーをメディア音量に使用</string>
+  <string name="volume_keys_control_media_stream_summary">強制的に音量キーでメディアの再生を制御する</string>
   <!-- Volume rocker music control -->
   <string name="volume_rocker_music_controls_title">音楽のコントロール</string>
   <string name="volume_rocker_music_controls_summary">画面が消えている時、音量ボタンの長押しで曲の進む/戻るを操作出来ます。</string>
   <!-- Volume rocker wake -->
-  <string name="volume_rocker_wake_title">ボリュームキーのスリープを解除</string>
-  <string name="volume_rocker_wake_summary">ボリュームキーを押してスリープ解除することを許可する</string>
+  <string name="volume_rocker_wake_title">音量キーでスリープを解除</string>
+  <string name="volume_rocker_wake_summary">音量キーを押してスリープ解除を許可する</string>
   <!-- The volume key answer -->
-  <string name="volume_answer_call_title">ボリュームキーアンサー</string>
-  <string name="volume_answer_call_summary">電話着信時にボリュームキーを押して応答する</string>
+  <string name="volume_answer_call_title">音量キーで着信に出る</string>
+  <string name="volume_answer_call_summary">電話着信時に音量キーを押して応答する</string>
   <!-- Torch Power button gestures -->
   <string name="torch_power_button_gesture_title">スリープ時のライト操作</string>
   <string name="torch_power_button_gesture_none">無効</string>

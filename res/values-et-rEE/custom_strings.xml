@@ -34,14 +34,14 @@
   <!-- Volume category -->
   <string name="navbar_category">Navigeerimisriba</string>
   <!-- Volume button orientation based on current rotation -->
-  <string name="swap_volume_buttons_title">Vaheta Köide jalas suund</string>
-  <string name="swap_volume_buttons_summary">Jalas lõplikult praeguse rotatsiooni vastavalt</string>
+  <string name="swap_volume_buttons_title">Vaheta helitugevuse muutja orientatsioon</string>
+  <string name="swap_volume_buttons_summary">Reguleerige helitugevuse muutja orientatsiooni vastavalt praegusele pöörlemisasendile</string>
   <!-- Volume key controls media stream -->
-  <string name="volume_keys_control_media_stream_title">Helitugevusnupu abil saab reguleer meedia maht</string>
-  <string name="volume_keys_control_media_stream_summary">Köide võtmed juhtida meediumivoogu sundida</string>
+  <string name="volume_keys_control_media_stream_title">Helitugevuse muutja nupud juhivad meediavoogu</string>
+  <string name="volume_keys_control_media_stream_summary">Sunni helitugevuse muutja nuppe juhtima meediavoogu</string>
   <!-- Volume rocker music control -->
-  <string name="volume_rocker_music_controls_title">Taasesituse kontrolli</string>
-  <string name="volume_rocker_music_controls_summary">Kui ekraan on välja lülitatud, long-vajutades helitugevusnuppe püüab muusikat</string>
+  <string name="volume_rocker_music_controls_title">Taasesituse juhtimine</string>
+  <string name="volume_rocker_music_controls_summary">Kui ekraani väljas olekul pikalt helitugevuse muutja nuppe vajutada, kuvatakse muusikapalad</string>
   <!-- Volume rocker wake -->
   <string name="volume_rocker_wake_title">Helitugevuse muutja äratamine</string>
   <string name="volume_rocker_wake_summary">Helitugevuse nuppude vajutamisel äratatakse Teie seade</string>
@@ -65,12 +65,12 @@
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Navigeerimisriba haldamine</string>
   <!-- Notification light dialogs -->
-  <string name="ok">Okei</string>
+  <string name="ok">OK</string>
   <string name="reset">Lähtesta</string>
   <string name="advanced">Täpsemalt</string>
   <string name="profiles_add">Lisa...</string>
   <string name="edit_light_settings">Valgusseadete muutmine</string>
-  <string name="pulse_speed_title">Vilkumise pikkus ja kiirus</string>
+  <string name="pulse_speed_title">Tuikamise pikkus ja kiirus</string>
   <string name="default_time">Tavaline</string>
   <string name="custom_time">Kohandatud</string>
   <string name="dialog_choose_app">Vali rakendus</string>
@@ -90,7 +90,7 @@
   <string name="pulse_speed_very_slow">Väga aeglane</string>
   <!-- Lights settings screen, notification light settings -->
   <string name="notification_light_title">Teavituste tuli</string>
-  <string name="notification_light_title_summary">Pulsing teavituse LED</string>
+  <string name="notification_light_title_summary">Luba tuikav teavituste tuli</string>
   <string name="notification_light_general_title">Üldine</string>
   <string name="notification_light_applist_title">Rakendused</string>
   <string name="notification_light_phonelist_title">Telefon</string>
@@ -101,15 +101,15 @@
   <string name="notification_light_voicemail_title">Kõnepost</string>
   <string name="notification_light_screen_on">Tuled koos ekraani seesolemisega</string>
   <string name="notification_light_zen_mode">Tuled \"Mitte segada\" režiimis</string>
-  <string name="notification_light_use_multiple_leds">Mitu LED</string>
+  <string name="notification_light_use_multiple_leds">Mitu LEDi</string>
   <!-- Notification light settings -->
-  <string name="leds_category_title">LED Valikud</string>
-  <string name="battery_light_settings">Aku valgustus</string>
+  <string name="leds_category_title">LED valikud</string>
+  <string name="battery_light_settings">Aku tuli</string>
   <string name="led_notification_title">Valgustuse seaded</string>
-  <string name="led_notification_text">LED-valgus on seadistustega lubatud</string>
+  <string name="led_notification_text">LED-tuli on seadistustega lubatud</string>
   <string name="notification_light_no_apps_summary">Rakenduse alusel juhtimise lisamiseks aktiveerige \'%1$s\' ja vajutage menüüribal \'\ u002b\'</string>
   <!-- Battery light settings  -->
-  <string name="batterylight_title">Aku LED seaded</string>
+  <string name="batterylight_title">Aku tule seaded</string>
   <string name="battery_light_enable">Luba</string>
   <string name="battery_low_pulse_title">Tuika, kui akutase on madal</string>
   <string name="battery_light_only_full_charge_title">Sütti ainult täielikult laetuna</string>
@@ -122,10 +122,10 @@
   <string name="led_color_red">Punane</string>
   <string name="led_color_blue">Sinine</string>
   <!-- Power Menu -->
-  <string name="powermenu_manage">Hallata toite menüüd</string>
+  <string name="powermenu_manage">Halda toite menüüd</string>
   <string name="powermenu_reboot_title">Taaskäivita</string>
   <string name="powermenu_advanced_reboot_title">Täiustatud taaskäivitamine</string>
-  <string name="powermenu_advanced_reboot_summary">Võimaldab täiustatud reboot tagasi, bootloader reboot, taaskäivitage systemui või vallandada kuum reboot suvandid menüü</string>
+  <string name="powermenu_advanced_reboot_summary">Lubab täiustatud taaskäivitamismenüü recovery-sse või bootloader-sse minemiseks, systemui taaskäivitamiseks või hot reboot-i põhjustamiseks</string>
   <string name="powermenu_screenshot_title">Kuvatõmmis</string>
   <string name="powermenu_airplane_title">Lennurežiim</string>
   <!-- HW Keys customization -->
@@ -137,7 +137,7 @@
   <string name="action_entry_default_action">Vaikeseaded</string>
   <string name="action_entry_select_app">Valige rakendus</string>
   <string name="action_entry_custom_action">Valige kohandatud tegevus</string>
-  <string name="hardware_keys_home_key_title">Kodu nupp</string>
+  <string name="hardware_keys_home_key_title">Avalehe nupp</string>
   <string name="hardware_keys_menu_key_title">Menüü nupp</string>
   <string name="hardware_keys_assist_key_title">Otsingu nupp</string>
   <string name="hardware_keys_appswitch_key_title">Ülevaate nupp</string>
@@ -152,6 +152,6 @@
   <string name="hardware_keys_enable_title">Luba</string>
   <string name="hardware_keys_wake_title">Ärata seade</string>
   <!-- UTouch -->
-  <string name="hardware_keys_utouch_left_swipe">Vasak külg</string>
-  <string name="hardware_keys_utouch_right_swipe">Parem külg</string>
+  <string name="hardware_keys_utouch_left_swipe">Vasakule viipamine</string>
+  <string name="hardware_keys_utouch_right_swipe">Paremale viipamine</string>
 </resources>

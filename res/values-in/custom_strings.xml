@@ -96,7 +96,7 @@
   <string name="notification_light_phonelist_title">Telepon</string>
   <string name="notification_light_use_custom">Gunakan nilai kustom</string>
   <string name="notification_light_use_custom_summary">Aktifkan untuk mengatur warna pemberitahuan di setiap aplikasi</string>
-  <string name="notification_light_default_value">Standar</string>
+  <string name="notification_light_default_value">Bawaan</string>
   <string name="notification_light_missed_call_title">Panggilan tak terjawab</string>
   <string name="notification_light_voicemail_title">Pesan suara</string>
   <string name="notification_light_screen_on">Lampu menyala saat layar hidup</string>

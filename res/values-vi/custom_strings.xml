@@ -54,6 +54,7 @@
   <string name="torch_power_button_gesture_dt">Nhấn đúp</string>
   <string name="torch_power_button_gesture_lp">Nhấn giữ</string>
   <!-- Button touch -->
+  <string name="button_backlight_options_category">Backlight options</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Bật thanh điều hướng</string>
   <!-- Notification light dialogs -->

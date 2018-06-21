@@ -55,6 +55,13 @@
   <string name="torch_power_button_gesture_lp">Nhấn giữ</string>
   <!-- Button touch -->
   <string name="button_backlight_options_category">Backlight options</string>
+  <string name="button_backlight_enable_title">Bật đèn nền phím</string>
+  <string name="button_link_brightness">Đồng bộ với độ sáng màn hình</string>
+  <string name="button_link_brightness_summary">Độ sáng đèn nền phím sẽ tự điều chỉnh dựa trên độ sáng màn hình</string>
+  <string name="button_manual_brightness">Độ sáng đèn nền phím</string>
+  <string name="button_timeout_title">Thời gian chờ của đèn nền phím</string>
+  <string name="button_backlight_on_touch_only_title">Sáng khi chạm</string>
+  <string name="button_backlight_on_touch_only_summary">Đèn nền phím chỉ sáng khi chạm vào các nút điện dung. Tự động tắt khi hết thời gian chờ đèn nền phím.</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Bật thanh điều hướng</string>
   <!-- Notification light dialogs -->
@@ -143,6 +150,7 @@
   <string name="hardware_keys_double_tap_title">Hành động chạm hai lần</string>
   <string name="hardware_keys_category">Phím cứng</string>
   <string name="hardware_keys_enable_title">Bật</string>
+  <string name="hardware_keys_wake_title">Đánh thức thiết bị</string>
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">Vuốt bên trái</string>
   <string name="hardware_keys_utouch_right_swipe">Vuốt bên phải</string>

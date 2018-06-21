@@ -17,8 +17,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Color Picker -->
-  <string name="dialog_color_picker">Kleurenkiezer</string>
-  <string name="press_color_to_apply">Druk op de kleur hieronder om toe te passen</string>
+  <string name="dialog_color_picker">Kleurkeuze</string>
+  <string name="press_color_to_apply">Kies hieronder een kleur</string>
   <string name="arrow_right">→</string>
   <string name="arrow_down">↓</string>
   <string name="hex">Hex:</string>

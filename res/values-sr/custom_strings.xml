@@ -28,7 +28,7 @@
   <!-- Buttons -->
   <string name="button_settings">Дугмад</string>
   <!-- Volume category -->
-  <string name="volume_category">Дугмад за гласноћу звука</string>
+  <string name="volume_category">Дугмад за јачину звука</string>
   <!-- Power category -->
   <string name="power_category">Напајање</string>
   <!-- Volume category -->
@@ -49,7 +49,7 @@
   <string name="volume_answer_call_title">Одговори помоћу дугмади за контролу звука</string>
   <string name="volume_answer_call_summary">Одговорите на позив када притиснете дугмад за јачину звука</string>
   <!-- Torch Power button gestures -->
-  <string name="torch_power_button_gesture_title">Лампа док је екран искључен</string>
+  <string name="torch_power_button_gesture_title">Лампа када је екран искључен</string>
   <string name="torch_power_button_gesture_none">Онемогућено</string>
   <string name="torch_power_button_gesture_dt">Дупли додир</string>
   <string name="torch_power_button_gesture_lp">Дуги додир</string>
@@ -99,15 +99,15 @@
   <string name="notification_light_default_value">Подразумевано</string>
   <string name="notification_light_missed_call_title">Пропуштен позив</string>
   <string name="notification_light_voicemail_title">Говорна пошта</string>
-  <string name="notification_light_screen_on">Обавештење преко LED када је екран укључен</string>
-  <string name="notification_light_zen_mode">Обавештење преко LED у режиму „Не узнемиравај“</string>
+  <string name="notification_light_screen_on">Обавештење преко Led када је екран укључен</string>
+  <string name="notification_light_zen_mode">Обавештење преко Led у режиму „Не узнемиравај“</string>
   <string name="notification_light_use_multiple_leds">Више LED светала</string>
   <!-- Notification light settings -->
   <string name="leds_category_title">LED опције</string>
-  <string name="battery_light_settings">LED индикатор батерије</string>
+  <string name="battery_light_settings">Led индикатор батерије</string>
   <string name="led_notification_title">Подешавања светла</string>
   <string name="led_notification_text">LED светло је омогућено у подешавањима</string>
-  <string name="notification_light_no_apps_summary">Да бисте додали конторлу по апликацији, омогућите „%1$s“ и додирните „\u002b“ у траци менија</string>
+  <string name="notification_light_no_apps_summary">Да бисте додали контролу по апликацији, омогућите „%1$s“ и додирните „\u002b“ у траци менија</string>
   <!-- Battery light settings  -->
   <string name="batterylight_title">Подешавања LED индикатора батерије</string>
   <string name="battery_light_enable">Омогући</string>

@@ -54,6 +54,14 @@
   <string name="torch_power_button_gesture_dt">Kaksois napautus</string>
   <string name="torch_power_button_gesture_lp">Pitkä painallus</string>
   <!-- Button touch -->
+  <string name="button_backlight_options_category">Taustavalo säädöt</string>
+  <string name="button_backlight_enable_title">Salli näppäimen taustavalo</string>
+  <string name="button_link_brightness">Linkki näytön kirkkauden säätöön</string>
+  <string name="button_link_brightness_summary">Näppäimien taustavalon kirkkaus säästyy pohjautuen näytön kirkkaus tasoon</string>
+  <string name="button_manual_brightness">Kirkkaus taeo</string>
+  <string name="button_timeout_title">Taustavalon aika</string>
+  <string name="button_backlight_on_touch_only_title">Näppäimen taustavalon kosketus</string>
+  <string name="button_backlight_on_touch_only_summary">Näppäimen taustavalo ilmestyy kun näppäintä on painettu. Taustavalon ajan saa pitkitettyä.</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Hallitse navigointi palkkia</string>
   <!-- Notification light dialogs -->
@@ -142,6 +150,7 @@
   <string name="hardware_keys_double_tap_title">Tupla painalluksen toiminto</string>
   <string name="hardware_keys_category">Fyysiset painikkeet</string>
   <string name="hardware_keys_enable_title">Ota käyttöön</string>
+  <string name="hardware_keys_wake_title">Herätä laite</string>
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">Vasen pyyhkäisy</string>
   <string name="hardware_keys_utouch_right_swipe">Oikea pyyhkäisy</string>

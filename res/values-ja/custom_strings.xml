@@ -100,7 +100,7 @@
   <string name="notification_light_missed_call_title">不在着信</string>
   <string name="notification_light_voicemail_title">ボイスメール</string>
   <string name="notification_light_screen_on">画面点灯時も点灯</string>
-  <string name="notification_light_zen_mode">おやすみモードでも点灯</string>
+  <string name="notification_light_zen_mode">マナーモード時でも点灯</string>
   <string name="notification_light_use_multiple_leds">複数のLED</string>
   <!-- Notification light settings -->
   <string name="leds_category_title">LEDオプション</string>
@@ -112,7 +112,7 @@
   <string name="batterylight_title">バッテリーのLED通知設定</string>
   <string name="battery_light_enable">有効</string>
   <string name="battery_low_pulse_title">バッテリー低下時に点滅させる</string>
-  <string name="battery_light_only_full_charge_title">フル充電の時のみ点灯させる</string>
+  <string name="battery_light_only_full_charge_title">充電完了時のみ点灯させる</string>
   <string name="battery_light_list_title">色設定</string>
   <string name="battery_light_low_color_title">バッテリー容量低下</string>
   <string name="battery_light_medium_color_title">充電中</string>

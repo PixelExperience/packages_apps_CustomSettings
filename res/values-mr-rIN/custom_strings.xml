@@ -17,8 +17,16 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Color Picker -->
+  <string name="dialog_color_picker">रंग निवडक</string>
+  <string name="press_color_to_apply">लागू करण्यासाठी खालील रंगावर दाबा</string>
+  <string name="arrow_right">→</string>
+  <string name="arrow_down">↓</string>
+  <string name="hex">Hex:</string>
+  <string name="hex_hint">#ff000000</string>
+  <string name="set">सेट करा</string>
   <string name="color_default">डीफॉल्ट</string>
   <!-- Buttons -->
+  <string name="button_settings">बटणे</string>
   <!-- Volume category -->
   <string name="volume_category">आवाजाचे बटन</string>
   <!-- Power category -->
@@ -26,7 +34,10 @@
   <!-- Volume category -->
   <string name="navbar_category">नेव्हिगेशन बार</string>
   <!-- Volume button orientation based on current rotation -->
+  <string name="swap_volume_buttons_title">वॉल्यूम रॉकर बटणांची दिशा बदलणे</string>
+  <string name="swap_volume_buttons_summary">वर्तमान रोटेशनवर आधारित रॉकर ओरिएंटेशन समायोजित करा</string>
   <!-- Volume key controls media stream -->
+  <string name="volume_keys_control_media_stream_title">वॉल्यूम की मीडिया वॉल्यूम नियंत्रित करते</string>
   <!-- Volume rocker music control -->
   <!-- Volume rocker wake -->
   <!-- The volume key answer -->

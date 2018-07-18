@@ -21,7 +21,7 @@
   <string name="press_color_to_apply">色を選択して適用</string>
   <string name="arrow_right">→</string>
   <string name="arrow_down">↓</string>
-  <string name="hex">16進数:</string>
+  <string name="hex">16進数：</string>
   <string name="hex_hint">#ff000000</string>
   <string name="set">適用</string>
   <string name="color_default">既定</string>
@@ -125,7 +125,7 @@
   <string name="powermenu_manage">電源ボタンメニュー</string>
   <string name="powermenu_reboot_title">再起動</string>
   <string name="powermenu_advanced_reboot_title">詳細な再起動メニュー</string>
-  <string name="powermenu_advanced_reboot_summary">詳細な再起動メニューを有効にすると、リカバリーモード、ブートローダ、システムUIの再起動、クイックリブートが選択出来るようになります。</string>
+  <string name="powermenu_advanced_reboot_summary">リカバリーとブートローダーに再起動するためのオプションの高度な再起動メニューを有効にする</string>
   <string name="powermenu_screenshot_title">スクリーンショット</string>
   <string name="powermenu_airplane_title">機内モード</string>
   <!-- HW Keys customization -->

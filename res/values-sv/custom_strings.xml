@@ -117,7 +117,6 @@
   <string name="powermenu_manage">Hantera powermenyn</string>
   <string name="powermenu_reboot_title">Starta om</string>
   <string name="powermenu_advanced_reboot_title">Avancerad omstart</string>
-  <string name="powermenu_advanced_reboot_summary">Aktiverar menyn avancerade omstart för alternativ till återställning, starthanterare, starta om systemui eller utlösa en snabb omstart</string>
   <string name="powermenu_screenshot_title">Skärmdump</string>
   <string name="powermenu_airplane_title">Flygplansläge</string>
   <!-- HW Keys customization -->

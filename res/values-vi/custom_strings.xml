@@ -125,7 +125,6 @@
   <string name="powermenu_manage">Quản lý điện năng</string>
   <string name="powermenu_reboot_title">Khởi động lại</string>
   <string name="powermenu_advanced_reboot_title">Khởi động lại nâng cao</string>
-  <string name="powermenu_advanced_reboot_summary">Cho phép trình đơn khởi động lại nâng cao cho các tùy chọn khởi động lại để phục hồi, khởi động, khởi động lại hệ thống hoặc kích hoạt khởi động lại nóng</string>
   <string name="powermenu_screenshot_title">Ảnh chụp màn hình</string>
   <string name="powermenu_airplane_title">Chế độ máy bay</string>
   <!-- HW Keys customization -->

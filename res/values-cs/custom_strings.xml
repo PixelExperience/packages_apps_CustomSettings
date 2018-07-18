@@ -125,7 +125,7 @@
   <string name="powermenu_manage">Správa menu napájení</string>
   <string name="powermenu_reboot_title">Restartovat</string>
   <string name="powermenu_advanced_reboot_title">Rozšířený restart</string>
-  <string name="powermenu_advanced_reboot_summary">Umožní rozšířenou nabídku restartu do recovery, bootloaderu, restartu systemUI nebo spuštění rychlého restartu</string>
+  <string name="powermenu_advanced_reboot_summary">Povolí rozšířenou nabídku restartu s možností restartovat do recovery a bootloaderu</string>
   <string name="powermenu_screenshot_title">Snímek obrazovky</string>
   <string name="powermenu_airplane_title">Režim Letadlo</string>
   <!-- HW Keys customization -->

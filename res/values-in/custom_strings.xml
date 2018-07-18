@@ -125,7 +125,6 @@
   <string name="powermenu_manage">Kelola menu daya</string>
   <string name="powermenu_reboot_title">Nyalakan ulang</string>
   <string name="powermenu_advanced_reboot_title">Mulai ulang lanjutan</string>
-  <string name="powermenu_advanced_reboot_summary">Mengaktifkan menu mulai ulang lanjutan untuk pilihan mulai ulang ke pemulihan, bootloader, memulai ulang systemui atau melakukan mulai ulang cepat</string>
   <string name="powermenu_screenshot_title">Gambar layar</string>
   <string name="powermenu_airplane_title">Modus pesawat</string>
   <!-- HW Keys customization -->

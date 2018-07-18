@@ -125,7 +125,6 @@
   <string name="powermenu_manage">Gestionare meniu alimentare</string>
   <string name="powermenu_reboot_title">Repornire</string>
   <string name="powermenu_advanced_reboot_title">Repornire avansată</string>
-  <string name="powermenu_advanced_reboot_summary">Activează meniul avansat de repornire pentru a reporni în: recuperare, bootloader, repornire SystemUI sau repornire rapidă</string>
   <string name="powermenu_screenshot_title">Captură ecran</string>
   <string name="powermenu_airplane_title">Mod Avion</string>
   <!-- HW Keys customization -->

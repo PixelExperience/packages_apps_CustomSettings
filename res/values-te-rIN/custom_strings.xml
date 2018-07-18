@@ -117,7 +117,6 @@
   <string name="powermenu_manage">పవర్ మెనుని నిర్వహించండి</string>
   <string name="powermenu_reboot_title">పునఃప్రారంభించు</string>
   <string name="powermenu_advanced_reboot_title">అధునాతన రీబూట్</string>
-  <string name="powermenu_advanced_reboot_summary">పునరుద్ధరణను రీబూట్ చేయడానికి ఎంపికలు కోసం అధునాతన రీబూట్ మెనుని ప్రారంభిస్తుంది, బూట్లోడర్, ట్రిగ్గర్ సిస్టమ్ను పునఃప్రారంభించండి లేదా వేడి రీబూట్</string>
   <string name="powermenu_screenshot_title">స్క్రీన్‌షాట్</string>
   <string name="powermenu_airplane_title">విమానం మోడ్</string>
   <!-- HW Keys customization -->

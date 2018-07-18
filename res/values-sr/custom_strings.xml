@@ -125,7 +125,6 @@
   <string name="powermenu_manage">Управљање менијем за напајање</string>
   <string name="powermenu_reboot_title">Поново покрени</string>
   <string name="powermenu_advanced_reboot_title">Напредно поновно покретање</string>
-  <string name="powermenu_advanced_reboot_summary">Омогућује напредни мени за поновно покретање са опцијама поновног покретања система за опоравак, bootloader, поновно покретање интерфејса или \"вруће\" поновно покретање</string>
   <string name="powermenu_screenshot_title">Снимак слике екрана</string>
   <string name="powermenu_airplane_title">Режим рада у авиону</string>
   <!-- HW Keys customization -->

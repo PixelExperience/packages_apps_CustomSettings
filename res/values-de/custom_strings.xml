@@ -125,7 +125,7 @@
   <string name="powermenu_manage">Power-Menü verwalten</string>
   <string name="powermenu_reboot_title">Neustart</string>
   <string name="powermenu_advanced_reboot_title">Erweiterter Neustart</string>
-  <string name="powermenu_advanced_reboot_summary">Aktiviert erweiterte Neustartoptionen, wie starten in Recovery, Bootloader oder SystemUI</string>
+  <string name="powermenu_advanced_reboot_summary">Aktivieren des erweiterten Neustart-Menüs (Recovery / Bootloader)</string>
   <string name="powermenu_screenshot_title">Bildschirmfoto</string>
   <string name="powermenu_airplane_title">Flugmodus</string>
   <!-- HW Keys customization -->

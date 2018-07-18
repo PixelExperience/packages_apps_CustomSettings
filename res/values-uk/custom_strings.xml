@@ -125,7 +125,7 @@
   <string name="powermenu_manage">Налаштування меню живлення</string>
   <string name="powermenu_reboot_title">Перезавантаження</string>
   <string name="powermenu_advanced_reboot_title">Розширене меню перезавантаження</string>
-  <string name="powermenu_advanced_reboot_summary">Увімкнути розширене меню перезавантаження для перезапуску у режим відновлення, завантажувач, перезапуску SystemUI, або швидкого перзапуску</string>
+  <string name="powermenu_advanced_reboot_summary">Вмикає розширене меню параметрів для перезавантаження, відновлення та завантажувача</string>
   <string name="powermenu_screenshot_title">Скріншот</string>
   <string name="powermenu_airplane_title">Режим \"У літаку\"</string>
   <!-- HW Keys customization -->

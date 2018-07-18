@@ -125,7 +125,7 @@
   <string name="powermenu_manage">Güç menüsünü yönetin</string>
   <string name="powermenu_reboot_title">Yeniden başlat</string>
   <string name="powermenu_advanced_reboot_title">Gelişmiş yeniden başlatma</string>
-  <string name="powermenu_advanced_reboot_summary">Kurtarma modu, ön yükleyici, arayüzü yeniden başlatma veya hızlı yeniden başlatma seçenekleri için gelişmiş yeniden başlatma menüsünü etkinleştirir</string>
+  <string name="powermenu_advanced_reboot_summary">Kurtarma ve önyükleyiciye yeniden başlatma seçenekleri için gelişmiş yeniden başlatma menüsünü etkinleştirin</string>
   <string name="powermenu_screenshot_title">Ekran görüntüsü</string>
   <string name="powermenu_airplane_title">Uçak modu</string>
   <!-- HW Keys customization -->

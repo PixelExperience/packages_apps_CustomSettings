@@ -125,7 +125,7 @@
   <string name="powermenu_manage">Administrar menú de encendido</string>
   <string name="powermenu_reboot_title">Reiniciar</string>
   <string name="powermenu_advanced_reboot_title">Reinicio avanzado</string>
-  <string name="powermenu_advanced_reboot_summary">Habilita el menú de reinicio avanzado para opciones como reiniciar en modo recovery, bootloader, reiniciar UI o reinicio rápido</string>
+  <string name="powermenu_advanced_reboot_summary">Habilitar las opciones avanzadas para reiniciar en recovery y bootloader</string>
   <string name="powermenu_screenshot_title">Captura de pantalla</string>
   <string name="powermenu_airplane_title">Modo avión</string>
   <!-- HW Keys customization -->

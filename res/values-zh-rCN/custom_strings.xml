@@ -125,7 +125,7 @@
   <string name="powermenu_manage">管理电源菜单</string>
   <string name="powermenu_reboot_title">重启</string>
   <string name="powermenu_advanced_reboot_title">高级重启</string>
-  <string name="powermenu_advanced_reboot_summary">启用高级重启以选择重启到恢复模式，引导模式，重启系统界面，或软重启</string>
+  <string name="powermenu_advanced_reboot_summary">启用高级重启菜单以允许选择恢复模式或引导程序</string>
   <string name="powermenu_screenshot_title">屏幕截图</string>
   <string name="powermenu_airplane_title">飞行模式</string>
   <!-- HW Keys customization -->

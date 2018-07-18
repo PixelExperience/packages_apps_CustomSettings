@@ -125,7 +125,7 @@
   <string name="powermenu_manage">Halda toite menüüd</string>
   <string name="powermenu_reboot_title">Taaskäivita</string>
   <string name="powermenu_advanced_reboot_title">Täiustatud taaskäivitamine</string>
-  <string name="powermenu_advanced_reboot_summary">Lubab täiustatud taaskäivitamismenüü recovery-sse või bootloader-sse minemiseks, systemui taaskäivitamiseks või hot reboot-i põhjustamiseks</string>
+  <string name="powermenu_advanced_reboot_summary">Lubab lisavalikutega alglaadimise menüü, võimalustega teha alglaadimine taastamis- ja bootloaderi režiimi</string>
   <string name="powermenu_screenshot_title">Kuvatõmmis</string>
   <string name="powermenu_airplane_title">Lennurežiim</string>
   <!-- HW Keys customization -->

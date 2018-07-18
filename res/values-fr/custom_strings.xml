@@ -125,7 +125,6 @@
   <string name="powermenu_manage">Gérer le menu d\'alimentation</string>
   <string name="powermenu_reboot_title">Redémarrer</string>
   <string name="powermenu_advanced_reboot_title">Redémarrage avancé</string>
-  <string name="powermenu_advanced_reboot_summary">Active le menu de redémarrage avancé pour redémarrer en Recovery, Bootloader, redémarrer le système d\'interface ou en mode redémarrage sans échec</string>
   <string name="powermenu_screenshot_title">Capture d\'écran</string>
   <string name="powermenu_airplane_title">Mode Avion</string>
   <!-- HW Keys customization -->

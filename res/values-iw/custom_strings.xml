@@ -125,7 +125,6 @@
   <string name="powermenu_manage">נהל את תפריט הכיבוי</string>
   <string name="powermenu_reboot_title">הפעלה מחדש</string>
   <string name="powermenu_advanced_reboot_title">אתחול מתקדם</string>
-  <string name="powermenu_advanced_reboot_summary">אפשר אתחול מתקדם</string>
   <string name="powermenu_screenshot_title">צילום מסך</string>
   <string name="powermenu_airplane_title">מצב טיסה</string>
   <!-- HW Keys customization -->

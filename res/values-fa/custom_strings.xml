@@ -125,7 +125,6 @@
   <string name="powermenu_manage">مدیریت منوی پاور</string>
   <string name="powermenu_reboot_title">راه اندازی مجدد</string>
   <string name="powermenu_advanced_reboot_title">راه اندازی مجدد پیشرفته</string>
-  <string name="powermenu_advanced_reboot_summary">تنظیمات پیشرفته ی راه اندازی مجدد برای گزینه های ریبوت به ریکاوری، بوت لودر، راه اندازی مجدد systemui،‌ یا راه اندازی مجدد کامل را فعال می کند</string>
   <string name="powermenu_screenshot_title">عکس گرفتن از صفحه</string>
   <string name="powermenu_airplane_title">حالت پرواز</string>
   <!-- HW Keys customization -->

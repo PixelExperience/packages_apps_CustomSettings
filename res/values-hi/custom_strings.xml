@@ -125,7 +125,6 @@
   <string name="powermenu_manage">पावर मेनू प्रबंधित करें</string>
   <string name="powermenu_reboot_title">पुनः आरम्भ</string>
   <string name="powermenu_advanced_reboot_title">उन्नत रीबूट</string>
-  <string name="powermenu_advanced_reboot_summary">रिकवरी, बूटलोडर, systemui पुनः आरंभ या एक तुरंत रिबूट ट्रिगर करने के लिए रिबूट करने के लिए विकल्पों के लिए उन्नत रिबूट मेनू सक्षम बनाता है</string>
   <string name="powermenu_screenshot_title">स्क्रीनशॉट</string>
   <string name="powermenu_airplane_title">हवाई जहाज मोड</string>
   <!-- HW Keys customization -->

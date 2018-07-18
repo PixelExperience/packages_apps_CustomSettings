@@ -117,7 +117,6 @@
   <string name="powermenu_manage">பவர் மெனுவை நிர்வகி</string>
   <string name="powermenu_reboot_title">மறுதொடக்கம்</string>
   <string name="powermenu_advanced_reboot_title">மேம்பட்ட மறுஇயக்கம்</string>
-  <string name="powermenu_advanced_reboot_summary">மீட்டமைக்க, துவக்க ஏற்றி, மறுதொடக்கம் செய்ய கணினி முறைமை அல்லது சூடான மறுதொடக்கம்</string>
   <string name="powermenu_screenshot_title">திரைப்பிடிப்பு</string>
   <string name="powermenu_airplane_title">விமானப் பயன்முறை</string>
   <!-- HW Keys customization -->

@@ -125,7 +125,7 @@
   <string name="powermenu_manage">Διαχείριση μενού ισχύος </string>
   <string name="powermenu_reboot_title">Επανεκκίνηση</string>
   <string name="powermenu_advanced_reboot_title">Προηγμένο μενού επανεκκίνησης</string>
-  <string name="powermenu_advanced_reboot_summary">Επιτρέπει την προηγμένη επανεκκίνηση μενού για επιλογές για να κάνετε επανεκκίνηση σε recovery, bootloader, επανεκκίνηση systemui ή εκκίνηση επανεκκίνησης τύπου hot</string>
+  <string name="powermenu_advanced_reboot_summary">Ενεργοποιεί το προηγμένο μενού επανεκκίνησης για επιλογές επανεκκίνησης σε bootloader και recovery</string>
   <string name="powermenu_screenshot_title">Στιγμιότυπο οθόνης</string>
   <string name="powermenu_airplane_title">Λειτουργία πτήσης</string>
   <!-- HW Keys customization -->

@@ -117,7 +117,6 @@
   <string name="powermenu_manage">Uruskan menu kuasa</string>
   <string name="powermenu_reboot_title">Boot semula</string>
   <string name="powermenu_advanced_reboot_title">Boot semula selanjutnya</string>
-  <string name="powermenu_advanced_reboot_summary">Membenarkan menu boot semula selanjutnya untuk pilihan boot semula ke recover, bootloader, systemui atau cetuskan boot semula pantas</string>
   <string name="powermenu_screenshot_title">Tangkapan skrin</string>
   <string name="powermenu_airplane_title">Mod kapal terbang</string>
   <!-- HW Keys customization -->

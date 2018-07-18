@@ -17,11 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Color Picker -->
-  <string name="dialog_color_picker">ରଙ୍ଗ ଚୟନକର୍ତ୍ତା</string>
-  <string name="set">ସେଟ୍</string>
-  <string name="color_default">ଡିଫଲ୍ଟ୍</string>
   <!-- Buttons -->
-  <string name="button_settings">ବଟନ ଗୁଡ଼ିକ</string>
   <!-- Volume category -->
   <!-- Power category -->
   <!-- Volume category -->
@@ -34,25 +30,8 @@
   <!-- Button touch -->
   <!-- Navbar tuner -->
   <!-- Notification light dialogs -->
-  <string name="ok">ଠିକ ଅଛି</string>
-  <string name="advanced">ବିକଶିତ</string>
-  <string name="profiles_add">ଯୋଡ଼ନ୍ତୁ...</string>
-  <string name="dialog_delete_title">ବିଲୋପ</string>
   <!-- Values for the notification light pulse spinners -->
-  <string name="pulse_length_very_short">ବହୁତ ଛୋଟ</string>
-  <string name="pulse_length_short">ଛୋଟ</string>
-  <string name="pulse_length_normal">ସାଧାରଣ</string>
-  <string name="pulse_length_long">ଲମ୍ବା</string>
-  <string name="pulse_length_very_long">ବହୁତ ଲମ୍ବା</string>
-  <string name="pulse_speed_very_fast">ବହୁତ ଦ୍ରୁତ</string>
-  <string name="pulse_speed_fast">ଦ୍ରୁତ</string>
-  <string name="pulse_speed_normal">ସାଧାରଣ</string>
-  <string name="pulse_speed_slow">ଧୀରେ</string>
-  <string name="pulse_speed_very_slow">ବହୁତ ଧୀରେ</string>
   <!-- Lights settings screen, notification light settings -->
-  <string name="notification_light_general_title">ସାଧାରଣ</string>
-  <string name="notification_light_applist_title">ଆପ୍‌ସବୁ</string>
-  <string name="notification_light_phonelist_title">ଫୋନ୍</string>
   <!-- Notification light settings -->
   <!-- Battery light settings  -->
   <!-- Power Menu -->

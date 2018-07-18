@@ -125,7 +125,6 @@
   <string name="powermenu_manage">পাওয়ার মেন্যু সম্পাদনা</string>
   <string name="powermenu_reboot_title">রিবুট</string>
   <string name="powermenu_advanced_reboot_title">অ্যাডভান্সড রিবুট</string>
-  <string name="powermenu_advanced_reboot_summary">রিকভারি, বুটলোডার ও সিস্টেমইউআই রিস্টার্ট করতে অ্যাডভান্সড রিবুট মেন্যু চাল করে</string>
   <string name="powermenu_screenshot_title">স্ক্রিনশট</string>
   <string name="powermenu_airplane_title">এয়ারপ্লেন মোড</string>
   <!-- HW Keys customization -->

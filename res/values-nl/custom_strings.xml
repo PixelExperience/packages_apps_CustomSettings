@@ -125,6 +125,7 @@
   <string name="powermenu_manage">Beheer aan/uit menu</string>
   <string name="powermenu_reboot_title">Herstarten</string>
   <string name="powermenu_advanced_reboot_title">Geavanceerd herstarten</string>
+  <string name="powermenu_advanced_reboot_summary">Toon bij het herstartmenu de optie om te herstarten naar de bootloader of recovery</string>
   <string name="powermenu_screenshot_title">Schermafbeelding</string>
   <string name="powermenu_airplane_title">Vliegtuig modus</string>
   <!-- HW Keys customization -->

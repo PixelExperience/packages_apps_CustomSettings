@@ -34,7 +34,7 @@
   <!-- Volume category -->
   <string name="navbar_category">Barre de navigation</string>
   <!-- Volume button orientation based on current rotation -->
-  <string name="swap_volume_buttons_title">Inverser l\'orientation des boutons de volumes +/-</string>
+  <string name="swap_volume_buttons_title">Inverser l\'orientation des boutons de volume</string>
   <string name="swap_volume_buttons_summary">Ajuster l\'orientation des boutons en fonction de l\'orientation actuelle</string>
   <!-- Volume key controls media stream -->
   <string name="volume_keys_control_media_stream_title">Les boutons de volume contrôlent le volume des sons multimédia</string>
@@ -125,6 +125,7 @@
   <string name="powermenu_manage">Gérer le menu d\'alimentation</string>
   <string name="powermenu_reboot_title">Redémarrer</string>
   <string name="powermenu_advanced_reboot_title">Redémarrage avancé</string>
+  <string name="powermenu_advanced_reboot_summary">Active le menu de redémarrage avancé pour les options de redémarrage en recovery et bootloader</string>
   <string name="powermenu_screenshot_title">Capture d\'écran</string>
   <string name="powermenu_airplane_title">Mode Avion</string>
   <!-- HW Keys customization -->

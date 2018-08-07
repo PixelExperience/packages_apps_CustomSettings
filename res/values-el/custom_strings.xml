@@ -26,9 +26,9 @@
   <string name="set">Όρισε</string>
   <string name="color_default">Προεπιλεγμένο</string>
   <!-- Buttons -->
-  <string name="button_settings">Κουμπιά</string>
+  <string name="button_settings">Πλήκτρα</string>
   <!-- Volume category -->
-  <string name="volume_category">Κουμπιά Έντασης</string>
+  <string name="volume_category">Πλήκτρα έντασης</string>
   <!-- Power category -->
   <string name="power_category">Τερματισμός</string>
   <!-- Volume category -->

@@ -54,6 +54,8 @@
   <string name="torch_power_button_gesture_dt">Dubbelklick</string>
   <string name="torch_power_button_gesture_lp">Långtryck</string>
   <!-- Button touch -->
+  <string name="button_manual_brightness">Ljusstyrka</string>
+  <string name="button_timeout_title">Tidsgräns för bakgrundsbelysning</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Aktivera navigationsfältet</string>
   <!-- Notification light dialogs -->

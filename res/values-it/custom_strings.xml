@@ -125,6 +125,7 @@
   <string name="powermenu_manage">Gestisci il menù di alimentazione</string>
   <string name="powermenu_reboot_title">Riavvia</string>
   <string name="powermenu_advanced_reboot_title">Riavvio avanzato</string>
+  <string name="powermenu_advanced_reboot_summary">Abilita il menu di riavvio avanzato per le opzioni di riavvio nella recovery e nel bootloader</string>
   <string name="powermenu_screenshot_title">Screenshot</string>
   <string name="powermenu_airplane_title">Modalità aereo</string>
   <!-- HW Keys customization -->

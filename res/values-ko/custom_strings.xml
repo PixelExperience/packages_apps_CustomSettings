@@ -125,6 +125,7 @@
   <string name="powermenu_manage">전원 메뉴 관리</string>
   <string name="powermenu_reboot_title">다시 시작</string>
   <string name="powermenu_advanced_reboot_title">고급 재시작</string>
+  <string name="powermenu_advanced_reboot_summary">복구 모드와 부트로더를 부팅 할 수 있는 고급 재시작 버튼을 추가합니다.</string>
   <string name="powermenu_screenshot_title">스크린샷</string>
   <string name="powermenu_airplane_title">비행기 모드</string>
   <!-- HW Keys customization -->

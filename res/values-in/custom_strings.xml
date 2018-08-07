@@ -23,10 +23,10 @@
   <string name="arrow_down">↓</string>
   <string name="hex">Hex:</string>
   <string name="hex_hint">#ff000000</string>
-  <string name="set">Terapkan</string>
+  <string name="set">Diterapkan</string>
   <string name="color_default">Bawaan</string>
   <!-- Buttons -->
-  <string name="button_settings">Tombol</string>
+  <string name="button_settings">Tombol-tombol</string>
   <!-- Volume category -->
   <string name="volume_category">Volume Rocker</string>
   <!-- Power category -->
@@ -75,7 +75,7 @@
   <string name="custom_time">Pengaturan sendiri</string>
   <string name="dialog_choose_app">Pilih aplikasi</string>
   <string name="dialog_delete_title">Hapus</string>
-  <string name="dialog_delete_message">Hapus item yang dipilih?</string>
+  <string name="dialog_delete_message">Apakah Anda ingin menghapus item terpilih?</string>
   <!-- Values for the notification light pulse spinners -->
   <string name="pulse_length_always_on">Selalu hidup</string>
   <string name="pulse_length_very_short">Sangat singkat</string>
@@ -125,6 +125,7 @@
   <string name="powermenu_manage">Kelola menu daya</string>
   <string name="powermenu_reboot_title">Nyalakan ulang</string>
   <string name="powermenu_advanced_reboot_title">Mulai ulang lanjutan</string>
+  <string name="powermenu_advanced_reboot_summary">Izinkan menu reboot lanjutan untuk pilihan menuju reboot ke recovery dan bootloader</string>
   <string name="powermenu_screenshot_title">Gambar layar</string>
   <string name="powermenu_airplane_title">Modus pesawat</string>
   <!-- HW Keys customization -->

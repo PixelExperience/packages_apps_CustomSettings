@@ -54,6 +54,14 @@
   <string name="torch_power_button_gesture_dt">Doble toc</string>
   <string name="torch_power_button_gesture_lp">Pulsació llarga</string>
   <!-- Button touch -->
+  <string name="button_backlight_options_category">Opcions d\'il·luminació de fons</string>
+  <string name="button_backlight_enable_title">Habilitar il·luminació de fons dels botons</string>
+  <string name="button_link_brightness">Enllaçar a la brillantor de pantalla</string>
+  <string name="button_link_brightness_summary">La brillantor de la llum de fons dels botons s\'ajustarà per a ser igual a la brillantor de pantalla</string>
+  <string name="button_manual_brightness">Nivell de brillantor</string>
+  <string name="button_timeout_title">Temps de brillantor de la llum de fons</string>
+  <string name="button_backlight_on_touch_only_title">Il·lumina els botons al pulsar</string>
+  <string name="button_backlight_on_touch_only_summary">La llum de fons dels botons sols apareixerà quan es premen els botons, en compte de tot el temps. El temps d\'espera encara afecta a aquesta funció.</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Gestionar la barra de navegació</string>
   <!-- Notification light dialogs -->

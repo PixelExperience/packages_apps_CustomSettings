@@ -67,7 +67,7 @@
   <!-- Notification light dialogs -->
   <string name="ok">OK</string>
   <string name="reset">リセット</string>
-  <string name="advanced">詳細設定</string>
+  <string name="advanced">高度な設定</string>
   <string name="profiles_add">追加...</string>
   <string name="edit_light_settings">ライトの設定を編集</string>
   <string name="pulse_speed_title">点滅の長さと速度</string>
@@ -124,7 +124,7 @@
   <!-- Power Menu -->
   <string name="powermenu_manage">電源ボタンメニュー</string>
   <string name="powermenu_reboot_title">再起動</string>
-  <string name="powermenu_advanced_reboot_title">詳細な再起動メニュー</string>
+  <string name="powermenu_advanced_reboot_title">高度な再起動</string>
   <string name="powermenu_advanced_reboot_summary">リカバリーとブートローダーに再起動するためのオプションの高度な再起動メニューを有効にする</string>
   <string name="powermenu_screenshot_title">スクリーンショット</string>
   <string name="powermenu_airplane_title">機内モード</string>

@@ -125,6 +125,7 @@
   <string name="powermenu_manage">إدارة قائمة التشغيل</string>
   <string name="powermenu_reboot_title">إعادة التشغيل</string>
   <string name="powermenu_advanced_reboot_title">خيارات متقدمة لإعادة التشغيل</string>
+  <string name="powermenu_advanced_reboot_summary">تفعيل قائمة إعادة التشغيل المتقدمة للوصول إلى خيارات الاسترداد ومحمل الإقلاع</string>
   <string name="powermenu_screenshot_title">لقطة الشاشة</string>
   <string name="powermenu_airplane_title">وضع الطيران</string>
   <!-- HW Keys customization -->

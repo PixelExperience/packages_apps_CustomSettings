@@ -34,6 +34,8 @@
   <!-- Volume category -->
   <string name="navbar_category">നാവിഗേഷൻ ബാർ</string>
   <!-- Volume button orientation based on current rotation -->
+  <string name="swap_volume_buttons_title">വോളിയം റോക്കർ ഓറിയന്റേഷൻ സ്വാപ്പ് ചെയ്യുക</string>
+  <string name="swap_volume_buttons_summary">നിലവിലെ ഭ്രമണത്തെ അടിസ്ഥാനമാക്കി റോക്കർ ഓറിയന്റേഷൻ ക്രമീകരിക്കുക</string>
   <!-- Volume key controls media stream -->
   <!-- Volume rocker music control -->
   <!-- Volume rocker wake -->

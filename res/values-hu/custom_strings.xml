@@ -54,6 +54,14 @@
   <string name="torch_power_button_gesture_dt">Dupla érintés</string>
   <string name="torch_power_button_gesture_lp">Hosszan nyomás</string>
   <!-- Button touch -->
+  <string name="button_backlight_options_category">Háttérvilágítás beállítások</string>
+  <string name="button_backlight_enable_title">Gombok háttérvilágításának engedélyezése</string>
+  <string name="button_link_brightness">Igazodjon a képernyő fényerejéhez</string>
+  <string name="button_link_brightness_summary">Gomb háttérvilágításának fényerejét a képernyő fényerőszintje alapján fogja módosítani</string>
+  <string name="button_manual_brightness">Fényerőszint</string>
+  <string name="button_timeout_title">Háttérvilágítás időtartama</string>
+  <string name="button_backlight_on_touch_only_title">Gomb háttérvilágítása érintésre</string>
+  <string name="button_backlight_on_touch_only_summary">A navigációs gombok háttérvilágítása csak akkor lesz aktív, amikor hozzáér a gombokhoz. Az időtúllépés ugyanúgy meghatározza a háttérvilágítás időtartamát.</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Navigációs sáv kezelése</string>
   <!-- Notification light dialogs -->
@@ -117,6 +125,7 @@
   <string name="powermenu_manage">Power menü kezelése</string>
   <string name="powermenu_reboot_title">Újraindítás</string>
   <string name="powermenu_advanced_reboot_title">Speciális újraindítás</string>
+  <string name="powermenu_advanced_reboot_summary">Engedélyezi a haladó újraindítási menüt (Recovery, bootloader)</string>
   <string name="powermenu_screenshot_title">Képernyőmentés</string>
   <string name="powermenu_airplane_title">Repülőgép üzemmód</string>
   <!-- HW Keys customization -->
@@ -141,6 +150,7 @@
   <string name="hardware_keys_double_tap_title">Dupla érintési művelet</string>
   <string name="hardware_keys_category">Hardver gombok</string>
   <string name="hardware_keys_enable_title">Engedélyezés</string>
+  <string name="hardware_keys_wake_title">Eszköz felébresztése</string>
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">Balra csúsztatás</string>
   <string name="hardware_keys_utouch_right_swipe">Jobbra csúsztatás</string>

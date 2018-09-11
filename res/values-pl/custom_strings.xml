@@ -125,6 +125,7 @@
   <string name="powermenu_manage">Zarządzanie menu zasilania</string>
   <string name="powermenu_reboot_title">Uruchom ponownie</string>
   <string name="powermenu_advanced_reboot_title">Zaawansowany restart</string>
+  <string name="powermenu_advanced_reboot_summary">Włącza zaawansowane menu restartu do trybów recovery i bootloader</string>
   <string name="powermenu_screenshot_title">Zrzut ekranu</string>
   <string name="powermenu_airplane_title">Tryb samolotowy</string>
   <!-- HW Keys customization -->

@@ -54,9 +54,9 @@
   <string name="torch_power_button_gesture_dt">Duplo toque</string>
   <string name="torch_power_button_gesture_lp">Toque longo</string>
   <!-- Button touch -->
-  <string name="button_backlight_options_category">Opções das luzes de fundo</string>
+  <string name="button_backlight_options_category">Opções de luz de fundo</string>
   <string name="button_backlight_enable_title">Permitir luz de fundo dos botões</string>
-  <string name="button_link_brightness">Ligar com o brilho do ecrã</string>
+  <string name="button_link_brightness">Ajustar com o brilho do ecrã</string>
   <string name="button_link_brightness_summary">O brilho da luz dos botões irá ajustar-se com base no nível de brilho do ecrã</string>
   <string name="button_manual_brightness">Nível de brilho</string>
   <string name="button_timeout_title">Tempo limite da luz de fundo</string>
@@ -125,6 +125,7 @@
   <string name="powermenu_manage">Gerir menu de energia</string>
   <string name="powermenu_reboot_title">Reiniciar</string>
   <string name="powermenu_advanced_reboot_title">Reiniciar avançado</string>
+  <string name="powermenu_advanced_reboot_summary">Ativar menu com a opção de reiniciar para o modo recuperação e bootloader</string>
   <string name="powermenu_screenshot_title">Capturar ecrã</string>
   <string name="powermenu_airplane_title">Modo de avião</string>
   <!-- HW Keys customization -->

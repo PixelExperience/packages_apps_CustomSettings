@@ -125,6 +125,7 @@
   <string name="powermenu_manage">Administrar menú d\'energia</string>
   <string name="powermenu_reboot_title">Reiniciar</string>
   <string name="powermenu_advanced_reboot_title">Reinici avançat</string>
+  <string name="powermenu_advanced_reboot_summary">Habilita el menú de reinici avançat per a tenir opció de reinici a recovery i bootloader</string>
   <string name="powermenu_screenshot_title">Captura de pantalla</string>
   <string name="powermenu_airplane_title">Mode avió</string>
   <!-- HW Keys customization -->
@@ -149,6 +150,7 @@
   <string name="hardware_keys_double_tap_title">Acció amb un doble toc</string>
   <string name="hardware_keys_category">Tecles físiques</string>
   <string name="hardware_keys_enable_title">Habilita</string>
+  <string name="hardware_keys_wake_title">Despertar dispositiu</string>
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">Lliscar a l\'esquerra</string>
   <string name="hardware_keys_utouch_right_swipe">Lliscar a la dreta</string>

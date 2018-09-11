@@ -54,6 +54,15 @@
   <string name="torch_power_button_gesture_dt">Падвоенны націск</string>
   <string name="torch_power_button_gesture_lp">Доугі націск</string>
   <!-- Button touch -->
+  <string name="button_backlight_options_category">Налада падсвятлення кнопак
+</string>
+  <string name="button_backlight_enable_title">Уключыць падсвятленне кнопак</string>
+  <string name="button_link_brightness">Звязаць з яркасцю экрана</string>
+  <string name="button_link_brightness_summary">Яркасць падсвятлення кнопак будзе рэгулявацца ў залежнасці ад яркасці экрана</string>
+  <string name="button_manual_brightness">Узровень яркасці</string>
+  <string name="button_timeout_title">Працягласць падсвятлення кнопак</string>
+  <string name="button_backlight_on_touch_only_title">Падсвятленне кнопак пры дотыку</string>
+  <string name="button_backlight_on_touch_only_summary">Падсвятляць кнопкі толькі пры дотыку, а не ўвесь час. Працягласць падсвятлення ўплывае на гэтую функцыю.</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Налад панэлі навігацыі</string>
   <!-- Notification light dialogs -->
@@ -82,10 +91,13 @@
   <string name="pulse_speed_very_slow">Вельмі павольная</string>
   <!-- Lights settings screen, notification light settings -->
   <string name="notification_light_title">Індыкацыя апавяшчэнняў</string>
+  <string name="notification_light_title_summary">Ўключыць пульсавалы індыкатар апавяшчэнняў</string>
   <string name="notification_light_general_title">Асноўныя</string>
   <string name="notification_light_applist_title">Праграмы</string>
   <string name="notification_light_phonelist_title">Тэлефон</string>
   <string name="notification_light_use_custom">Выкарыстоўваць уласныя значэння</string>
+  <string name="notification_light_use_custom_summary">Уключыце, каб наладзіць колер апавяшчэнняў для кожнага прыкладання па-асобнасці
+</string>
   <string name="notification_light_default_value">Па змаўчанні</string>
   <string name="notification_light_missed_call_title">Прапушчаны выклік</string>
   <string name="notification_light_voicemail_title">Галасавая пошта</string>
@@ -93,6 +105,7 @@
   <string name="notification_light_zen_mode">Індыкатар ў рэжыме «Не турбаваць»</string>
   <string name="notification_light_use_multiple_leds">Некалькі светадыёдаў</string>
   <!-- Notification light settings -->
+  <string name="leds_category_title">Опцыі індыкатара</string>
   <string name="battery_light_settings">Індыкатар батарэі</string>
   <string name="led_notification_title">Індыкатар падзей</string>
   <string name="led_notification_text">Уключыць налады індыкацыі</string>
@@ -101,6 +114,7 @@
   <string name="batterylight_title">Налада дыёда зарада акумулятара</string>
   <string name="battery_light_enable">Уключыць</string>
   <string name="battery_low_pulse_title">Мігцець падчас нізкага ўзроўню зараду</string>
+  <string name="battery_light_only_full_charge_title">Гарэць пры поўнай зарадцы</string>
   <string name="battery_light_list_title">Колеры</string>
   <string name="battery_light_low_color_title">Батарэя разраджана</string>
   <string name="battery_light_medium_color_title">Зараджаецца</string>
@@ -110,8 +124,10 @@
   <string name="led_color_red">Чырвоны</string>
   <string name="led_color_blue">Сіні</string>
   <!-- Power Menu -->
+  <string name="powermenu_manage">Налады меню выключэння</string>
   <string name="powermenu_reboot_title">Перазагрузка</string>
   <string name="powermenu_advanced_reboot_title">Варыянты перазагрузкі</string>
+  <string name="powermenu_advanced_reboot_summary">Ўключэнне пашыранага меню перазагрузкі - дадаюцца пункты Fastboot і рэжым аднаўлення (Recovery)</string>
   <string name="powermenu_screenshot_title">Здымак экрана</string>
   <string name="powermenu_airplane_title">Рэжым палёту</string>
   <!-- HW Keys customization -->
@@ -136,6 +152,7 @@
   <string name="hardware_keys_double_tap_title">Дзеянне на падвоены націск</string>
   <string name="hardware_keys_category">Апаратныя кнопкі</string>
   <string name="hardware_keys_enable_title">Уключыць</string>
+  <string name="hardware_keys_wake_title">Абудзіць прыладу</string>
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">Свайп налева</string>
   <string name="hardware_keys_utouch_right_swipe">Свайп направа</string>

@@ -28,7 +28,7 @@
   <!-- Buttons -->
   <string name="button_settings">बटणे</string>
   <!-- Volume category -->
-  <string name="volume_category">आवाजाचे बटन</string>
+  <string name="volume_category">आवाजाचे बटण</string>
   <!-- Power category -->
   <string name="power_category">पॉवर</string>
   <!-- Volume category -->
@@ -42,15 +42,42 @@
   <!-- Volume rocker wake -->
   <!-- The volume key answer -->
   <!-- Torch Power button gestures -->
+  <string name="torch_power_button_gesture_none">बंद ठेवा</string>
+  <string name="torch_power_button_gesture_dt">दोनदा टॅप</string>
   <!-- Button touch -->
+  <string name="button_backlight_enable_title">बटणाचा प्रकाश चालू ठेवा</string>
+  <string name="button_manual_brightness">प्रकाश तीव्रता</string>
   <!-- Navbar tuner -->
   <!-- Notification light dialogs -->
+  <string name="advanced">प्रगत</string>
+  <string name="profiles_add">वाढवा...</string>
+  <string name="default_time">सामान्य</string>
+  <string name="dialog_delete_title">काढून टाका</string>
   <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_always_on">कायम चालू ठेवा</string>
+  <string name="pulse_length_very_short">खूप कमी</string>
+  <string name="pulse_length_short">कमी</string>
+  <string name="pulse_speed_normal">साधारण</string>
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_title">सूचनादर्शक प्रकाश</string>
+  <string name="notification_light_title_summary">सूचनादर्शक दिव्याची लूकलुक</string>
   <!-- Notification light settings -->
   <!-- Battery light settings  -->
+  <string name="battery_light_list_title">रंग</string>
+  <string name="battery_light_really_full_color_title">पूर्णतः चार्ज</string>
+  <string name="led_color_green">हिरवा दिवा</string>
+  <string name="led_color_red">लाल दिवा</string>
+  <string name="led_color_blue">निळा दिवा</string>
   <!-- Power Menu -->
+  <string name="powermenu_reboot_title">बंद करून सुरु करा</string>
+  <string name="powermenu_advanced_reboot_title">प्रगत पर्याय</string>
+  <string name="powermenu_screenshot_title">स्क्रीनशॉट</string>
   <!-- HW Keys customization -->
+  <string name="choose_action_title">क्रिया निवडा</string>
+  <string name="hardware_keys_home_key_title">होम बटण</string>
+  <string name="hardware_keys_menu_key_title">मेनू बटण</string>
+  <string name="hardware_keys_assist_key_title">सर्च बटण</string>
+  <string name="hardware_keys_enable_title">सक्रिय</string>
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">डावीकडे स्वाइप करा</string>
   <string name="hardware_keys_utouch_right_swipe">उजवीकडे स्वाइप करा</string>

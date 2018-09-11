@@ -125,7 +125,7 @@
   <string name="powermenu_manage">Настройки меню питания</string>
   <string name="powermenu_reboot_title">Перезагрузка</string>
   <string name="powermenu_advanced_reboot_title">Варианты перезагрузки</string>
-  <string name="powermenu_advanced_reboot_summary">Включение расширенного меню перезагрузки - добавляются Fastboot и Recovery</string>
+  <string name="powermenu_advanced_reboot_summary">Включение расширенного меню перезагрузки - добавляются пункты Fastboot и режим восстановления (Recovery)</string>
   <string name="powermenu_screenshot_title">Скриншот</string>
   <string name="powermenu_airplane_title">Режим полёта</string>
   <!-- HW Keys customization -->

@@ -155,5 +155,5 @@
   <string name="hardware_keys_wake_title">Абудзіць прыладу</string>
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">Свайп налева</string>
-  <string name="hardware_keys_utouch_right_swipe">Свайп направа</string>
+  <string name="hardware_keys_utouch_right_swipe">Правы свайп</string>
 </resources>

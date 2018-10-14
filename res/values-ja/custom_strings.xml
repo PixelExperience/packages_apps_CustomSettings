@@ -28,7 +28,7 @@
   <!-- Buttons -->
   <string name="button_settings">ボタン</string>
   <!-- Volume category -->
-  <string name="volume_category">音量ボタンによるウェイクロック解除</string>
+  <string name="volume_category">音量ボタンの制御</string>
   <!-- Power category -->
   <string name="power_category">電源</string>
   <!-- Volume category -->
@@ -61,7 +61,7 @@
   <string name="button_manual_brightness">明るさのレベル</string>
   <string name="button_timeout_title">バックライトのタイムアウト</string>
   <string name="button_backlight_on_touch_only_title">タッチ時にのみバックライトを点灯</string>
-  <string name="button_backlight_on_touch_only_summary">ボタンを押したときにだけバックライトが点灯するようになります。消灯時間はこの設定にも引き続き影響します。</string>
+  <string name="button_backlight_on_touch_only_summary">ボタンを押した時にだけバックライトが点灯するようになります。消灯時間はこの設定にも引き続き影響します。</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">ナビゲーションバーの管理</string>
   <!-- Notification light dialogs -->

@@ -54,6 +54,14 @@
   <string name="torch_power_button_gesture_dt">બે વાર દબાવુ</string>
   <string name="torch_power_button_gesture_lp">લાંબો સમય દબાવો</string>
   <!-- Button touch -->
+  <string name="button_backlight_options_category">બેકલાઇટ વિકલ્પો</string>
+  <string name="button_backlight_enable_title">બટન બેકલાઇટ પરવાનગી આપે છે</string>
+  <string name="button_link_brightness">સ્ક્રીન તેજસ્વીતા લિંક કરો</string>
+  <string name="button_link_brightness_summary">બટન બેકલાઇટ બ્રાઇટનેસ સ્ક્રીનના તેજ સ્તરના આધારે સમાયોજિત કરશે</string>
+  <string name="button_manual_brightness">તેજ સ્તર</string>
+  <string name="button_timeout_title">બેકલાઇટ સમયસમાપ્તિ</string>
+  <string name="button_backlight_on_touch_only_title">બટન બેકલાઇટ ટચ</string>
+  <string name="button_backlight_on_touch_only_summary">બટન બેકલાઇટ ફક્ત ત્યારે જ દેખાશે જ્યારે બટનો દબાવવામાં આવે છે. સમયસમાપ્તિ હજી પણ આ સુવિધાને અસર કરે છે.</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">નેવિગેશન બાર મેનેજ કરો</string>
   <!-- Notification light dialogs -->
@@ -76,10 +84,51 @@
   <string name="pulse_length_normal">સામાન્ય</string>
   <string name="pulse_length_long">લાંબા</string>
   <string name="pulse_length_very_long">ખુબ લાંબુ</string>
+  <string name="pulse_speed_very_fast">ખૂબ ઝડપી</string>
+  <string name="pulse_speed_fast">ઝડપી</string>
+  <string name="pulse_speed_normal">સામાન્ય</string>
+  <string name="pulse_speed_slow">ધીમું</string>
+  <string name="pulse_speed_very_slow">ખૂબ જ ધીમી</string>
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_title">સૂચના લાઇટ</string>
+  <string name="notification_light_title_summary">પલ્સ સૂચના એલઇડી સક્ષમ કરો</string>
+  <string name="notification_light_general_title">સામાન્ય</string>
+  <string name="notification_light_applist_title">ઍપ્લિકેશનો</string>
+  <string name="notification_light_phonelist_title">ફોન</string>
+  <string name="notification_light_use_custom">વૈવિધ્યપૂર્ણ કિંમતો વાપરો</string>
+  <string name="notification_light_use_custom_summary">દીઠ એપ્લિકેશન સૂચના રંગો સુયોજિત કરવા માટે સક્ષમ કરો</string>
+  <string name="notification_light_default_value">ડિફૉલ્ટ</string>
+  <string name="notification_light_missed_call_title">છુટેલો કૉલ</string>
+  <string name="notification_light_voicemail_title">વૉઇસમેલ</string>
+  <string name="notification_light_screen_on">સ્ક્રીન સાથે લાઈટ્સ</string>
+  <string name="notification_light_zen_mode">ડિસ્ટર્બ નહીં મોડમાં લાઈટ્સ</string>
+  <string name="notification_light_use_multiple_leds">બહુવિધ એલઇડી</string>
   <!-- Notification light settings -->
+  <string name="leds_category_title">એલઇડી વિકલ્પો</string>
+  <string name="battery_light_settings">બેટરી લાઈટ</string>
+  <string name="led_notification_title">લાઇટ સેટિંગ્સ</string>
+  <string name="led_notification_text">સેટિંગ્સ દ્વારા LED લાઇટ સક્ષમ થઈ</string>
+  <string name="notification_light_no_apps_summary">પ્રત્યેક એપ્લિકેશન નિયંત્રણને ઉમેરવા માટે, \'%1$s\' ને સક્રિય કરો અને મેનૂ બાર પર \'\u002b\' દબાવો</string>
   <!-- Battery light settings  -->
+  <string name="batterylight_title">બેટરી એલઇડી સેટિંગ્સ</string>
+  <string name="battery_light_enable">સક્રિય કરો</string>
+  <string name="battery_low_pulse_title">બેટરી ઓછી હોય તો પલ્સ કરો</string>
+  <string name="battery_light_only_full_charge_title">સંપૂર્ણ ચાર્જ ત્યારે જ પ્રકાશ</string>
+  <string name="battery_light_list_title">રંગ</string>
+  <string name="battery_light_low_color_title">બૅટરી ઓછી છે</string>
+  <string name="battery_light_medium_color_title">ચાર્જિંગ</string>
+  <string name="battery_light_full_color_title">ચાર્જ કરાયેલ (90%)</string>
+  <string name="battery_light_really_full_color_title">ચાર્જ કરાયેલ (100%)</string>
+  <string name="led_color_green">લીલું</string>
+  <string name="led_color_red">લાલ</string>
+  <string name="led_color_blue">વાદળી</string>
   <!-- Power Menu -->
+  <string name="powermenu_manage">પાવર મેનુ મેનેજ કરો</string>
+  <string name="powermenu_reboot_title">રીબુટ</string>
+  <string name="powermenu_advanced_reboot_title">એડવાન્સ રિબૂટ</string>
+  <string name="powermenu_advanced_reboot_summary">પુનઃપ્રાપ્તિ અને બુટલોડર પર રીબૂટ કરવા માટે વિકલ્પો માટે અદ્યતન રીબૂટ મેનૂને સક્ષમ કરે છે</string>
+  <string name="powermenu_screenshot_title">સ્ક્રીનશોટ</string>
+  <string name="powermenu_airplane_title">એરપ્લેન મોડ</string>
   <!-- HW Keys customization -->
   <string name="picker_activities">પ્રવૃત્તિઓ</string>
   <string name="select_custom_app_title">કોઇપણ એપ પસંદ કરો</string>
@@ -92,6 +141,7 @@
   <string name="hardware_keys_home_key_title">હોમ બટન</string>
   <string name="hardware_keys_menu_key_title">મેનુ બટન</string>
   <string name="hardware_keys_assist_key_title">શોધ બટન</string>
+  <string name="hardware_keys_appswitch_key_title">વિહંગાવલોકન બટન</string>
   <string name="hardware_keys_back_key_title">પાછા બટન</string>
   <string name="hardware_keys_double_tap_summary">ડબલ ટેપ ક્રિયા સેટ કરો</string>
   <string name="hardware_keys_single_tap_summary">સિંગલ ટેપ ક્રિયા સેટ કરો</string>
@@ -101,6 +151,7 @@
   <string name="hardware_keys_double_tap_title">સિંગલ ટેપ ક્રિયા</string>
   <string name="hardware_keys_category">હાર્ડવેર કીઓ</string>
   <string name="hardware_keys_enable_title">સક્રિય કરો</string>
+  <string name="hardware_keys_wake_title">વેક ઉપકરણ</string>
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">ડાબી બાજુ સ્વાઇપ કરો</string>
   <string name="hardware_keys_utouch_right_swipe">જમણી બાજુ સ્વાઇપ કરો</string>

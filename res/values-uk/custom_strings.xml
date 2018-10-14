@@ -18,7 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Color Picker -->
   <string name="dialog_color_picker">Вибір кольору</string>
-  <string name="press_color_to_apply">Натисніть на колір для застосування</string>
+  <string name="press_color_to_apply">Натисніть на колір знизу для застосування</string>
   <string name="arrow_right">→</string>
   <string name="arrow_down">↓</string>
   <string name="hex">Hex:</string>

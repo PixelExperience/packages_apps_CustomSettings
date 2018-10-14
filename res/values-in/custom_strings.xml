@@ -28,7 +28,7 @@
   <!-- Buttons -->
   <string name="button_settings">Tombol-tombol</string>
   <!-- Volume category -->
-  <string name="volume_category">Volume Rocker</string>
+  <string name="volume_category">Tombol volume</string>
   <!-- Power category -->
   <string name="power_category">Daya</string>
   <!-- Volume category -->
@@ -44,7 +44,7 @@
   <string name="volume_rocker_music_controls_summary">Ketika layar mati, menekan lama tombol volume akan mencari trek musik</string>
   <!-- Volume rocker wake -->
   <string name="volume_rocker_wake_title">Bangun volume rocker</string>
-  <string name="volume_rocker_wake_summary">Menekan tombol volume akan membangunkan perangkat Anda</string>
+  <string name="volume_rocker_wake_summary">Dengan menekan tombol volume maka perangkat anda akan terbangun</string>
   <!-- The volume key answer -->
   <string name="volume_answer_call_title">Tombol volume menjawab</string>
   <string name="volume_answer_call_summary">Jawab panggilan saat tombol volume ditekan</string>
@@ -59,7 +59,7 @@
   <string name="button_link_brightness">Sesuaikan dengan tingkat kecerahan layar</string>
   <string name="button_link_brightness_summary">Kecerahan tombol lampu latar akan menyesuaikan berdasarkan pada tingkat kecerahan layar</string>
   <string name="button_manual_brightness">Tingkat kecerahan</string>
-  <string name="button_timeout_title">Batas waktu backlight</string>
+  <string name="button_timeout_title">Batas waktu lampu latar</string>
   <string name="button_backlight_on_touch_only_title">Tombol sentuh lampu latar</string>
   <string name="button_backlight_on_touch_only_summary">Lampu latar hanya akan menyala jika tombol ditekan dibandingan selalu aktif. Batas waktu tetap berpengaruh dengan fitur ini.</string>
   <!-- Navbar tuner -->
@@ -105,7 +105,7 @@
   <!-- Notification light settings -->
   <string name="leds_category_title">Pilihan lampu</string>
   <string name="battery_light_settings">Lampu baterai</string>
-  <string name="led_notification_title">Setelan lampu</string>
+  <string name="led_notification_title">Pengaturan cahaya</string>
   <string name="led_notification_text">Lampu diaktifkan oleh pengaturan</string>
   <string name="notification_light_no_apps_summary">Untuk menambah kontrol pada setiap aplikasi, aktifkan \'%1$s\' dan tekan \'\u002b\' di bar pilihan atas</string>
   <!-- Battery light settings  -->
@@ -126,7 +126,7 @@
   <string name="powermenu_reboot_title">Nyalakan ulang</string>
   <string name="powermenu_advanced_reboot_title">Mulai ulang lanjutan</string>
   <string name="powermenu_advanced_reboot_summary">Izinkan menu reboot lanjutan untuk pilihan menuju reboot ke recovery dan bootloader</string>
-  <string name="powermenu_screenshot_title">Gambar layar</string>
+  <string name="powermenu_screenshot_title">Tangkapan layar</string>
   <string name="powermenu_airplane_title">Modus pesawat</string>
   <!-- HW Keys customization -->
   <string name="picker_activities">Aktivitas</string>

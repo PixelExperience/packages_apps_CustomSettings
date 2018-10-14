@@ -38,6 +38,7 @@
   <string name="swap_volume_buttons_summary">वर्तमान रोटेशनवर आधारित रॉकर ओरिएंटेशन समायोजित करा</string>
   <!-- Volume key controls media stream -->
   <string name="volume_keys_control_media_stream_title">वॉल्यूम की मीडिया वॉल्यूम नियंत्रित करते</string>
+  <string name="volume_keys_control_media_stream_summary">आवाजाची बटने मीडिया ध्वनीचाच ताबा घेतात</string>
   <!-- Volume rocker music control -->
   <!-- Volume rocker wake -->
   <!-- The volume key answer -->
